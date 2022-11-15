@@ -6,6 +6,11 @@ def write_raw(filename: str, output: list):
     with open(filename, "w+") as f:
         f.writelines(output)
 
+def write_single_to_folder(foldername: str, filename: str, output: list):
+    os.chdir(foldername)
+    write_raw(filename, output)
+    os.chdir("..")
+
 # Read in the file
 print("Working in " + home)
 print("Looking for notebook...")
@@ -25,20 +30,20 @@ elif len(tgns) > 1:
 notebook_name = tgns[0]
 print("Found notebook: \"" + notebook_name.split(".")[0] + "\"")
 
+meta_lines = []
+location_lines = []
+creature_lines = []
+org_lines = []
+quest_lines = []
+things_lines = []
+connections_lines = []
+notes_lines = []
+timeline_notes = []
+blurb_notes = []
+
 with open(notebook_name, "r") as file:
     print("Reading...")
     lines = file.readlines()
-
-    meta_lines = []
-    location_lines = []
-    creature_lines = []
-    org_lines = []
-    quest_lines = []
-    things_lines = []
-    connections_lines = []
-    notes_lines = []
-    timeline_notes = []
-    blurb_notes = []
 
     record_mode = 0
 
@@ -91,24 +96,115 @@ with open(notebook_name, "r") as file:
         record_mode = upd if upd != -1 else record_mode
         add_line(line)
 
-    try:
-        os.mkdir(notebook_name.split(".")[0])
-    except:
-        # TODO Make this an input before release
-        print("Seems this notebook exists. Merging isn't supported, so I'm gonna overwrite everything!")
+# Done reading
+# Now we make the underlying folder and write some backup files
+try:
+    os.mkdir(notebook_name.split(".")[0])
+except:
+    # TODO Make this an input before release
+    print("Seems this notebook exists. Merging isn't supported, so I'm gonna overwrite everything!")
 
-    # Move into the main folder
-    os.chdir(notebook_name.split(".")[0])
+# Move into the main folder
+os.chdir(notebook_name.split(".")[0])
 
-    write_raw("meta.txt", meta_lines)
-    write_raw("blurb.md", blurb_notes)
+write_raw("meta.txt", meta_lines)
+write_raw("blurb.md", blurb_notes)
+try:
+    os.mkdir("locations")
+    os.mkdir("creatures")
+    os.mkdir("organizations")
+    os.mkdir("quests")
+    os.mkdir("things")
+except:
+    # Folders were here already
+    pass
 
-    try:
-        os.mkdir("locations")
-        os.mkdir("creatures")
-        os.mkdir("organizations")
-        os.mkdir("quests")
-        os.mkdir("things")
-    except:
-        # Folders were here already
-        pass
+# Write backup files
+write_single_to_folder("locations", "original.back", location_lines)
+write_single_to_folder("creatures", "original.back", creature_lines)
+write_single_to_folder("organizations", "original.back", org_lines)
+write_single_to_folder("quests", "original.back", quest_lines)
+write_single_to_folder("things", "original.back", things_lines)
+write_raw("connections.back", connections_lines)
+write_raw("notes.back", notes_lines)
+
+def grab_name(list: list):
+    for line in list:
+        if line[2:6] == "name":
+            return line[8:-1]
+
+# Removes the first two characters from each item in a list then returns the list
+def remove_first_two_spaces(list: list):
+    ret_list = []
+    for lis in list:
+        if len(lis) > 2 and (lis[0] == " " and lis[1] == " "):
+            ret_list.append(lis[2:])
+    return ret_list
+
+def decompose_master(source_lines: list):
+
+    # Record the encompassing objects that make up the file
+    objects = []
+    adding_object = []
+
+    # For each line, we collect the "header" lines into a list
+    for index, line in enumerate(source_lines):
+        # If we hit a new object, add the old one to the list
+        if line [0] == "-" and index != 1:
+            objects.append(adding_object)
+            adding_object = []
+
+        # Don't add the first line, as it's just a header
+        if index != 0:
+            adding_object.append(line)
+        
+    # Add the last object
+    if len(adding_object) > 0: # Don't add empty objects
+        objects.append(adding_object)
+
+    # For each item in the list, create a new folder if the object ends with "[]", then repeat the process on the folders created
+    for obj in objects:
+        if len(obj) > 0:
+            name = grab_name(obj)
+            # Check if the first item in the list doesn't end with "[]"
+            if obj[0][-3:] != "[]\n": # (This is the nested object)
+                # Create the folder after grabbing the name of the object
+                try:
+                    os.mkdir(name)
+                except:
+                    # Folder already exists
+                    pass
+
+                print("---------Trimming----------")
+                print(obj)
+                obj = remove_first_two_spaces(obj)
+                print(obj)
+                
+                # Write the file for this one first, trimming objects of the first line and last 8 lines
+                write_single_to_folder(name, name + ".back", obj)
+                
+                # Move into the folder
+                os.chdir(name)
+                
+                #write_raw("debug.txt", remove_first_two(obj))
+                
+                # Repeat the process on the folder
+                decompose_master(obj)
+                
+                # Move out of the folder
+                os.chdir("..")
+            else: # If the object ends with "[]", we write a single file into a folder of the same name
+                try:
+                    os.mkdir(name)
+                except:
+                    # Folder already exists
+                    pass
+                # TODO Backup files for now, in the future we want to split the markdown file off into its own file
+                write_single_to_folder(name, name + ".back", obj)
+
+os.chdir("organizations")
+decompose_master(org_lines)
+os.chdir("..")
+
+#for l in decompose_master(org_lines):
+#    print(l)

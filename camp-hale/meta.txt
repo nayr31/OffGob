@@ -24,3 +24,6 @@ meta:
     name: Things
     base_type: THING
     order: 5
+  custom_css: []
+  use_custom_css: false
+locations: []

@@ -1,0 +1,17 @@
+- organisations: []
+  subtype: orgs
+  id: nuuqqbbumv
+  name: Organisation 1
+  shared_name: 
+  status: 0
+  blurb: >+
+    # $[objectname]
+
+  order: 1
+  notes: []
+  chapters: 
+  consumables: []
+  shared: false
+  access_roles: []
+  primaryid: 
+  prominence: 

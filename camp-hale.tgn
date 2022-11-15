@@ -24,58 +24,9 @@ meta:
     name: Things
     base_type: THING
     order: 5
-locations:
-- locations: []
-  subtype: location
-  id: dnjzalvuku
-  name: Loc 1
-  shared_name: 
-  status: 1
-  blurb: >+
-    # $[objectname]
-
-  order: 1
-  notes: []
-  chapters: 
-  consumables: []
-  shared: false
-  access_roles: []
-  primaryid: 
-  prominence: 
-- locations:
-  - locations: []
-    subtype: location
-    id: xcuaantwsd
-    name: Loc 2s Loc
-    shared_name: 
-    status: 1
-    blurb: >+
-      # $[objectname]
-
-    order: 1
-    notes: []
-    chapters: 
-    consumables: []
-    shared: false
-    access_roles: []
-    primaryid: 
-    prominence: 
-  subtype: location
-  id: zbicbjgmjm
-  name: Loc 2
-  shared_name: 
-  status: 1
-  blurb: >+
-    # $[objectname]
-
-  order: 2
-  notes: []
-  chapters: 
-  consumables: []
-  shared: false
-  access_roles: []
-  primaryid: 
-  prominence: 
+  custom_css: []
+  use_custom_css: false
+locations: []
 creatures:
 - creatures: []
   statblock: 
@@ -307,11 +258,64 @@ things:
     access_roles: []
     primaryid: 
     prominence: 
+  - things:
+    - things: []
+      subtype: information
+      id: hbymbazknw
+      name: The smallest thing
+      shared_name: 
+      status: 0
+      blurb: >+
+        # $[objectname]
+
+      order: 1
+      notes: []
+      chapters:
+      - fxsjkalhyr
+      consumables: []
+      shared: false
+      access_roles: []
+      primaryid: 
+      prominence: 
+    subtype: information
+    id: kkkiemjsow
+    name: Thing 2s Thing 2
+    shared_name: 
+    status: 0
+    blurb: >+
+      # $[objectname]
+
+    order: 2
+    notes: []
+    chapters:
+    - fxsjkalhyr
+    consumables: []
+    shared: false
+    access_roles: []
+    primaryid: 
+    prominence: 
+  - things: []
+    subtype: information
+    id: tcfjpnudqr
+    name: Another thing
+    shared_name: 
+    status: 0
+    blurb: >+
+      # $[objectname]
+
+    order: 3
+    notes: []
+    chapters: 
+    consumables: []
+    shared: false
+    access_roles: []
+    primaryid: 
+    prominence: 
   subtype: information
   id: fqbyxwdjya
   name: Encountered Thing 2
   shared_name: 
-  status: 1
+  status: 0
   blurb: >+
     # $[objectname]
 
@@ -337,11 +341,6 @@ connections:
 - id1: dwffgttcog
   id2: nuuqqbbumv
   note: is with
-  status: 
-  shared: true
-- id1: nuuqqbbumv
-  id2: dnjzalvuku
-  note: is located at
   status: 
   shared: true
 notes: []

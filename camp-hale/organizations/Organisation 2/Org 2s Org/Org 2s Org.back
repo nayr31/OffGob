@@ -1,0 +1,16 @@
+subtype: orgs
+id: tiacsfysvh
+name: Org 2s Org
+shared_name: 
+status: 0
+blurb: >+
+  # $[objectname]
+order: 1
+notes: []
+chapters: 
+consumables: []
+shared: false
+access_roles: []
+primaryid: 
+prominence: 
+# $[objectname]

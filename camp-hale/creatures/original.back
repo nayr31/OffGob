@@ -1,0 +1,55 @@
+creatures:
+- creatures: []
+  statblock: 
+  subtype: npc
+  id: dwffgttcog
+  name: Creature 1
+  shared_name: 
+  status: 0
+  blurb: >+
+    # $[objectname]
+
+  order: 1
+  notes: []
+  chapters: 
+  consumables: []
+  shared: false
+  access_roles: []
+  primaryid: 
+  prominence: 
+- creatures:
+  - creatures: []
+    statblock: 
+    subtype: npc
+    id: qcyeuqmtuw
+    name: Creature2s Creature
+    shared_name: 
+    status: 0
+    blurb: >+
+      # $[objectname]
+
+    order: 1
+    notes: []
+    chapters: 
+    consumables: []
+    shared: false
+    access_roles: []
+    primaryid: 
+    prominence: 
+  statblock: 
+  subtype: npc
+  id: mmyaqfamhh
+  name: Creature 2
+  shared_name: 
+  status: 0
+  blurb: >+
+    # $[objectname]
+
+  order: 2
+  notes: []
+  chapters: 
+  consumables: []
+  shared: false
+  access_roles: []
+  primaryid: 
+  prominence: 
