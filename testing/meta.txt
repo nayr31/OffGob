@@ -1,6 +1,6 @@
 meta:
-  name: Camp Hale
-  system: custom
+  name: Testing
+  system: dnd5e
   markdown_templates: []
   markdown_snippets: []
   columns:
@@ -26,4 +26,3 @@ meta:
     order: 5
   custom_css: []
   use_custom_css: false
-locations: []

@@ -1,0 +1,641 @@
+locations:
+- locations: []
+  subtype: location
+  id: jiweqnxbdg
+  name: The Whispering Sea
+  shared_name: 
+  status: 1
+  blurb: >-
+    > ***Demo** - This is an example of an object that may be added by GM and players. The GM would have notes on important information and connections (known to players or not) and may include maps and POI including sub-locations that aren't important enough to need an object themselves. Players may just use the object as a place to put notes and make connections.*
+
+
+    # $[objectname]
+
+
+    A large freshwater lake with a number of settlements along the coastline. Fish are abundant in the waters and boats are constantly travelling between ports, transporting people and cargo.
+
+
+    ## Settlements
+
+
+    - Rivertowns
+      - Okforth
+      - Mekross
+      - Westown
+      - Erast
+    - Cottington
+
+    - Golgafrincham
+
+    - Poghril
+
+    - Traal
+
+    - Brontitall
+
+
+    ## Map
+
+
+    ![](https://i.ibb.co/Kwvmfwr/Whispering-Sea2.jpg)
+  order: 1
+  notes: []
+  chapters: 
+  consumables: []
+  shared: false
+  access_roles: []
+  primaryid: 
+  prominence: 
+- locations:
+  - locations:
+    - locations: []
+      subtype: building
+      id: ruynchekbj
+      name: Paradise Estate
+      shared_name: 
+      status: 1
+      blurb: >-
+        # $[objectname]
+
+
+        Originally built by **Lowdan Kappla**. Since his time, the estate has been owned by a number of people and includes a small room which is still set up as a mini museum to Lowdan. It is open to the public.
+
+
+
+        ## In The Museum
+
+
+        There will be some information on the sawmill here...
+      order: 1
+      notes: []
+      chapters:
+      - drvczfrjcn
+      consumables: []
+      shared: false
+      access_roles: []
+      primaryid: 
+      prominence: 
+    subtype: town
+    id: xxnjogoqxa
+    name: Westown
+    shared_name: 
+    status: 1
+    blurb: >-
+      # $[objectname]
+
+
+      A $[twwfzayehs] town on the coast of $[jiweqnxbdg], at the west end of the $[hjelnwbcjp]. The town has a large port and and is a key trade and transport hub for ships to a number of towns and cities around the lake.
+
+
+      ## Points of Interest
+
+
+      - **The Broken Vase Tavern**
+
+      - **$[ruynchekbj]**
+
+
+      The town has the usual array of goods and services that would be found in a smallish town, although there isn't much magical, there is no alchemy or herbalist shops and no magical-services available. The population is a little wary of magic user in general and may not be as welcoming to them.
+
+
+      ## Map
+
+      ![](https://i.imgur.com/XJuLZ2o.png)
+    order: 1
+    notes:
+    - id: whjyawymlc
+      blurb: is now 'Encountered'
+      created_at: 2022-11-16T05:19:39.3680000Z
+      campaign_note: true
+      shared: true
+    - id: dtilnwewxs
+      blurb: On arriving in Westown, one of the merchants in the caravans mentions that this shipment is intended for someone named 'Keldan', with an address
+      created_at: 2022-11-16T05:19:41.3680000Z
+      campaign_note: true
+      shared: true
+    - id: lgkehecgwr
+      blurb: The party went to the address and found a woman named Inchel Keldan. She was expecting the shipment
+      created_at: 2022-11-16T05:32:43.3680000Z
+      campaign_note: true
+      shared: true
+    - id: asfloveyes
+      blurb: The party found the Broken Vase tavern and was able to get some food and have a short rest before heading back out to look for Edmor
+      created_at: 2022-11-16T05:52:51.3680000Z
+      campaign_note: true
+      shared: true
+    chapters:
+    - nctskdemkd
+    - drvczfrjcn
+    consumables: []
+    shared: false
+    access_roles: []
+    primaryid: 
+    prominence: 
+  - locations:
+    - locations: []
+      subtype: town
+      id: mtugsijbql
+      name: Okforth
+      shared_name: 
+      status: 1
+      blurb: >-
+        # $[objectname]
+
+
+        The town on the western side of the river.
+
+
+        ## Points of Interest
+
+
+        - **Tavern** - The Owner is jealous of the tavern in Mekross and its owner's ability to super-chill drinks. People seem to prefer them and often head over the river instead of drinking here
+
+        - **Basic Inn** - An inn with basic facilities for travellers passing through
+
+        - **Luxury Inn** - A much more opulent inn for those wanting a more comfortable stay. Comes with a matching price tag
+
+        - **Town Council Building** - Where all offical town business is carried out
+
+        - **Church** ($[kswascfari]) - The only church in either of the Twin Towns
+
+
+        A normal array of shops and services are also available in the town.
+      order: 1
+      notes:
+      - id: svhhhphkax
+        blurb: They ended up in the Okforth tavern where the owner was unimpressed they were staying in Mekross
+        created_at: 2022-11-02T06:25:56.3680000Z
+        campaign_note: true
+        shared: true
+      - id: gfxdxhwnij
+        blurb: is now 'Encountered'
+        created_at: 2022-11-02T06:25:58.3680000Z
+        campaign_note: true
+        shared: true
+      - id: ciwndmhaaw
+        blurb: The Okforth council office opened an hour earlier than the Mekross office today so the party headed there to seek information
+        created_at: 2022-11-09T05:02:33.3680000Z
+        campaign_note: true
+        shared: true
+      - id: agebagcdqk
+        blurb: The party spoke to someone in the office who mentioned Harley Resby as the town mayor, as luck had it, she was just entering the building at the time and heard her name and came over and greeted the party
+        created_at: 2022-11-09T05:02:35.3680000Z
+        campaign_note: true
+        shared: true
+      - id: xmnpbpnrkk
+        blurb: Party headed for the DPC, en route noticed a couple of poeple, one covering up a purple band on his arm, when approached they both ran
+        created_at: 2022-11-09T05:16:49.3680000Z
+        campaign_note: true
+        shared: true
+      - id: frvwyksmfp
+        blurb: The two were caught and a fight started. One was casting spells, the other attacked with daggers
+        created_at: 2022-11-09T05:18:51.3680000Z
+        campaign_note: true
+        shared: true
+      - id: hshwfrwztv
+        blurb: The fight ended with the dagger wielder being killed, at which point the caster just disappeared
+        created_at: 2022-11-09T05:39:53.3680000Z
+        campaign_note: true
+        shared: true
+      - id: jgrefrbmrp
+        blurb: A purple bandanna was found on the body (through covered by a hood), also a small leather patch with a symbol on was found a pocket
+        created_at: 2022-11-09T05:39:54.3680000Z
+        campaign_note: true
+        shared: true
+      - id: nucsqixvqr
+        blurb: Party had short rest to recover a little after the fight and to discuss the next steps
+        created_at: 2022-11-09T05:45:05.3680000Z
+        campaign_note: true
+        shared: true
+      - id: uuzbyrqhix
+        blurb: They went to find the Devil's Protection Company
+        created_at: 2022-11-09T05:45:07.3680000Z
+        campaign_note: true
+        shared: true
+      chapters: 
+      consumables: []
+      shared: false
+      access_roles: []
+      primaryid: 
+      prominence: 
+    - locations: []
+      subtype: town
+      id: uqgfukuaht
+      name: Mekross
+      shared_name: 
+      status: 1
+      blurb: >-
+        # $[objectname]
+
+
+        The town on the eastern side of the river.
+
+
+        ## Points of Interest
+
+
+        - **Tavern/Inn, The Stumble Inn**. Run by a kind white dragonborn named **Quess** who sells super-chilled drinks.
+
+        - **Town Hall** - Where the town business is conducted
+
+
+        A normal array of shops and services are also available in the town.
+      order: 2
+      notes:
+      - id: mggueknvfb
+        blurb: is now 'Encountered'
+        created_at: 2022-11-02T04:47:37.3680000Z
+        campaign_note: true
+        shared: true
+      - id: bkgzsgtwdj
+        blurb: The party arrive at the inn, get some food and drink and organise rooms for later that night
+        created_at: 2022-11-02T04:47:39.3680000Z
+        campaign_note: true
+        shared: true
+      - id: evpkxunkce
+        blurb: After a rest, they decide to ask around to start gathering information. Starting with the tavern owner Quess who claims not to know much more than the party already know. He has noticed a slight reduction in customers passing through in the last week or two
+        created_at: 2022-11-02T05:28:43.3680000Z
+        campaign_note: true
+        shared: true
+      - id: gubnyhxynj
+        blurb: Quess suggested the town council would be the best place to go for answers
+        created_at: 2022-11-02T05:28:45.3680000Z
+        campaign_note: true
+        shared: true
+      - id: mehqyiakrl
+        blurb: "The party decided to go ask around before seeking out the council members, they all had the same story: yes, there are bandits and they are all worried about what that means, but no real information. The only thing that came out was that the attacks were mainly along the Devil's Highway"
+        created_at: 2022-11-02T05:58:47.3680000Z
+        campaign_note: true
+        shared: true
+      - id: enlmbxfvzy
+        blurb: The council offices were closed for the day so the party went to look round
+        created_at: 2022-11-02T06:00:49.3680000Z
+        campaign_note: true
+        shared: true
+      - id: rbqnkwctlm
+        blurb: Couple of the party had some drinks before bed. Session ends with a long rest overnight
+        created_at: 2022-11-02T06:44:00.3680000Z
+        campaign_note: true
+        shared: true
+      - id: ihfgcdgfos
+        blurb: The party stopped to gather all their things and joined Edmor at the gate after he gathered the caravans and drivers. They set out on the Devild Highway to Westown
+        created_at: 2022-11-09T06:10:25.3680000Z
+        campaign_note: true
+        shared: true
+      chapters: 
+      consumables: []
+      shared: false
+      access_roles: []
+      primaryid: 
+      prominence: 
+    subtype: location
+    id: ikvcfberca
+    name: Twin Towns
+    shared_name: 
+    status: 1
+    blurb: >-
+      # $[objectname]
+
+
+      On the eastern edge of the $[twwfzayehs] region, what is seemingly one large walled city spread across the meandering Rocky River is actually two separate towns. On the west side is **$[mtugsijbql]**, on the east is **$[uqgfukuaht]**. They are connected by a number of bridges.
+
+
+      The towns are run completely separately but they are an important river crossing and stopover for merchants and travelers which has gives the towns a strong desire to work together to ensure the smooth operation of the trade route.
+
+
+      The townsfolk are generally (but not exclusively) friendly and welcoming but there is a rivalry between Okforth and Mekross which becomes more obvious the more you dig for it. You wouldn't notice by looking but there is some real hatred between the towns.
+
+
+      ## Key Positioning
+
+
+      The towns are a key river crossing at the eastern end of the $[hjelnwbcjp] and act as a gateway to the lands to the east.
+
+
+      The recent increase in bandit activity is threatening to route much of the passing traffic to other ports around $[jiweqnxbdg] which would mean few would come through the Twin Towns, and would be financially devastating to the towns.
+
+
+      ## Map
+
+      ![](https://i.imgur.com/SxunkSP.png)
+    order: 2
+    notes: []
+    chapters: 
+    consumables: []
+    shared: false
+    access_roles: []
+    primaryid: 
+    prominence: 
+  - locations:
+    - locations: []
+      subtype: building
+      id: jjrzlmtvbm
+      name: The Sawmill
+      shared_name: 
+      status: 1
+      blurb: >-
+        # $[objectname]
+
+
+        A derelict building of brick and slate, filled with complex dwarven machines. It is apparent that the building is a sawmill, but no-one has been able to work out how to operate it in many generations.
+
+
+        ## Known History
+
+
+        The sawmill was built around 200 years ago by **Lowdan Kappla**, a dwarven carpenter, who became a known as a master ship builder in $[kvsxvfmdfh]. He was famed for building 'indestructible' ships and lived a happy life in the village until his passing.
+
+
+        ## Secret History
+
+
+        Lowdan had enchanted the sawmill so that when operating it with $[mxanfuwhdl] it would give magical properties to wood cut there. When the wood moves more than 1 mile from the sawmill, it hardens stronger than the strongest steel and cannot burn.
+
+
+        The magic wasn't permeant though. Over a period of years it gradually lost its magical strength, eventually returning back to normal wood.
+
+
+        Over time, the ships eventually broke down and the wood generally discarded where it returned to normal before decomposing naturally.
+
+
+        ## But It Is Being Used
+
+
+        After following leads and rumours, $[iokwfwzhvc] have recently been able to find $[mxanfuwhdl] and have started to operate the sawmill, creating wood with the same magical power as before.
+
+
+        $[nzgcbdcnjn] was built here.
+      order: 1
+      notes: []
+      chapters: 
+      consumables: []
+      shared: false
+      access_roles: []
+      primaryid: 
+      prominence: 
+    subtype: town
+    id: kvsxvfmdfh
+    name: Erast
+    shared_name: 
+    status: 1
+    blurb: >-
+      # $[objectname]
+
+
+      A small town in the $[twwfzayehs] region, on the shore where **The Rocky River** meets $[jiweqnxbdg]. The town has a small dock and does not have the capacity of the harbour in $[xxnjogoqxa].
+
+
+      The town doesn't get many visitors, especially spring to autumn when the road is impassible. It is now mainly just made up of local fishing boat crews and their families. Over time, the population is falling as people move to more prosperous towns.
+
+
+      ## Points Of Interest
+
+
+      - **Tavern** - A modest tavern who can also scramble together some basic accommodation if needed
+
+      - **The Dock** - Mainly just local fishing boats. Some boats are willing to transport people and small cargo down to $[xxnjogoqxa]
+
+      - **$[jjrzlmtvbm]**
+
+      - **Woodworkers** - There are a few woodworkers in the town who make a living fixing up fishing boats and creating and fixing tools for use on the boats
+
+      - **Blacksmiths** - As the woodworkers, the local blacksmith makes a living making and fixing objects for the boats
+
+
+      ---
+
+
+      There are a few people who believe they have heard sounds from the sawmill recently but they are not being taken seriously by the rest of the village.
+    order: 3
+    notes: []
+    chapters: 
+    consumables: []
+    shared: false
+    access_roles: []
+    primaryid: 
+    prominence: 
+  - locations: []
+    subtype: route
+    id: hjelnwbcjp
+    name: Devil's Highway
+    shared_name: 
+    status: 1
+    blurb: >-
+      # $[objectname]
+
+
+      The road connecting $[xxnjogoqxa] and the twin towns of $[mtugsijbql] and $[uqgfukuaht].
+
+
+      ## Bandits
+
+      Bandits are frequently seen along the road and holds-ups are commonplace. Most merchants and travelers will hire protection for the journey along the road.
+
+
+      In the last few months, a man named $[omhfhzfhxc] has set up a business organising safe passage along the road, directly employing protection and running frequent group trips at a more affordable cost to individuals than if they were to go alone.
+    order: 4
+    notes:
+    - id: dwxvfqhcws
+      blurb: is now 'Encountered'
+      created_at: 2022-11-09T06:13:27.3680000Z
+      campaign_note: true
+      shared: true
+    - id: cwgawjhjcr
+      blurb: Bad weather caused the journey to be slow, the party had to stop for the night so made camp and set watches
+      created_at: 2022-11-09T06:13:29.3680000Z
+      campaign_note: true
+      shared: true
+    - id: fenhssahto
+      blurb: After the bandits took Edmor, the party decided to continue to accompany the caravans to Westown and return to looks for Edmor
+      created_at: 2022-11-16T04:52:33.3680000Z
+      campaign_note: true
+      shared: true
+    - id: rammagvsii
+      blurb: They found what appears to be an attack site along the road, a caravan broken by the side of the road, signs of a fight but no-one around
+      created_at: 2022-11-16T05:02:35.3680000Z
+      campaign_note: true
+      shared: true
+    - id: lctpzblakg
+      blurb: The party continued their travel on to Westown which was happily uneventful
+      created_at: 2022-11-16T05:19:37.3680000Z
+      campaign_note: true
+      shared: true
+    - id: vbyyklsuab
+      blurb: Back along the road, they found the broken caravan again and investigated it a bit more
+      created_at: 2022-11-16T06:11:53.3680000Z
+      campaign_note: true
+      shared: true
+    - id: isxkferohv
+      blurb: The caravan was identified as the one from the missing shipment, there were signs that people left to the north. The party followed that lead
+      created_at: 2022-11-16T06:16:55.3680000Z
+      campaign_note: true
+      shared: true
+    - id: xdcthmbrau
+      blurb: After a short walk, the party entered a part of the forest that was covered in webs, before they had a chance to decide what to do, they were attacked by giant spiders
+      created_at: 2022-11-16T06:41:59.3680000Z
+      campaign_note: true
+      shared: true
+    - id: gaoiqetleh
+      blurb: The party decided to accompany Fastolm back to Okforth where he said he should be able to get treatment from the Church before he goes home to rest and recover
+      created_at: 2022-11-16T07:40:19.3680000Z
+      campaign_note: true
+      shared: true
+    chapters: 
+    consumables: []
+    shared: false
+    access_roles: []
+    primaryid: 
+    prominence: 
+  - locations: []
+    subtype: route
+    id: qesmbwnchf
+    name: Erast Road
+    shared_name: 
+    status: 1
+    blurb: >-
+      # $[objectname]
+
+
+      This is the road between $[kvsxvfmdfh] and $[mtugsijbql]. It is a much smaller road than $[hjelnwbcjp] and has to go through the wetlands which frequently make the road impassable.
+    order: 5
+    notes: []
+    chapters: 
+    consumables: []
+    shared: false
+    access_roles: []
+    primaryid: 
+    prominence: 
+  - locations:
+    - locations: []
+      subtype: location
+      id: cajumixska
+      name: Basement
+      shared_name: 
+      status: 1
+      blurb: >-
+        # $[objectname]
+
+
+        The basement is very large (much larger than the building above) and comprises of a number of rooms. In the north-west corner, there is a ladder leading to up to a hatch. The hatch open up inside the trunk of a large dead tree in the forest. It can be bolted and locked from top and bottom to be secured without someone opening it from both sides.
+
+
+        ## Layout
+
+
+        ![](https://i.imgur.com/2Mcqk0f.png)
+      order: 1
+      notes: []
+      chapters: 
+      consumables: []
+      shared: false
+      access_roles: []
+      primaryid: 
+      prominence: 
+    subtype: building
+    id: bhmtyxlqlm
+    name: Duskwood Den
+    shared_name: 
+    status: 1
+    blurb: >-
+      # $[objectname]
+
+
+      Duskwood Den is a building complex in the Westown forest, south of the Devil's highway. Its existance isn't known by anyone outside $[iokwfwzhvc], who are using it as a headquarters for their raids on the nearby roads.
+
+
+      ## Layout
+
+
+      From the outside, it appears as a small complex surrounded by walls.
+
+
+      There is a small guardhouse before getting to the main building. This guardhouse is where is $[ftwwvwecmn] often found as he checks people and good in and out of the hideout.
+
+
+      Beyond that is the main building, a single storey building that looks like it would contain a few rooms.
+
+
+      ## Basement
+
+
+      One of the rooms contains a staircase down to a cellar. The cellar is very large and comprises of a number of rooms. There is another exit through a hatch directly outside the complex which is generally kept locked from both sides.
+    order: 6
+    notes: []
+    chapters: []
+    consumables: []
+    shared: false
+    access_roles: []
+    primaryid: 
+    prominence: 
+  subtype: region
+  id: twwfzayehs
+  name: Rivertowns
+  shared_name: 
+  status: 1
+  blurb: >-
+    # $[objectname]
+
+
+    This is an area that stretches from **$[xxnjogoqxa]** in the west to the twin towns of **$[mtugsijbql]** and **$[uqgfukuaht]** in the east to **$[kvsxvfmdfh]** in the North.
+
+
+    ## Wetlands
+
+
+    The northern half is mainly wetlands which spend most of the winter and underwater, is mostly dry in the summer, and spring and autumn depend on the recent weather. When the area floods, the only way to get to $[kvsxvfmdfh] is by boat as the road becomes impassable. Boats are generally available from $[xxnjogoqxa].
+
+
+    ## The Rocky River
+
+
+    To the north and east of the region is the Rocky River, which as the name suggests is a very rocky stretch of water. This combined with the generally shallow waters, make it unsuitable for shipping. Smaller craft can try and sail the waters but even they may find it too difficult. The chance of hitting rocks is high, especially when the river is flowing fast. The number of broken pieces of boats along the shoes is testament to challenging conditions sailors face when attempting to navigate the river.
+
+
+    Beyond the river are the **Quentulus Quazgar** mountains. There is just single road passing through the mountains form **Mekross** to lands east of the range.
+
+
+    ## Woodlands
+
+
+    At the south of the region is a mixture of forest, known as **The Duskwood**, and some open grassland areas.
+
+
+    ## Map
+
+
+    ![Rovertowns](https://i.imgur.com/U5lVTbL.png)
+  order: 2
+  notes: []
+  chapters:
+  - drvczfrjcn
+  consumables: []
+  shared: false
+  access_roles: []
+  primaryid: 
+  prominence: 
+- locations: []
+  subtype: town
+  id: svflxcdrna
+  name: Traal
+  shared_name: 
+  status: 1
+  blurb: >-
+    # $[objectname]
+
+
+    Traal is a town on the western shore of $[jiweqnxbdg], it is the most common destination for boats from $[xxnjogoqxa] as the road to the west is the main road towards other regions beyond.
+
+
+    ## Unbroken Fist Presence
+
+
+    $[egnarcpsuf] also includes disrupting the trade routes in Traal similarly to $[ikvcfberca]. $[iokwfwzhvc] has a presence here where Scars can re-group and re-build.
+  order: 3
+  notes: []
+  chapters:
+  - nctskdemkd
+  consumables: []
+  shared: false
+  access_roles: []
+  primaryid: 
+  prominence: 

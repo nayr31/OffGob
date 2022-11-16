@@ -47,6 +47,11 @@ with open(notebook_name, "r") as file:
 
     record_mode = 0
 
+    # This method takes care of empty categories
+    def empty_format(st: str):
+        return st.replace(" ", "").replace("[", "").replace("]", "")
+
+    # Update the record mode depending on the newest line read
     def update_mode(x):
         if x == "locations:\n":
             return 1
@@ -68,6 +73,7 @@ with open(notebook_name, "r") as file:
             return 9
         return -1
 
+    # Add the line depending on the current record mode
     def add_line(x):
         if record_mode == 0:
             meta_lines.append(x)
@@ -92,7 +98,7 @@ with open(notebook_name, "r") as file:
 
     # Read in file and sort the data
     for line in lines:
-        upd = update_mode(line)
+        upd = update_mode(empty_format(line))
         record_mode = upd if upd != -1 else record_mode
         add_line(line)
 
@@ -128,6 +134,7 @@ write_single_to_folder("things", "original.back", things_lines)
 write_raw("connections.back", connections_lines)
 write_raw("notes.back", notes_lines)
 
+# Grab the name from the object, skipping nested objects
 def grab_name(list: list):
     for line in list:
         if line[2:6] == "name":
@@ -166,34 +173,40 @@ def decompose_master(source_lines: list):
     for obj in objects:
         if len(obj) > 0:
             name = grab_name(obj)
-            # Check if the first item in the list doesn't end with "[]"
+            # If the first line has "[]" at the end, it's a nested object and needs recursion
             if obj[0][-3:] != "[]\n": # (This is the nested object)
-                # Create the folder after grabbing the name of the object
+                # Create a folder for the object
                 try:
                     os.mkdir(name)
                 except:
                     # Folder already exists
                     pass
 
-                print("---------Trimming----------")
-                print(obj)
-                obj = remove_first_two_spaces(obj)
-                print(obj)
-                
-                # Write the file for this one first, trimming objects of the first line and last 8 lines
-                write_single_to_folder(name, name + ".back", obj)
-                
                 # Move into the folder
                 os.chdir(name)
-                
-                #write_raw("debug.txt", remove_first_two(obj))
-                
-                # Repeat the process on the folder
+
+                # Take the first line and last 16 lines and record them
+                first_line = obj[0]
+                last_16 = obj[-16:]
+
+                # Combine them into a single list
+                this_obj = [first_line] + last_16
+
+                # Write the file
+                write_raw("original.back", this_obj)
+
+                # Remove the first line and last 16 lines from obj
+                obj = remove_first_two_spaces(obj[1:-16])
+
+                # Run this method again for obj
                 decompose_master(obj)
-                
-                # Move out of the folder
+
+                # Exit the folder
                 os.chdir("..")
-            else: # If the object ends with "[]", we write a single file into a folder of the same name
+
+            # Otherwise we can just write the file in its own folder
+            else: 
+                # Create a folder for the object
                 try:
                     os.mkdir(name)
                 except:
@@ -202,9 +215,22 @@ def decompose_master(source_lines: list):
                 # TODO Backup files for now, in the future we want to split the markdown file off into its own file
                 write_single_to_folder(name, name + ".back", obj)
 
-os.chdir("organizations")
-decompose_master(org_lines)
-os.chdir("..")
+def do_a_decompose(name: str, lines: list):
+    # Move into the folder
+    os.chdir(name)
 
-#for l in decompose_master(org_lines):
-#    print(l)
+    # Decompose the file
+    decompose_master(lines)
+
+    # Exit the folder
+    os.chdir("..")
+
+print("Decomposing files...")
+
+do_a_decompose("locations", location_lines)
+do_a_decompose("creatures", creature_lines)
+do_a_decompose("organizations", org_lines)
+do_a_decompose("quests", quest_lines)
+do_a_decompose("things", things_lines)
+
+print("Done!")
