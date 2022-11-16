@@ -1,0 +1,25 @@
+- creatures: []
+  statblock: 
+  subtype: pc
+  id: olbkcxwcxi
+  name: Hactar
+  shared_name: 
+  status: 0
+  blurb: >-
+    > ***Demo** - This is an example of a player character that may be added by GM or players. This doesn't replace your character sheet, it is a place to save notes, journal entries and connections.*
+    # $[objectname]
+    Human wizard who has been occasionally adventuring with $[msudvzjbcu] for some time where the two have developed a close bond.
+  order: 4
+  notes:
+  - id: lhlzxymlgu
+    blurb: '[Hactar] has [Unbroken Fist Insignia]'
+    created_at: 2022-11-09T05:40:02.3680000Z
+    campaign_note: true
+    shared: true
+  chapters: 
+  consumables: []
+  shared: false
+  access_roles: []
+  primaryid: 
+  prominence: 
+statblock: 

@@ -1,0 +1,17 @@
+  subtype: town
+  - id: nucsqixvqr
+    blurb: Party had short rest to recover a little after the fight and to discuss the next steps
+    created_at: 2022-11-09T05:45:05.3680000Z
+    campaign_note: true
+    shared: true
+  - id: uuzbyrqhix
+    blurb: They went to find the Devil's Protection Company
+    created_at: 2022-11-09T05:45:07.3680000Z
+    campaign_note: true
+    shared: true
+  chapters: 
+  consumables: []
+  shared: false
+  access_roles: []
+  primaryid: 
+  prominence: 

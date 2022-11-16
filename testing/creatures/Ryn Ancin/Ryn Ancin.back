@@ -1,0 +1,43 @@
+- creatures: []
+  statblock: 
+  subtype: npc
+  id: bmulwambsf
+  name: Ryn Ancin
+  shared_name: 
+  status: 0
+  blurb: >-
+    # $[objectname]
+
+
+    Male Human Fighter.
+
+
+    ## Devil's Protection
+
+
+    Rynis currently working as a protector for the $[tzznfrlpqn] and has not yet returned from his latest commission with the company.
+
+
+    ## Location
+
+
+    Ryn survived the bandit attack on the caravan heavily injured, but struggled a short distance away in search of food and water. He ended up in a $[vnfayumnxv] where he was too weak to fight back. A giant spider wrapped him in a web, where he remains unable to escape. **If found within 1 day he will still be alive**.
+  order: 4
+  notes:
+  - id: vswoegnuej
+    blurb: The party did not find Ryn quick enough and he died
+    created_at: 2022-11-16T05:19:36.3680000Z
+    campaign_note: true
+    shared: true
+  - id: gdhqjejrbx
+    blurb: is now 'Dead'
+    created_at: 2022-11-16T05:19:38.3680000Z
+    campaign_note: true
+    shared: true
+  chapters:
+  - drvczfrjcn
+  consumables: []
+  shared: false
+  access_roles: []
+  primaryid: 
+  prominence: 

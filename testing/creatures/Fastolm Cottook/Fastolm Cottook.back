@@ -1,0 +1,48 @@
+- creatures: []
+  statblock: 
+  subtype: friend
+  id: uqmasyyfck
+  name: Fastolm Cottook
+  shared_name: 
+  status: 0
+  blurb: >-
+    # $[objectname]
+
+
+    Male Dwarf Fighter. Fastolm has thick golden hair and green eyes. He wears chain mail and wields a two handed hammer.
+
+
+    ## Devil's Protection
+
+
+    Fastolm is currently working as a protector for the $[tzznfrlpqn] and has not yet returned from his latest commission with the company.
+
+
+    ## Location
+
+
+    Fastolm survived the bandit attack on the caravan heavily injured, but struggled a short distance away in search of food and water. He ended up in a $[vnfayumnxv] where he was too weak to fight back. A giant spider wrapped him in a web, where he remains unable to escape. **If found within 2 days he will still be alive**.
+  order: 3
+  notes:
+  - id: ycmarkbsfv
+    blurb: is now 'Encountered'
+    created_at: 2022-11-16T07:29:09.3680000Z
+    campaign_note: true
+    shared: true
+  - id: erwtvubykc
+    blurb: Told the party the details of the bandit attack and that his colleague was killed
+    created_at: 2022-11-16T07:33:13.3680000Z
+    campaign_note: true
+    shared: true
+  - id: yvgyrneedp
+    blurb: He mentioned that the bandits mentioned a placed they called 'The Den'
+    created_at: 2022-11-16T07:33:15.3680000Z
+    campaign_note: true
+    shared: true
+  chapters:
+  - drvczfrjcn
+  consumables: []
+  shared: false
+  access_roles: []
+  primaryid: 
+  prominence: 

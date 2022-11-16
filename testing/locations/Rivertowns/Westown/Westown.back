@@ -1,0 +1,64 @@
+  - locations: []
+    subtype: building
+    id: ruynchekbj
+    name: Paradise Estate
+    shared_name: 
+    status: 1
+    blurb: >-
+      # $[objectname]
+      Originally built by **Lowdan Kappla**. Since his time, the estate has been owned by a number of people and includes a small room which is still set up as a mini museum to Lowdan. It is open to the public.
+      ## In The Museum
+      There will be some information on the sawmill here...
+    order: 1
+    notes: []
+    chapters:
+    - drvczfrjcn
+    consumables: []
+    shared: false
+    access_roles: []
+    primaryid: 
+    prominence: 
+  subtype: town
+  id: xxnjogoqxa
+  name: Westown
+  shared_name: 
+  status: 1
+  blurb: >-
+    # $[objectname]
+    A $[twwfzayehs] town on the coast of $[jiweqnxbdg], at the west end of the $[hjelnwbcjp]. The town has a large port and and is a key trade and transport hub for ships to a number of towns and cities around the lake.
+    ## Points of Interest
+    - **The Broken Vase Tavern**
+    - **$[ruynchekbj]**
+    The town has the usual array of goods and services that would be found in a smallish town, although there isn't much magical, there is no alchemy or herbalist shops and no magical-services available. The population is a little wary of magic user in general and may not be as welcoming to them.
+    ## Map
+    ![](https://i.imgur.com/XJuLZ2o.png)
+  order: 1
+  notes:
+  - id: whjyawymlc
+    blurb: is now 'Encountered'
+    created_at: 2022-11-16T05:19:39.3680000Z
+    campaign_note: true
+    shared: true
+  - id: dtilnwewxs
+    blurb: On arriving in Westown, one of the merchants in the caravans mentions that this shipment is intended for someone named 'Keldan', with an address
+    created_at: 2022-11-16T05:19:41.3680000Z
+    campaign_note: true
+    shared: true
+  - id: lgkehecgwr
+    blurb: The party went to the address and found a woman named Inchel Keldan. She was expecting the shipment
+    created_at: 2022-11-16T05:32:43.3680000Z
+    campaign_note: true
+    shared: true
+  - id: asfloveyes
+    blurb: The party found the Broken Vase tavern and was able to get some food and have a short rest before heading back out to look for Edmor
+    created_at: 2022-11-16T05:52:51.3680000Z
+    campaign_note: true
+    shared: true
+  chapters:
+  - nctskdemkd
+  - drvczfrjcn
+  consumables: []
+  shared: false
+  access_roles: []
+  primaryid: 
+  prominence: 

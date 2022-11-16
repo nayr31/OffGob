@@ -1,0 +1,23 @@
+- quests: []
+  subtype: sidequest
+  id: jdsvjjcdgg
+  name: Restore Isabelle
+  shared_name: 
+  status: 0
+  blurb: >-
+    # $[objectname]
+
+
+    If $[ukqnmaekls] lets slip that $[lfrwheeaxp] is his wife, he will ask the party for help in restoring her.
+
+
+    Wilhye doesn't have much money or many possessions but will be willing to offer much of what he has as a reward.
+  order: 6
+  notes: []
+  chapters:
+  - drvczfrjcn
+  consumables: []
+  shared: false
+  access_roles: []
+  primaryid: 
+  prominence: 

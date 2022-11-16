@@ -1,0 +1,17 @@
+- locations:
+    ## Points Of Interest
+    - **Tavern** - A modest tavern who can also scramble together some basic accommodation if needed
+    - **The Dock** - Mainly just local fishing boats. Some boats are willing to transport people and small cargo down to $[xxnjogoqxa]
+    - **$[jjrzlmtvbm]**
+    - **Woodworkers** - There are a few woodworkers in the town who make a living fixing up fishing boats and creating and fixing tools for use on the boats
+    - **Blacksmiths** - As the woodworkers, the local blacksmith makes a living making and fixing objects for the boats
+    ---
+    There are a few people who believe they have heard sounds from the sawmill recently but they are not being taken seriously by the rest of the village.
+  order: 3
+  notes: []
+  chapters: 
+  consumables: []
+  shared: false
+  access_roles: []
+  primaryid: 
+  prominence: 

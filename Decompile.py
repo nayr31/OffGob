@@ -139,6 +139,7 @@ def grab_name(list: list):
     for line in list:
         if line[2:6] == "name":
             return line[8:-1]
+    return "ERROR"
 
 # Removes the first two characters from each item in a list then returns the list
 def remove_first_two_spaces(list: list):

@@ -1,0 +1,38 @@
+- quests: []
+  subtype: primaryquest
+  id: rqzdnedlhk
+  name: Stop the Bandits
+  shared_name: 
+  status: 0
+  blurb: >-
+    # $[objectname]
+
+
+    This will most likely involve finding and killing $[iokwfwzhvc] (at least the leaders) unless the party come up with a workable alternative plan.
+
+
+    ## Steps
+
+
+    - [ ] Find out about the bandit activity
+
+    - [ ] Investigate the bandits
+
+    - [ ] Learn about $[iokwfwzhvc]
+
+    - [ ] Find $[bhmtyxlqlm]
+
+    - [ ] Stop the bandits
+  order: 2
+  notes:
+  - id: dcugtqnwsm
+    blurb: is now 'Active'
+    created_at: 2022-11-09T05:56:19.3680000Z
+    campaign_note: true
+    shared: true
+  chapters: 
+  consumables: []
+  shared: false
+  access_roles: []
+  primaryid: 
+  prominence: 

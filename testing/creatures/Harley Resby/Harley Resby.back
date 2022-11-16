@@ -1,0 +1,41 @@
+- creatures: []
+  statblock: 
+  subtype: neutral
+  id: kpbnayahqk
+  name: Harley Resby
+  shared_name: 
+  status: 0
+  blurb: >-
+    # $[objectname]
+
+
+    Harley has been the mayor of $[mtugsijbql] for as long as most in the town can remember. She has seen the town prosper over her time in office, along with its alliance with $[uqgfukuaht], and will be leaving a great legacy when she retires, probably within the next year.
+  order: 8
+  notes:
+  - id: jrrjgneprc
+    blurb: is now 'Encountered'
+    created_at: 2022-11-09T05:07:37.3680000Z
+    campaign_note: true
+    shared: true
+  - id: gqxtasmyet
+    blurb: Kamin convinced a slightly wary Harley that the party is genuine and interested in helping
+    created_at: 2022-11-09T05:09:39.3680000Z
+    campaign_note: true
+    shared: true
+  - id: qkjfgdjurq
+    blurb: After a discussion, she is keen for the party to investigate the bandits and gave some more information about what she knows
+    created_at: 2022-11-09T05:15:41.3680000Z
+    campaign_note: true
+    shared: true
+  - id: dmukayzwdr
+    blurb: Told the party to go and find Edmor/The Devil's Protection Company as he is on the front line and may have some work that can be of mutual help
+    created_at: 2022-11-09T05:15:47.3680000Z
+    campaign_note: true
+    shared: true
+  chapters:
+  - drvczfrjcn
+  consumables: []
+  shared: false
+  access_roles: []
+  primaryid: 
+  prominence: 

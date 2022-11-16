@@ -1,0 +1,33 @@
+- creatures: []
+  statblock: 
+  subtype: neutral
+  id: bkzzzegnhx
+  name: Kothil Balley
+  shared_name: 
+  status: 0
+  blurb: >-
+    # $[objectname]
+
+
+    Kothil is a male gnome and the current mayor of $[uqgfukuaht]. He has golden hair and brown eyes. He wears fine clothing and a mink fur cape.
+
+
+    ## Political Career
+
+
+    Kothil has been mayor of Mekross for around 6 months and, at 26 years old, is the youngest mayor ever elected.
+
+
+    ## Secret
+
+
+    Kothil is being blackmailed by $[iokwfwzhvc] who have put him forward as a mayoral candidate due to the hold they have over him and the ease they can manipulate him. He is allowing the bandit activity in exchange for personal money. He plans to take as much money as he can before fleeing somewhere far away from all of this with his money.
+  order: 9
+  notes: []
+  chapters:
+  - drvczfrjcn
+  consumables: []
+  shared: false
+  access_roles: []
+  primaryid: 
+  prominence: 

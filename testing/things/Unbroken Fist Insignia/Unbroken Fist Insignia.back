@@ -1,0 +1,37 @@
+- things: []
+  subtype: item
+  id: dmffnwfkow
+  name: Unbroken Fist Insignia
+  shared_name: 
+  status: 0
+  blurb: >-
+    # $[objectname]
+
+
+    All members of $[iokwfwzhvc] carry this insignia, inscribed into a piece of leather. It can be worn or carried.
+
+
+    ![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/The_Order_of_Shadows_Insignia.svg/600px-The_Order_of_Shadows_Insignia.svg.png)
+  order: 4
+  notes:
+  - id: ksqivgdwyy
+    blurb: is now 'Encountered'
+    created_at: 2022-11-09T05:39:58.3680000Z
+    campaign_note: true
+    shared: true
+  - id: yfjljteryl
+    blurb: The party know of this symbol but not what it is used for
+    created_at: 2022-11-09T05:40:00.3680000Z
+    campaign_note: true
+    shared: true
+  - id: kwoahlfwdi
+    blurb: '[Hactar] has [Unbroken Fist Insignia]'
+    created_at: 2022-11-09T05:40:02.3680000Z
+    campaign_note: false
+    shared: true
+  chapters: 
+  consumables: []
+  shared: false
+  access_roles: []
+  primaryid: 
+  prominence: 

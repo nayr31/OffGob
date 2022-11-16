@@ -1,0 +1,17 @@
+  subtype: location
+status: 1
+blurb: >-
+  # $[objectname]
+  Duskwood Den is a building complex in the Westown forest, south of the Devil's highway. Its existance isn't known by anyone outside $[iokwfwzhvc], who are using it as a headquarters for their raids on the nearby roads.
+  ## Layout
+  From the outside, it appears as a small complex surrounded by walls.
+  There is a small guardhouse before getting to the main building. This guardhouse is where is $[ftwwvwecmn] often found as he checks people and good in and out of the hideout.
+  Beyond that is the main building, a single storey building that looks like it would contain a few rooms.
+  ## Basement
+  One of the rooms contains a staircase down to a cellar. The cellar is very large and comprises of a number of rooms. There is another exit through a hatch directly outside the complex which is generally kept locked from both sides.
+order: 6
+notes: []
+chapters: []
+consumables: []
+shared: false
+access_roles: []

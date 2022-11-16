@@ -1,0 +1,47 @@
+- quests: []
+  subtype: sidequest
+  id: wghdsmpvjm
+  name: Find the Missing Protectors
+  shared_name: 
+  status: 0
+  blurb: >-
+    # $[objectname]
+
+
+    Some of the $[tzznfrlpqn] have not come back from their latest commission. **$[uqmasyyfck]** and **$[bmulwambsf]** were accompanying a convoy of five caravans to $[xxnjogoqxa] but there has been no sign of either the protectors or the caravans since they left.
+
+
+    !!
+
+
+    ## Secret
+
+
+    They were attacked along $[hjelnwbcjp] by a larger and more organised group of bandits than has been making other recent attacks. Both protectors survived the attack but were left effectively for dead. They were able to gather themselves enough to go looking for food and water but ended up being caught be spiders who entwined them in webs to die.
+
+
+    !!
+  order: 3
+  notes:
+  - id: clsylatkqw
+    blurb: is now 'Active'
+    created_at: 2022-11-09T05:56:21.3680000Z
+    campaign_note: true
+    shared: true
+  - id: bjwuuuzfvb
+    blurb: The missing caravan was found and identified
+    created_at: 2022-11-16T06:16:57.3680000Z
+    campaign_note: true
+    shared: true
+  - id: yeffhlyftd
+    blurb: is now 'Completed'
+    created_at: 2022-11-16T07:33:17.3680000Z
+    campaign_note: true
+    shared: true
+  chapters:
+  - drvczfrjcn
+  consumables: []
+  shared: false
+  access_roles: []
+  primaryid: 
+  prominence: 
