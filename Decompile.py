@@ -1,6 +1,8 @@
-import os
+import os, copy
 
 home = os.getcwd()
+
+errors = []
 
 def write_raw(filename: str, output: list):
     with open(filename, "w+") as f:
@@ -126,11 +128,6 @@ except:
     pass
 
 # Write backup files
-write_single_to_folder("locations", "original.back", location_lines)
-write_single_to_folder("creatures", "original.back", creature_lines)
-write_single_to_folder("organizations", "original.back", org_lines)
-write_single_to_folder("quests", "original.back", quest_lines)
-write_single_to_folder("things", "original.back", things_lines)
 write_raw("connections.back", connections_lines)
 write_raw("notes.back", notes_lines)
 
@@ -139,6 +136,7 @@ def grab_name(list: list):
     for line in list:
         if line[2:6] == "name":
             return line[8:-1]
+    errors.append("Couldn't find a name for an object!\n" + str(list))
     return "ERROR"
 
 # Removes the first two characters from each item in a list then returns the list
@@ -148,90 +146,116 @@ def remove_first_two_spaces(list: list):
         if len(lis) > 2 and (lis[0] == " " and lis[1] == " "):
             ret_list.append(lis[2:])
     return ret_list
+    
+# Working backwards in a list, return the index of the first line that starts with "-"
+def find_start_of_object(lines: list):
+    for i in range(len(lines) - 1, -1, -1):
+        if lines[i][0] == "-":
+            return i
+    print("ERROR: Couldn't find the start of an object! This is a bug, please report it.")
+    return 0
 
-def decompose_master(source_lines: list):
+# Given a list of lines, return the last line that starts with a given string
+def find_end_of_object(lines: list, delimiter: str):
+    for i in range(len(lines) - 1, 0, -1):
+        if delimiter in lines[i]:
+            return i
+    print("ERROR: Couldn't find the end of an object! This is a bug, please report it.")
+    return len(lines)
 
-    # Record the encompassing objects that make up the file
-    objects = []
-    adding_object = []
-
-    # For each line, we collect the "header" lines into a list
-    for index, line in enumerate(source_lines):
-        # If we hit a new object, add the old one to the list
-        if line [0] == "-" and index != 1:
-            objects.append(adding_object)
-            adding_object = []
-
-        # Don't add the first line, as it's just a header
-        if index != 0:
-            adding_object.append(line)
+def decompose_master(source_lines: list, delimiter: str):
+    
+    # This shouldn't happen, but just in case
+    if len(source_lines) == 0:
+        print("Empty list passed to decompose_master")
+        return
+    elif len(source_lines) == 1:
+        print("ERROR: Skipped a header?")
+        return
+    
+    new_lines = copy.deepcopy(source_lines)
+    
+    while len(new_lines) > 1:
+        # Find the start of the bottom-most object
+        start = find_start_of_object(new_lines)
+        end = len(new_lines)
         
-    # Add the last object
-    if len(adding_object) > 0: # Don't add empty objects
-        objects.append(adding_object)
+        is_nested = False
+        
+        # Check if the object is nested
+        if new_lines[start][-3:] != "[]\n":
+            is_nested = True
+        
+        # If it is, then we need to find the end of the object inside it
+        if is_nested:
+            end = find_end_of_object(new_lines[start:], delimiter) + start
+            #start += 1
+        
+        #trimmed_lines = new_lines[start:end]
+        
+        # Grab the object, nested or not
+        #new_obj = remove_first_two_spaces(new_lines[start:end])
+        new_obj = new_lines[start:end]
+        
+        if is_nested:
+            new_obj = remove_first_two_spaces(new_obj)
 
-    # For each item in the list, create a new folder if the object ends with "[]", then repeat the process on the folders created
-    for obj in objects:
-        if len(obj) > 0:
-            name = grab_name(obj)
-            # If the first line has "[]" at the end, it's a nested object and needs recursion
-            if obj[0][-3:] != "[]\n": # (This is the nested object)
-                # Create a folder for the object
-                try:
-                    os.mkdir(name)
-                except:
-                    # Folder already exists
-                    pass
-
-                # Move into the folder
-                os.chdir(name)
-
-                # Take the first line and last 16 lines and record them
-                first_line = obj[0]
-                last_16 = obj[-16:]
-
-                # Combine them into a single list
-                this_obj = [first_line] + last_16
-
-                # Write the file
-                write_raw("original.back", this_obj)
-
-                # Remove the first line and last 16 lines from obj
-                obj = remove_first_two_spaces(obj[1:-16])
-
-                # Run this method again for obj
-                decompose_master(obj)
-
-                # Exit the folder
-                os.chdir("..")
-
-            # Otherwise we can just write the file in its own folder
-            else: 
-                # Create a folder for the object
-                try:
-                    os.mkdir(name)
-                except:
-                    # Folder already exists
-                    pass
-                # TODO Backup files for now, in the future we want to split the markdown file off into its own file
-                write_single_to_folder(name, name + ".back", obj)
-
-def do_a_decompose(name: str, lines: list):
+        # Remove the object we just extracted from the list
+        new_lines = new_lines[:start] + new_lines[end:]
+        
+        # Grab the name of the new_obj then write it to a file 
+        name = grab_name(new_obj)
+        try:
+            os.mkdir(name)
+        except:
+            # Folder was here already
+            pass
+        os.chdir(name)
+        write_raw("original.back", new_obj)
+        
+        # new_obj needs to either be written to a file or passed back to this function
+        if is_nested:
+            decompose_master(new_obj, delimiter)
+        else:
+            pass
+        
+        # Go back
+        os.chdir("..")
+            
+        
+# Decompose the master files into their own folders
+# These will only happen on the outermost level (creatures, locations, etc)
+def do_a_decompose(name: str, lines: list, delimiter: str):
+    # Create the folder
+    try:
+        os.mkdir(name)
+    except:
+        # Folder already exists
+        pass
+    
     # Move into the folder
     os.chdir(name)
+    
+    # Create backup file
+    write_raw("original.back", lines)
 
     # Decompose the file
-    decompose_master(lines)
+    decompose_master(lines, delimiter)
 
     # Exit the folder
     os.chdir("..")
 
 print("Decomposing files...")
 
-do_a_decompose("locations", location_lines)
-do_a_decompose("creatures", creature_lines)
-do_a_decompose("organizations", org_lines)
-do_a_decompose("quests", quest_lines)
-do_a_decompose("things", things_lines)
+#do_a_decompose("locations", location_lines, "subtype:")
+#do_a_decompose("creatures", creature_lines, "statblock:")
+#do_a_decompose("organizations", org_lines, "subtype:")
+do_a_decompose("quests", quest_lines[1:], "subtype:")
+#do_a_decompose("things", things_lines, "subtype:")
 
 print("Done!")
+
+if len(errors) > 0:
+    print("Errors:")
+    for error in errors:
+        print(error)
