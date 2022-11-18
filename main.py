@@ -1,4 +1,4 @@
-import os, time, tgnloader, decomposer
+import os, time, tgnloader, decomposer, combiner
 
 def decompose():
     print("Loading notebook data...")
@@ -13,6 +13,20 @@ def decompose():
     
     print("Finished decomposing notebook!\n")
 
+def combine():
+    print("Looking for existing notebooks...")
+    
+    existing_book_folder = tgnloader.ask_for_existing()
+    if existing_book_folder is None:
+        print("Failed to find an existing notebook, I'm sorry!")
+        return
+    
+    print("Attempting to combine notebook: " + existing_book_folder)
+    combiner.combine_notebook(existing_book_folder)
+    
+    print("Done combining notebook! You'll find it inside the notebook's folder.\n")
+
+
 # Wait for 1 second before exiting
 def graceful_exit():
     print("Goodbye!")
@@ -22,6 +36,7 @@ def graceful_exit():
 options = {
     "Exit": graceful_exit,
     "Decompose Notebook": decompose,
+    "Combine Notebook": combine,
 }
 
 def get_nth_key(dictionary, n=0):

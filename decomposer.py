@@ -29,6 +29,10 @@ def export(book):
     # Create a folder for the notebook and move into it
     make_dir(notebook_name)
     os.chdir(notebook_name)
+    
+    # Create a backup file of the pure yaml data
+    with open(notebook_name + ".yaml", "w") as f:
+        f.write(yaml.dump(book_data))
 
     # Create a folder for each page in the notebook
     make_dir("locations")

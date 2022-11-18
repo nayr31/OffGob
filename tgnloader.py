@@ -16,6 +16,36 @@ def ask_for_notebook(books: list):
         else:
             print("That is not a number!")
 
+# Return a list of all folders and ask which one to use
+def ask_for_existing():
+    folders = []
+    for item in os.listdir():
+        if os.path.isdir(item):
+            folders.append(item)
+    
+    if len(folders) == 0:
+        print("No folders found!")
+        return None
+    elif len(folders) == 1:
+        return folders[0]
+    else:
+        print("Which folder do you want to use?")
+        for folder in folders:
+            print("[" + str(folders.index(folder)) + "] " + folder)
+        
+        while True:
+            choice = input("Enter the number of the folder you want to use: ")
+            if choice.isdigit():
+                if int(choice) in range(len(folders)):
+                    return folders[int(choice)]
+                else:
+                    print("That number is not in the list!")
+            else:
+                print("That is not a number!")
+        
+    
+    
+
 # Returns the desired name of the notebook
 def get_notebook_filename() -> str:
     tgns = []

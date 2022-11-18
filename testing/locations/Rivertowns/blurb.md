@@ -1,0 +1,21 @@
+# $[objectname]
+
+This is an area that stretches from **$[xxnjogoqxa]** in the west to the twin towns of **$[mtugsijbql]** and **$[uqgfukuaht]** in the east to **$[kvsxvfmdfh]** in the North.
+
+## Wetlands
+
+The northern half is mainly wetlands which spend most of the winter and underwater, is mostly dry in the summer, and spring and autumn depend on the recent weather. When the area floods, the only way to get to $[kvsxvfmdfh] is by boat as the road becomes impassable. Boats are generally available from $[xxnjogoqxa].
+
+## The Rocky River
+
+To the north and east of the region is the Rocky River, which as the name suggests is a very rocky stretch of water. This combined with the generally shallow waters, make it unsuitable for shipping. Smaller craft can try and sail the waters but even they may find it too difficult. The chance of hitting rocks is high, especially when the river is flowing fast. The number of broken pieces of boats along the shoes is testament to challenging conditions sailors face when attempting to navigate the river.
+
+Beyond the river are the **Quentulus Quazgar** mountains. There is just single road passing through the mountains form **Mekross** to lands east of the range.
+
+## Woodlands
+
+At the south of the region is a mixture of forest, known as **The Duskwood**, and some open grassland areas.
+
+## Map
+
+![Rovertowns](https://i.imgur.com/U5lVTbL.png)

@@ -1,0 +1,21 @@
+# $[objectname]
+
+A derelict building of brick and slate, filled with complex dwarven machines. It is apparent that the building is a sawmill, but no-one has been able to work out how to operate it in many generations.
+
+## Known History
+
+The sawmill was built around 200 years ago by **Lowdan Kappla**, a dwarven carpenter, who became a known as a master ship builder in $[kvsxvfmdfh]. He was famed for building 'indestructible' ships and lived a happy life in the village until his passing.
+
+## Secret History
+
+Lowdan had enchanted the sawmill so that when operating it with $[mxanfuwhdl] it would give magical properties to wood cut there. When the wood moves more than 1 mile from the sawmill, it hardens stronger than the strongest steel and cannot burn.
+
+The magic wasn't permeant though. Over a period of years it gradually lost its magical strength, eventually returning back to normal wood.
+
+Over time, the ships eventually broke down and the wood generally discarded where it returned to normal before decomposing naturally.
+
+## But It Is Being Used
+
+After following leads and rumours, $[iokwfwzhvc] have recently been able to find $[mxanfuwhdl] and have started to operate the sawmill, creating wood with the same magical power as before.
+
+$[nzgcbdcnjn] was built here.
