@@ -249,8 +249,8 @@ print("Decomposing files...")
 
 #do_a_decompose("locations", location_lines, "subtype:")
 #do_a_decompose("creatures", creature_lines, "statblock:")
-#do_a_decompose("organizations", org_lines, "subtype:")
-do_a_decompose("quests", quest_lines[1:], "subtype:")
+do_a_decompose("organizations", org_lines[1:], "subtype:")
+#do_a_decompose("quests", quest_lines[1:], "subtype:")
 #do_a_decompose("things", things_lines, "subtype:")
 
 print("Done!")
