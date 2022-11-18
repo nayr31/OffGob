@@ -2,7 +2,7 @@
 
 [The Goblin Notebook](the-goblin.net) is an online-only website for notebook creation, and is a really good tool for it. However, sometimes one wants to have a local copy of their notebooks, and this is where OffGob comes in.
 
-OffGob is a tool that allows you to convert your exported Goblin notebooks into a file structure separated by column 
+OffGob is a tool that allows you to convert your exported Goblin notebooks into a file structure separated by column and has support for any number of nested objects (limited by pythons recursion limit).
 
 ## Usage
 
