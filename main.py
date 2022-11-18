@@ -2,7 +2,10 @@ import os, time, tgnloader, decomposer
 
 def decompose():
     print("Loading notebook data...")
-    book = tgnloader.get_data()
+    book = tgnloader.get_notebook_filename()
+    if book is None:
+        print("Failed to find a notebook file, I'm sorry!")
+        return
     print("Using notebook: " + book)
     
     print("Running decomposer.py")

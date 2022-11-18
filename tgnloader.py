@@ -16,15 +16,16 @@ def ask_for_notebook(books: list):
         else:
             print("That is not a number!")
 
-def get_data():
+# Returns the desired name of the notebook
+def get_notebook_filename() -> str:
     tgns = []
     for file in os.listdir():
         if file.split(".")[-1] == "tgn":
             tgns.append(file)
 
     if len(tgns) == 0:
-        input("Couldn't find any notebooks files (\".tgn\"). Make sure I am in the same folder as them!")
-        exit()
+        print("Couldn't find any notebooks files (\".tgn\"). Make sure I am in the same folder as them!")
+        return None
     elif len(tgns) == 1:
         return tgns[0]
     else:
