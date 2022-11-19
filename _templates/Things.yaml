@@ -1,0 +1,17 @@
+things:
+- things: []
+  subtype: information
+  id: 
+  name: 
+  shared_name: 
+  status: 0
+  blurb: >-
+    # $[objectname]
+  order: 1
+  notes: []
+  chapters: []
+  consumables: []
+  shared: false
+  access_roles: []
+  primaryid: 
+  prominence: 

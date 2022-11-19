@@ -59,15 +59,15 @@ def create():
     os.chdir("..")
     
     # Using the template dictionary, create a new file with modified values based on the markdown file
-    chosen_template["blurb"] = md_file
-    chosen_template["name"] = md_file[:-3]
-    chosen_template["id"] = ''.join(random.choices(string.ascii_lowercase, k=10))
+    chosen_template[template_name][0]["blurb"] = open("_markdown/" + md_file, "r").read()
+    chosen_template[template_name][0]["name"] = md_file[:-3]
+    chosen_template[template_name][0]["id"] = ''.join(random.choices(string.ascii_lowercase, k=10))
 
-    capsule = {template_name: chosen_template}
+    #capsule = {str.lower(template_name): chosen_template}
     
     os.chdir("_tgn_special")
     with open(md_file[:-3] + ".tgn", "w") as f:
-        f.write(yaml.dump(capsule))
+        f.write(yaml.dump(chosen_template))
     os.chdir("..")
     
     print("Done creating object! You'll find it in the \"tgn_special\" folder.\n")

@@ -33,7 +33,7 @@ def load_template():
     if template is None:
         return None
     else:
-        return template, template_name
+        return template, str.lower(template_name)
     
     # Load the template file from a user prompt
     while True:

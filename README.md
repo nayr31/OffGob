@@ -32,7 +32,13 @@ Note: This only works with notebooks that were exported using OffGob.
 
 1. Run `offgob.py` using Python 3 and choose the "Omni-tool" option.
 2. Choose the "Convert markdown to tgn" option.
-3. 
+3. It will prompt you to place your file inside the `_markdown` folder.
+4. Press enter. If you have more than one file, it will prompt you to choose one.
+5. Select a template to use.
+
+**Note**: The templates are located in the `_templates` folder. You can add your own templates there, but I wouldn't recommend it.
+
+**Note**: Currently there is only support for "things", as other objects such as creatures may require more prompts to gather the required information. 
 
 ## Features (extended)
 
@@ -46,7 +52,8 @@ Below is a list of features that are currently implemented in OffGob, or are pla
   - [x] Select a notebook folder and recompile it back into a `.tgn` file, given there are the required metadata files.
   - [ ] Given a single `.md` or `.tgn` file, import it into a notebook.
 - [ ] Single object imports
-  - Choose a markdown or text file (`.md`/`.txt`) and an object type and it will create an importable file for you
+  - [x] Choose a markdown or text file (`.md`/`.txt`) and an object type and it will create an importable file for you
+  - [ ] Support for all column types
 - [ ] Executable
   - A single `.exe` file that can be run on any Windows machine without the need for Python.
 - [ ] Object creator/editor/destructor
