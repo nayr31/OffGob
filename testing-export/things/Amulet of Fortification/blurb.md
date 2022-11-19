@@ -1,7 +1,0 @@
-# $[objectname]
-
-This is a small hexagonal amulet on a silver chain. It is made from wood and has a carving of an anvil on the front. The chain is looking a little worse for wares but the pendant is in pristine condition.
-
-## Secret
-
-The amulet is the key to $[jjrzlmtvbm] and had been lost for generations. It was recently found by $[mqphnewbpw] who has found the secret of the sawmill. The pendant itself is virtually indestructible.

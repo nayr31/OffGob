@@ -1,9 +1,0 @@
-# $[objectname]
-
-The Church is based on the belief that storms and other natural disasters are their God's way of punishing people, and have made it their responsibility as followers to guide the population to the path of good in order to avoid this.
-
-They are ruthless in their belief that any time a natural disaster strikes, those affected are completely deserving of the act.
-
-## The Church
-
-The church will be hospitable and welcoming to the party and will offer them restorative services at a competitive cost.

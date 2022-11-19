@@ -4,6 +4,8 @@
 
 OffGob is a tool that allows you to convert your exported Goblin notebooks into a file structure separated by column and has support for any number of nested objects (limited by pythons recursion limit).
 
+Note: Tested using the default Demo data from the Goblin website, there may be bugs.
+
 ## Usage
 
 Currently the project is limited to `.py` files. To use it, you need to have Python 3 installed on your machine and a little know-how in running their scripts.
