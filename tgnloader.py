@@ -20,11 +20,11 @@ def ask_for_notebook(books: list):
 def ask_for_existing():
     folders = []
     for item in os.listdir():
-        if os.path.isdir(item):
+        if os.path.isdir(item) and item[0] != "." and item[0] != "_":
             folders.append(item)
     
     if len(folders) == 0:
-        print("No folders found!")
+        print("No valid folders found!")
         return None
     elif len(folders) == 1:
         return folders[0]

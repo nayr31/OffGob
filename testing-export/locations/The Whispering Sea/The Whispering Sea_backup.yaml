@@ -1,0 +1,24 @@
+access_roles: []
+blurb: "> ***Demo** - This is an example of an object that may be added by GM and\
+  \ players. The GM would have notes on important information and connections (known\
+  \ to players or not) and may include maps and POI including sub-locations that aren't\
+  \ important enough to need an object themselves. Players may just use the object\
+  \ as a place to put notes and make connections.*\n\n# $[objectname]\n\nA large freshwater\
+  \ lake with a number of settlements along the coastline. Fish are abundant in the\
+  \ waters and boats are constantly travelling between ports, transporting people\
+  \ and cargo.\n\n## Settlements\n\n- Rivertowns\n  - Okforth\n  - Mekross\n  - Westown\n\
+  \  - Erast\n- Cottington\n- Golgafrincham\n- Poghril\n- Traal\n- Brontitall\n\n\
+  ## Map\n\n![](https://i.ibb.co/Kwvmfwr/Whispering-Sea2.jpg)"
+chapters: null
+consumables: []
+id: jiweqnxbdg
+locations: []
+name: The Whispering Sea
+notes: []
+order: 1
+primaryid: null
+prominence: null
+shared: false
+shared_name: null
+status: 1
+subtype: location

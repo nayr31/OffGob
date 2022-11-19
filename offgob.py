@@ -1,10 +1,10 @@
-import os, time, tgnloader, decomposer, combiner
+import os, time, tgnloader, decomposer, combiner, yaml
 
 def decompose():
     print("Loading notebook data...")
     book = tgnloader.get_notebook_filename()
     if book is None:
-        print("Failed to find a notebook file, I'm sorry!")
+        print("Failed to find a notebook file, I'm sorry!\n")
         return
     print("Using notebook: " + book)
     
@@ -18,15 +18,17 @@ def combine():
     
     existing_book_folder = tgnloader.ask_for_existing()
     if existing_book_folder is None:
-        print("Failed to find an existing notebook, I'm sorry!")
+        print("Failed to find an existing notebook, I'm sorry!\n")
         return
     
     print("Attempting to combine notebook: " + existing_book_folder)
-    combiner.combine_notebook(existing_book_folder)
+    done_good = combiner.combine_notebook(existing_book_folder)
     
-    print("Done combining notebook! You'll find it inside the notebook's folder.\n")
-
-
+    if done_good:
+        print("Finished combining notebook!\n")
+    else:
+        print("Failed to combine notebook!\n")
+    
 # Wait for 1 second before exiting
 def graceful_exit():
     print("Goodbye!")

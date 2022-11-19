@@ -1,0 +1,80 @@
+access_roles: []
+blurb: '# $[objectname]
+
+
+  The town on the eastern side of the river.
+
+
+  ## Points of Interest
+
+
+  - **Tavern/Inn, The Stumble Inn**. Run by a kind white dragonborn named **Quess**
+  who sells super-chilled drinks.
+
+  - **Town Hall** - Where the town business is conducted
+
+
+  A normal array of shops and services are also available in the town.'
+chapters: null
+consumables: []
+id: uqgfukuaht
+locations: []
+name: Mekross
+notes:
+- blurb: is now 'Encountered'
+  campaign_note: true
+  created_at: 2022-11-02 04:47:37.368000+00:00
+  id: mggueknvfb
+  shared: true
+- blurb: The party arrive at the inn, get some food and drink and organise rooms for
+    later that night
+  campaign_note: true
+  created_at: 2022-11-02 04:47:39.368000+00:00
+  id: bkgzsgtwdj
+  shared: true
+- blurb: After a rest, they decide to ask around to start gathering information. Starting
+    with the tavern owner Quess who claims not to know much more than the party already
+    know. He has noticed a slight reduction in customers passing through in the last
+    week or two
+  campaign_note: true
+  created_at: 2022-11-02 05:28:43.368000+00:00
+  id: evpkxunkce
+  shared: true
+- blurb: Quess suggested the town council would be the best place to go for answers
+  campaign_note: true
+  created_at: 2022-11-02 05:28:45.368000+00:00
+  id: gubnyhxynj
+  shared: true
+- blurb: 'The party decided to go ask around before seeking out the council members,
+    they all had the same story: yes, there are bandits and they are all worried about
+    what that means, but no real information. The only thing that came out was that
+    the attacks were mainly along the Devil''s Highway'
+  campaign_note: true
+  created_at: 2022-11-02 05:58:47.368000+00:00
+  id: mehqyiakrl
+  shared: true
+- blurb: The council offices were closed for the day so the party went to look round
+  campaign_note: true
+  created_at: 2022-11-02 06:00:49.368000+00:00
+  id: enlmbxfvzy
+  shared: true
+- blurb: Couple of the party had some drinks before bed. Session ends with a long
+    rest overnight
+  campaign_note: true
+  created_at: 2022-11-02 06:44:00.368000+00:00
+  id: rbqnkwctlm
+  shared: true
+- blurb: The party stopped to gather all their things and joined Edmor at the gate
+    after he gathered the caravans and drivers. They set out on the Devild Highway
+    to Westown
+  campaign_note: true
+  created_at: 2022-11-09 06:10:25.368000+00:00
+  id: ihfgcdgfos
+  shared: true
+order: 2
+primaryid: null
+prominence: null
+shared: false
+shared_name: null
+status: 1
+subtype: town

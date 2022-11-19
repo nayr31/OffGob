@@ -1,0 +1,81 @@
+access_roles: []
+blurb: '> ***Demo** - This is an example of an object that may be added by GM and
+  players. The GM would have notes they need to role play the character, any important
+  information and connections (known to players or not). Players would tend to note
+  down important information about them and add any connections known about.*
+
+
+  # $[objectname]
+
+
+  Elf thief, she lived a life of crime and is now heading up the criminal $[mqphnewbpw],
+  now making attacks on targets along the $[hjelnwbcjp], $[qesmbwnchf] and surrounding
+  areas.
+
+
+  # Stats
+
+
+  - **Saving Throws** Str +4, Dex +5, Wis +2
+
+  - **Skills** Athletics +4, Deception +4
+
+  - **Senses** Passive Perception 10
+
+
+  ## Actions
+
+
+  ***Multiattack.*** The captain makes three melee attacks: two with its scimitar
+  and one with its dagger. Or the captain makes two ranged attacks with its daggers.
+
+
+  ***Scimitar.*** Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6
+  (1d6 + 3) slashing damage.
+
+
+  ***Dagger.*** Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60
+  ft., one target. Hit: 5 (1d4 + 3) piercing damage.
+
+
+  ## Reactions
+
+
+  ***Parry.*** The captain adds 2 to its AC against one melee attack that would hit
+  it. To do so, the captain must see the attacker and be wielding a melee weapon.'
+chapters: null
+consumables: []
+creatures: []
+id: mqphnewbpw
+name: Inchel Keldan
+notes:
+- blurb: is now 'Encountered'
+  campaign_note: true
+  created_at: 2022-11-16 05:32:45.368000+00:00
+  id: qygfjrwmbl
+  shared: true
+- blurb: Kamin felt something was up with her story, being unconcerned about the fact
+    that Edmor was taken to make her delivery
+  campaign_note: true
+  created_at: 2022-11-16 05:38:49.368000+00:00
+  id: yjtdqmkeut
+  shared: true
+order: 5
+primaryid: null
+prominence: null
+shared: false
+shared_name: null
+statblock:
+  ac: 15
+  charisma: 14
+  constitution: 14
+  dexterity: 16
+  hitpointmax: 65
+  hitpoints: 65
+  intelligence: 14
+  speed: 30
+  strength: 15
+  type: dnd5e
+  wisdom: 11
+status: 0
+subtype: neutral

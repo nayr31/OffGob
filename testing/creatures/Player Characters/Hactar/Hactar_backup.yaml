@@ -1,0 +1,30 @@
+access_roles: []
+blurb: '> ***Demo** - This is an example of a player character that may be added by
+  GM or players. This doesn''t replace your character sheet, it is a place to save
+  notes, journal entries and connections.*
+
+
+  # $[objectname]
+
+
+  Human wizard who has been occasionally adventuring with $[msudvzjbcu] for some time
+  where the two have developed a close bond.'
+chapters: null
+consumables: []
+creatures: []
+id: olbkcxwcxi
+name: Hactar
+notes:
+- blurb: '[Hactar] has [Unbroken Fist Insignia]'
+  campaign_note: true
+  created_at: 2022-11-09 05:40:02.368000+00:00
+  id: lhlzxymlgu
+  shared: true
+order: 4
+primaryid: null
+prominence: null
+shared: false
+shared_name: null
+statblock: null
+status: 0
+subtype: pc

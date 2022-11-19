@@ -55,18 +55,26 @@ def export(book):
         if len(data[nester]) > 0:
             for obj in data[nester]:
                 write_objects(obj, nester)
+                
+        # Write the backup data
+        with open(object_name + "_backup.yaml", "w") as f:
+            # Empty the nester object first
+            # TODO Is this better? When we recompile we are overwriting it anyway
+            data[nester] = []
+            f.write(yaml.dump(data))
             
         os.chdir("..")
     
     # Given a string, dump the corresponding data to a file
     def write_page(page: str):
         os.chdir(page)
-        # Create the backup file
-        with open(page + " backup.yaml", "w") as f:
+        
+        # Create the backup file after we have written all the objects
+        with open(page + "_backup.yaml", "w") as f:
             f.writelines(yaml.dump(book_data[page]))
         
         # Double make sure that the data loads correctly
-        with open(page + " backup.yaml", "r") as f:
+        with open(page + "_backup.yaml", "r") as f:
             data = yaml.load(f, Loader=yaml.FullLoader)
             # After loading the data, we have a list of the different parent objects
             # We need to preform write_objects on each of them
