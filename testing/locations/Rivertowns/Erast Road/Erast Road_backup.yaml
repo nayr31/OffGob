@@ -1,0 +1,20 @@
+access_roles: []
+blurb: '# $[objectname]
+
+
+  This is the road between $[kvsxvfmdfh] and $[mtugsijbql]. It is a much smaller road
+  than $[hjelnwbcjp] and has to go through the wetlands which frequently make the
+  road impassable.'
+chapters: null
+consumables: []
+id: qesmbwnchf
+locations: []
+name: Erast Road
+notes: []
+order: 5
+primaryid: null
+prominence: null
+shared: false
+shared_name: null
+status: 1
+subtype: route

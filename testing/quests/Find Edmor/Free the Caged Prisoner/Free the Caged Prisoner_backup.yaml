@@ -1,0 +1,30 @@
+access_roles: []
+blurb: '# $[objectname]
+
+
+  Once the party encounters the caged prisoner, be it $[omhfhzfhxc] or someone else,
+  they should look for a way to release them.
+
+
+  ## Possible Solution
+
+
+  One way would be to take the cage to $[jjrzlmtvbm] where it''s magic dispels and
+  they can cut or break into it easily.
+
+
+  There are likely other solutions that the party can come up with.'
+chapters:
+- drvczfrjcn
+consumables: []
+id: txesxpawrq
+name: Free the Caged Prisoner
+notes: []
+order: 1
+primaryid: null
+prominence: null
+quests: []
+shared: false
+shared_name: null
+status: 0
+subtype: task

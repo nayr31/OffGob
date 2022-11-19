@@ -1,0 +1,689 @@
+- access_roles: []
+  blurb: '# $[objectname]
+
+
+    '
+  chapters: null
+  consumables: []
+  creatures:
+  - access_roles: []
+    blurb: '> ***Demo** - This is an example of a player character that may be added
+      by GM or players. This doesn''t replace your character sheet, it is a place
+      to save notes, journal entries and connections.*
+
+
+      # $[objectname]
+
+
+      Gralmir is a fierce dwarven warrior. Grew up heavily involved with criminal
+      gangs, their past caught up with them recently and they fled to the towns and
+      cities around $[jiweqnxbdg] in the hope of starting over with a clean sheet,
+      an attempt to atone for past indiscretions.
+
+
+      Was recently found by $[yyfjkjquvr] after a hard night who vowed to help Gralmir
+      turn a new leaf and rid themselves of the substance addictions, putting them
+      on a path or riotousness.
+
+
+      ## Flaw
+
+
+      They have an issue with drink and drugs causing issues with judgement, physically
+      and morally.'
+    chapters: null
+    consumables: []
+    creatures: []
+    id: yyfjkjquvr
+    name: Gralmir Thunderkeg
+    notes: []
+    order: 1
+    primaryid: null
+    prominence: null
+    shared: false
+    shared_name: null
+    statblock: null
+    status: 0
+    subtype: pc
+  - access_roles: []
+    blurb: '> ***Demo** - This is an example of a player character that may be added
+      by GM or players. This doesn''t replace your character sheet, it is a place
+      to save notes, journal entries and connections.*
+
+
+      # $[objectname]
+
+
+      A positive influence to those around them, Thola is an elven cleric who always
+      sees the best in people and wants to help them see their personal potential.
+
+
+      Recently found $[yyfjkjquvr] after a hard night and vowed to help them turn
+      a new leaf and rid themselves of the substance addictions, putting them on a
+      path or riotousness.
+
+
+      ## Ideal
+
+
+      They want to help everyone and will give everything to save anyone they see
+      any form of potential for good.
+
+
+      ## Flaw
+
+
+      Anyone deemed unable to be saved must be destroyed.'
+    chapters: null
+    consumables: []
+    creatures: []
+    id: jvqixtudyt
+    name: Thola Liadon
+    notes: []
+    order: 2
+    primaryid: null
+    prominence: null
+    shared: false
+    shared_name: null
+    statblock: null
+    status: 0
+    subtype: pc
+  - access_roles: []
+    blurb: '> ***Demo** - This is an example of a player character that may be added
+      by GM or players. This doesn''t replace your character sheet, it is a place
+      to save notes, journal entries and connections.*
+
+
+      # $[objectname]
+
+
+      Gnomish bard. Long-standing relationship with $[jvqixtudyt] who has often made
+      use of their services after getting into scuffles and scrapes from rubbing people
+      up the wrong way, usually after a few drinks.
+
+
+      Has been adventuring with $[olbkcxwcxi] for some time. The two have developed
+      a close bond.'
+    chapters: null
+    consumables: []
+    creatures: []
+    id: msudvzjbcu
+    name: Kamin Fapplebottom
+    notes: []
+    order: 3
+    primaryid: null
+    prominence: null
+    shared: false
+    shared_name: null
+    statblock: null
+    status: 0
+    subtype: pc
+  - access_roles: []
+    blurb: '> ***Demo** - This is an example of a player character that may be added
+      by GM or players. This doesn''t replace your character sheet, it is a place
+      to save notes, journal entries and connections.*
+
+
+      # $[objectname]
+
+
+      Human wizard who has been occasionally adventuring with $[msudvzjbcu] for some
+      time where the two have developed a close bond.'
+    chapters: null
+    consumables: []
+    creatures: []
+    id: olbkcxwcxi
+    name: Hactar
+    notes:
+    - blurb: '[Hactar] has [Unbroken Fist Insignia]'
+      campaign_note: true
+      created_at: 2022-11-09 05:40:02.368000+00:00
+      id: lhlzxymlgu
+      shared: true
+    order: 4
+    primaryid: null
+    prominence: null
+    shared: false
+    shared_name: null
+    statblock: null
+    status: 0
+    subtype: pc
+  id: qaprpvajyy
+  name: Player Characters
+  notes: []
+  order: 1
+  primaryid: null
+  prominence: null
+  shared: false
+  shared_name: null
+  statblock: null
+  status: 0
+  subtype: information
+- access_roles: []
+  blurb: '> ***Demo** - This is an example of an object that may be added by GM and
+    players. The GM would have notes they need to role play the character, any important
+    information and connections (known to players or not). Players would tend to note
+    down important information and connections to them as it comes up during play.*
+
+
+    # $[objectname]
+
+
+    A dwarven former mercenary who has opened a business protecting groups of travelers
+    along the $[hjelnwbcjp].
+
+
+    ## Personality
+
+
+    Edmor is a pleasant, approachable, and welcoming person, and enjoys to dink with
+    old friends and new. But he has fierce side which often comes out when he is protecting
+    merchants in his role with the $[tzznfrlpqn]. He Wields a greataxe as his primary
+    weapon when working.
+
+
+    ## His Past
+
+
+    Edmor spent much of his life as a mercenary for hire and occasional adventurer,
+    he earned a decent living and travelled much of the region.
+
+
+    # Stats
+
+
+    - **Senses** Passive Perception 10
+
+
+    ---
+
+
+    **Reckless.** At the start of his turn, Edmor can gain advantage on all melee
+    weapon attack rolls during that turn, but attack rolls against him have advantage
+    until the start of its next turn.
+
+
+    ## Actions
+
+
+    **Greataxe.** Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9
+    (1d12 + 3) slashing damage.'
+  chapters:
+  - drvczfrjcn
+  consumables: []
+  creatures: []
+  id: omhfhzfhxc
+  name: Edmor Greatmaul
+  notes:
+  - blurb: is now 'Encountered'
+    campaign_note: true
+    created_at: 2022-11-09 05:45:13.368000+00:00
+    id: tsuhozvyhu
+    shared: true
+  order: 2
+  primaryid: null
+  prominence: null
+  shared: false
+  shared_name: null
+  statblock:
+    ac: 13
+    charisma: 9
+    constitution: 17
+    dexterity: 12
+    hitpointmax: 67
+    hitpoints: 67
+    intelligence: 9
+    speed: 30
+    strength: 16
+    type: dnd5e
+    wisdom: 11
+  status: 0
+  subtype: friend
+- access_roles: []
+  blurb: '# $[objectname]
+
+
+    Male Dwarf Fighter. Fastolm has thick golden hair and green eyes. He wears chain
+    mail and wields a two handed hammer.
+
+
+    ## Devil''s Protection
+
+
+    Fastolm is currently working as a protector for the $[tzznfrlpqn] and has not
+    yet returned from his latest commission with the company.
+
+
+    ## Location
+
+
+    Fastolm survived the bandit attack on the caravan heavily injured, but struggled
+    a short distance away in search of food and water. He ended up in a $[vnfayumnxv]
+    where he was too weak to fight back. A giant spider wrapped him in a web, where
+    he remains unable to escape. **If found within 2 days he will still be alive**.'
+  chapters:
+  - drvczfrjcn
+  consumables: []
+  creatures: []
+  id: uqmasyyfck
+  name: Fastolm Cottook
+  notes:
+  - blurb: is now 'Encountered'
+    campaign_note: true
+    created_at: 2022-11-16 07:29:09.368000+00:00
+    id: ycmarkbsfv
+    shared: true
+  - blurb: Told the party the details of the bandit attack and that his colleague
+      was killed
+    campaign_note: true
+    created_at: 2022-11-16 07:33:13.368000+00:00
+    id: erwtvubykc
+    shared: true
+  - blurb: He mentioned that the bandits mentioned a placed they called 'The Den'
+    campaign_note: true
+    created_at: 2022-11-16 07:33:15.368000+00:00
+    id: yvgyrneedp
+    shared: true
+  order: 3
+  primaryid: null
+  prominence: null
+  shared: false
+  shared_name: null
+  statblock: null
+  status: 0
+  subtype: friend
+- access_roles: []
+  blurb: '# $[objectname]
+
+
+    Male Human Fighter.
+
+
+    ## Devil''s Protection
+
+
+    Rynis currently working as a protector for the $[tzznfrlpqn] and has not yet returned
+    from his latest commission with the company.
+
+
+    ## Location
+
+
+    Ryn survived the bandit attack on the caravan heavily injured, but struggled a
+    short distance away in search of food and water. He ended up in a $[vnfayumnxv]
+    where he was too weak to fight back. A giant spider wrapped him in a web, where
+    he remains unable to escape. **If found within 1 day he will still be alive**.'
+  chapters:
+  - drvczfrjcn
+  consumables: []
+  creatures: []
+  id: bmulwambsf
+  name: Ryn Ancin
+  notes:
+  - blurb: The party did not find Ryn quick enough and he died
+    campaign_note: true
+    created_at: 2022-11-16 05:19:36.368000+00:00
+    id: vswoegnuej
+    shared: true
+  - blurb: is now 'Dead'
+    campaign_note: true
+    created_at: 2022-11-16 05:19:38.368000+00:00
+    id: gdhqjejrbx
+    shared: true
+  order: 4
+  primaryid: null
+  prominence: null
+  shared: false
+  shared_name: null
+  statblock: null
+  status: 0
+  subtype: npc
+- access_roles: []
+  blurb: '> ***Demo** - This is an example of an object that may be added by GM and
+    players. The GM would have notes they need to role play the character, any important
+    information and connections (known to players or not). Players would tend to note
+    down important information about them and add any connections known about.*
+
+
+    # $[objectname]
+
+
+    Elf thief, she lived a life of crime and is now heading up the criminal $[mqphnewbpw],
+    now making attacks on targets along the $[hjelnwbcjp], $[qesmbwnchf] and surrounding
+    areas.
+
+
+    # Stats
+
+
+    - **Saving Throws** Str +4, Dex +5, Wis +2
+
+    - **Skills** Athletics +4, Deception +4
+
+    - **Senses** Passive Perception 10
+
+
+    ## Actions
+
+
+    ***Multiattack.*** The captain makes three melee attacks: two with its scimitar
+    and one with its dagger. Or the captain makes two ranged attacks with its daggers.
+
+
+    ***Scimitar.*** Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit:
+    6 (1d6 + 3) slashing damage.
+
+
+    ***Dagger.*** Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60
+    ft., one target. Hit: 5 (1d4 + 3) piercing damage.
+
+
+    ## Reactions
+
+
+    ***Parry.*** The captain adds 2 to its AC against one melee attack that would
+    hit it. To do so, the captain must see the attacker and be wielding a melee weapon.'
+  chapters: null
+  consumables: []
+  creatures:
+  - access_roles: []
+    blurb: '# $[objectname]
+
+
+      $[mqphnewbpw] goes by the name **Scars** in her role as leader of $[iokwfwzhvc].
+      Those who know her by Scars do not know her real name.
+
+
+      Scars is her bandit persona, she makes absolutely sure to not have her real
+      name known by anyone who knows her as Scars and tries to limit the number of
+      people she actually sees to avoid the possibility of anyone finding out.'
+    chapters: null
+    consumables: []
+    creatures: []
+    id: uficlhpglm
+    name: Scars
+    notes: []
+    order: 1
+    primaryid: null
+    prominence: null
+    shared: false
+    shared_name: null
+    statblock: null
+    status: 0
+    subtype: hostile
+  id: mqphnewbpw
+  name: Inchel Keldan
+  notes:
+  - blurb: is now 'Encountered'
+    campaign_note: true
+    created_at: 2022-11-16 05:32:45.368000+00:00
+    id: qygfjrwmbl
+    shared: true
+  - blurb: Kamin felt something was up with her story, being unconcerned about the
+      fact that Edmor was taken to make her delivery
+    campaign_note: true
+    created_at: 2022-11-16 05:38:49.368000+00:00
+    id: yjtdqmkeut
+    shared: true
+  order: 5
+  primaryid: null
+  prominence: null
+  shared: false
+  shared_name: null
+  statblock:
+    ac: 15
+    charisma: 14
+    constitution: 14
+    dexterity: 16
+    hitpointmax: 65
+    hitpoints: 65
+    intelligence: 14
+    speed: 30
+    strength: 15
+    type: dnd5e
+    wisdom: 11
+  status: 0
+  subtype: neutral
+- access_roles: []
+  blurb: "# $[objectname]\n\nZaneas is one of the leaders of $[iokwfwzhvc], second\
+    \ in command to $[mqphnewbpw]. Zaneas only knows Inchel as **Scars**.\n\n# Stats\n\
+    \n- **Skills** Deception +4, Persuasion +4, Religion +2\n- **Senses** Passive\
+    \ Perception 11\n- **Languages** Common\n\n---\n\n**Dark Devotion.** Zaneas has\
+    \ advantage on saving throws against being charmed or frightened.\n\n**Spellcasting.**\
+    \ Zaneas  is a 4th-level spellcaster. His spellcasting ability is Wisdom (spell\
+    \ save DC 11, +3 to hit with spell attacks). Zaneas has the following cleric spells\
+    \ prepared:\n\nCantrips (at will): \n*<a href=\"https://www.dndbeyond.com/spells/light\"\
+    \ target=\"_blank\">light</a>*, \n*<a href=\"https://www.dndbeyond.com/spells/sacred-flame\"\
+    \ target=\"_blank\">sacred flame</a>*, \n*<a href=\"https://www.dndbeyond.com/spells/thaumaturgy\"\
+    \ target=\"_blank\">thaumaturgy</a>*\n\n1st level (4 slots): \n*<a href=\"https://www.dndbeyond.com/spells/command\"\
+    \ target=\"_blank\">command</a>*, \n*<a href=\"https://www.dndbeyond.com/spells/inflict-wounds\"\
+    \ target=\"_blank\">inflict wounds</a>*, \n*<a href=\"https://www.dndbeyond.com/spells/shield-of-faith\"\
+    \ target=\"_blank\">shield of faith</a>*\n\n2nd level (3 slots): \n*<a href=\"\
+    https://www.dndbeyond.com/spells/hold-person\" target=\"_blank\">hold person</a>*,\
+    \ \n*<a href=\"https://www.dndbeyond.com/spells/spiritual-weapon\" target=\"_blank\"\
+    >spiritual weapon</a>*\n\n## Actions\n\n**Multiattack.** The fanatic makes two\
+    \ melee attacks.\n\n**Dagger.** Melee or Ranged Weapon Attack: +4 to hit, reach\
+    \ 5 ft. or range 20/60 ft., one creature. Hit: 4 (1d4 + 2) piercing damage.\n"
+  chapters: null
+  consumables: []
+  creatures: []
+  id: ftwwvwecmn
+  name: Zaneas
+  notes:
+  - blurb: is now 'Encountered'
+    campaign_note: true
+    created_at: 2022-11-09 06:36:28.368000+00:00
+    id: cnxfpjgklr
+    shared: true
+  order: 6
+  primaryid: null
+  prominence: null
+  shared: false
+  shared_name: null
+  statblock:
+    ac: 13
+    charisma: 14
+    constitution: 12
+    dexterity: 14
+    hitpointmax: 33
+    hitpoints: 33
+    intelligence: 10
+    speed: 30
+    strength: 11
+    type: dnd5e
+    wisdom: 13
+  status: 0
+  subtype: hostile
+- access_roles: []
+  blurb: '# $[objectname]
+
+
+    Male Dwarf Cleric. Wilhye has silver hair and light brown eyes, and an unusual
+    mark on his leg. He wears leather armor and wields a handaxe and sling. He believes
+    his devotion to his god has given him some magical ability in recent times.
+
+
+    ## Wilhye''s Cat
+
+
+    Wilhye has an animal companion who often follows him all over the town, **$[lfrwheeaxp]**.
+    The cat is named after his wife who went missing around a year ago.
+
+
+    ## Stats
+
+
+    - **Skills** Medicine +4, Religion +2
+
+    - **Senses** Passive Perception 12
+
+    - **Languages** Common
+
+
+    ---
+
+
+    ***Spellcasting***. Wilhye is a 1st-level spellcaster. His spellcasting ability
+    is Wisdom (spell save DC 12, +4 to hit with spell attacks). He has following cleric
+    spells prepared:
+
+
+    - **Cantrips (at will)**: light, sacred flame, thaumaturgy
+
+    - **1st level (3 slots)**: bless, cure wounds, sanctuary
+
+
+    ## Actions
+
+
+    **Club**. Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4)
+    bludgeoning damage.'
+  chapters:
+  - drvczfrjcn
+  consumables: []
+  creatures:
+  - access_roles: []
+    blurb: '# $[objectname]
+
+
+      A black cat who often follows $[ukqnmaekls] around town and stays close to him.
+
+
+      ## Secret
+
+
+      Isabelle is a human who polymorphed into a cat around 1 year ago. After she
+      stayed close by for some time, $[ukqnmaekls] eventually was able to find someone
+      to cast a spell allowing him to speak with animals when he found out the truth.
+      Since then he has been seeking a cure.
+
+
+      Wilhye doesn''t have much to pay for help in finding a cure and is concerned
+      with revealing the truth, so is seeking to learn to cast spells himself in order
+      to remove the effect.
+
+
+      *His magical path, being a cleric, won''t see him able to cast the required
+      spells even if he were able to learn quick enough before the natural life of
+      the cat comes to an end. He will need help but doesn''t know it yet.*'
+    chapters:
+    - drvczfrjcn
+    consumables: []
+    creatures: []
+    id: lfrwheeaxp
+    name: Isabelle the Cat
+    notes: []
+    order: 1
+    primaryid: null
+    prominence: null
+    shared: false
+    shared_name: null
+    statblock: null
+    status: 0
+    subtype: beast
+  id: ukqnmaekls
+  name: Wilhye
+  notes: []
+  order: 7
+  primaryid: null
+  prominence: null
+  shared: false
+  shared_name: null
+  statblock:
+    ac: 14
+    charisma: 13
+    constitution: 10
+    dexterity: 7
+    hitpointmax: 21
+    hitpoints: 21
+    intelligence: 11
+    speed: 30
+    strength: 11
+    type: dnd5e
+    wisdom: 17
+  status: 0
+  subtype: neutral
+- access_roles: []
+  blurb: '# $[objectname]
+
+
+    Harley has been the mayor of $[mtugsijbql] for as long as most in the town can
+    remember. She has seen the town prosper over her time in office, along with its
+    alliance with $[uqgfukuaht], and will be leaving a great legacy when she retires,
+    probably within the next year.'
+  chapters:
+  - drvczfrjcn
+  consumables: []
+  creatures: []
+  id: kpbnayahqk
+  name: Harley Resby
+  notes:
+  - blurb: is now 'Encountered'
+    campaign_note: true
+    created_at: 2022-11-09 05:07:37.368000+00:00
+    id: jrrjgneprc
+    shared: true
+  - blurb: Kamin convinced a slightly wary Harley that the party is genuine and interested
+      in helping
+    campaign_note: true
+    created_at: 2022-11-09 05:09:39.368000+00:00
+    id: gqxtasmyet
+    shared: true
+  - blurb: After a discussion, she is keen for the party to investigate the bandits
+      and gave some more information about what she knows
+    campaign_note: true
+    created_at: 2022-11-09 05:15:41.368000+00:00
+    id: qkjfgdjurq
+    shared: true
+  - blurb: Told the party to go and find Edmor/The Devil's Protection Company as he
+      is on the front line and may have some work that can be of mutual help
+    campaign_note: true
+    created_at: 2022-11-09 05:15:47.368000+00:00
+    id: dmukayzwdr
+    shared: true
+  order: 8
+  primaryid: null
+  prominence: null
+  shared: false
+  shared_name: null
+  statblock: null
+  status: 0
+  subtype: neutral
+- access_roles: []
+  blurb: '# $[objectname]
+
+
+    Kothil is a male gnome and the current mayor of $[uqgfukuaht]. He has golden hair
+    and brown eyes. He wears fine clothing and a mink fur cape.
+
+
+    ## Political Career
+
+
+    Kothil has been mayor of Mekross for around 6 months and, at 26 years old, is
+    the youngest mayor ever elected.
+
+
+    ## Secret
+
+
+    Kothil is being blackmailed by $[iokwfwzhvc] who have put him forward as a mayoral
+    candidate due to the hold they have over him and the ease they can manipulate
+    him. He is allowing the bandit activity in exchange for personal money. He plans
+    to take as much money as he can before fleeing somewhere far away from all of
+    this with his money.'
+  chapters:
+  - drvczfrjcn
+  consumables: []
+  creatures: []
+  id: bkzzzegnhx
+  name: Kothil Balley
+  notes: []
+  order: 9
+  primaryid: null
+  prominence: null
+  shared: false
+  shared_name: null
+  statblock: null
+  status: 0
+  subtype: neutral

@@ -1,0 +1,54 @@
+access_roles: []
+blurb: '> ***Demo** - This is an example of an object that may be added by GM and
+  players. The GM would have notes on important information and connections (known
+  to players or not). Players would tend to note down important information about
+  them and add any connections known about.*
+
+
+  # $[objectname]
+
+
+  Run by $[omhfhzfhxc] who set up the company to provide protection for merchants
+  and travellers along the $[hjelnwbcjp] to ensure their safe passage between $[ikvcfberca]
+  and $[xxnjogoqxa].
+
+
+  ## Protectors
+
+
+  - $[uqmasyyfck]
+
+  - $[bmulwambsf]
+
+  - Elian Cuthhelm'
+chapters:
+- drvczfrjcn
+consumables: []
+id: tzznfrlpqn
+name: Devil's Protection Company
+notes:
+- blurb: the party found Edmor at the DPC
+  campaign_note: true
+  created_at: 2022-11-09 05:45:09.368000+00:00
+  id: nemtqygagd
+  shared: true
+- blurb: is now 'Known'
+  campaign_note: true
+  created_at: 2022-11-09 05:45:11.368000+00:00
+  id: babgtwevpb
+  shared: true
+- blurb: Edmor was happy to tell the party what he knows and has asked them for some
+    help with 1) tracking down some missing protectors and 2) accompanying a shipment
+    that urgently needs to get to Westown
+  campaign_note: true
+  created_at: 2022-11-09 05:56:15.368000+00:00
+  id: plbycaghyg
+  shared: true
+order: 1
+organisations: []
+primaryid: null
+prominence: null
+shared: false
+shared_name: null
+status: 0
+subtype: mercenary

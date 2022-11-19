@@ -1,0 +1,70 @@
+access_roles: []
+blurb: '# $[objectname]
+
+
+  Male Dwarf Cleric. Wilhye has silver hair and light brown eyes, and an unusual mark
+  on his leg. He wears leather armor and wields a handaxe and sling. He believes his
+  devotion to his god has given him some magical ability in recent times.
+
+
+  ## Wilhye''s Cat
+
+
+  Wilhye has an animal companion who often follows him all over the town, **$[lfrwheeaxp]**.
+  The cat is named after his wife who went missing around a year ago.
+
+
+  ## Stats
+
+
+  - **Skills** Medicine +4, Religion +2
+
+  - **Senses** Passive Perception 12
+
+  - **Languages** Common
+
+
+  ---
+
+
+  ***Spellcasting***. Wilhye is a 1st-level spellcaster. His spellcasting ability
+  is Wisdom (spell save DC 12, +4 to hit with spell attacks). He has following cleric
+  spells prepared:
+
+
+  - **Cantrips (at will)**: light, sacred flame, thaumaturgy
+
+  - **1st level (3 slots)**: bless, cure wounds, sanctuary
+
+
+  ## Actions
+
+
+  **Club**. Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4)
+  bludgeoning damage.'
+chapters:
+- drvczfrjcn
+consumables: []
+creatures: []
+id: ukqnmaekls
+name: Wilhye
+notes: []
+order: 7
+primaryid: null
+prominence: null
+shared: false
+shared_name: null
+statblock:
+  ac: 14
+  charisma: 13
+  constitution: 10
+  dexterity: 7
+  hitpointmax: 21
+  hitpoints: 21
+  intelligence: 11
+  speed: 30
+  strength: 11
+  type: dnd5e
+  wisdom: 17
+status: 0
+subtype: neutral

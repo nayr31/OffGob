@@ -1,0 +1,97 @@
+access_roles: []
+blurb: '# $[objectname]
+
+
+  The town on the western side of the river.
+
+
+  ## Points of Interest
+
+
+  - **Tavern** - The Owner is jealous of the tavern in Mekross and its owner''s ability
+  to super-chill drinks. People seem to prefer them and often head over the river
+  instead of drinking here
+
+  - **Basic Inn** - An inn with basic facilities for travellers passing through
+
+  - **Luxury Inn** - A much more opulent inn for those wanting a more comfortable
+  stay. Comes with a matching price tag
+
+  - **Town Council Building** - Where all offical town business is carried out
+
+  - **Church** ($[kswascfari]) - The only church in either of the Twin Towns
+
+
+  A normal array of shops and services are also available in the town.'
+chapters: null
+consumables: []
+id: mtugsijbql
+locations: []
+name: Okforth
+notes:
+- blurb: They ended up in the Okforth tavern where the owner was unimpressed they
+    were staying in Mekross
+  campaign_note: true
+  created_at: 2022-11-02 06:25:56.368000+00:00
+  id: svhhhphkax
+  shared: true
+- blurb: is now 'Encountered'
+  campaign_note: true
+  created_at: 2022-11-02 06:25:58.368000+00:00
+  id: gfxdxhwnij
+  shared: true
+- blurb: The Okforth council office opened an hour earlier than the Mekross office
+    today so the party headed there to seek information
+  campaign_note: true
+  created_at: 2022-11-09 05:02:33.368000+00:00
+  id: ciwndmhaaw
+  shared: true
+- blurb: The party spoke to someone in the office who mentioned Harley Resby as the
+    town mayor, as luck had it, she was just entering the building at the time and
+    heard her name and came over and greeted the party
+  campaign_note: true
+  created_at: 2022-11-09 05:02:35.368000+00:00
+  id: agebagcdqk
+  shared: true
+- blurb: Party headed for the DPC, en route noticed a couple of poeple, one covering
+    up a purple band on his arm, when approached they both ran
+  campaign_note: true
+  created_at: 2022-11-09 05:16:49.368000+00:00
+  id: xmnpbpnrkk
+  shared: true
+- blurb: The two were caught and a fight started. One was casting spells, the other
+    attacked with daggers
+  campaign_note: true
+  created_at: 2022-11-09 05:18:51.368000+00:00
+  id: frvwyksmfp
+  shared: true
+- blurb: The fight ended with the dagger wielder being killed, at which point the
+    caster just disappeared
+  campaign_note: true
+  created_at: 2022-11-09 05:39:53.368000+00:00
+  id: hshwfrwztv
+  shared: true
+- blurb: A purple bandanna was found on the body (through covered by a hood), also
+    a small leather patch with a symbol on was found a pocket
+  campaign_note: true
+  created_at: 2022-11-09 05:39:54.368000+00:00
+  id: jgrefrbmrp
+  shared: true
+- blurb: Party had short rest to recover a little after the fight and to discuss the
+    next steps
+  campaign_note: true
+  created_at: 2022-11-09 05:45:05.368000+00:00
+  id: nucsqixvqr
+  shared: true
+- blurb: They went to find the Devil's Protection Company
+  campaign_note: true
+  created_at: 2022-11-09 05:45:07.368000+00:00
+  id: uuzbyrqhix
+  shared: true
+order: 1
+primaryid: null
+prominence: null
+shared: false
+shared_name: null
+status: 1
+subtype: town
