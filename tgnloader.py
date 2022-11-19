@@ -1,4 +1,5 @@
 import os, yaml
+import dic_tools
 
 def ask_for_notebook(books: list):
     # Print the list of notebooks and ask which one to use
@@ -33,18 +34,7 @@ def ask_for_existing():
         for folder in folders:
             print("[" + str(folders.index(folder)) + "] " + folder)
         
-        while True:
-            choice = input("Enter the number of the folder you want to use: ")
-            if choice.isdigit():
-                if int(choice) in range(len(folders)):
-                    return folders[int(choice)]
-                else:
-                    print("That number is not in the list!")
-            else:
-                print("That is not a number!")
-        
-    
-    
+        return dic_tools.list_choose(folders, "folder")
 
 # Returns the desired name of the notebook
 def get_notebook_filename() -> str:

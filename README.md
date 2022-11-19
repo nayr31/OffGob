@@ -28,6 +28,12 @@ Note: This only works with notebooks that were exported using OffGob.
 1. Run `offgob.py` using Python 3 and choose the "Combine Notebook" option.
 2. You'll find the compiled notebook in the same folder as `offgob.py` with the name `[notebook name]-export.tgn`.
 
+#### Create an importable thing
+
+1. Run `offgob.py` using Python 3 and choose the "Omni-tool" option.
+2. Choose the "Convert markdown to tgn" option.
+3. 
+
 ## Features (extended)
 
 Below is a list of features that are currently implemented in OffGob, or are planned.
@@ -55,6 +61,7 @@ Below is a list of known problems that may/may not being worked on.
 
 - Decomposing will fail if you have renamed your categories
 - Has not been tested on notebooks with disabled categories
+- There is an incredibly small chance that the created object id matches with a pre-existing object is, which may cause problems.
 
 ## Help
 

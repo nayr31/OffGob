@@ -1,0 +1,16 @@
+Thing:
+  access_roles: []
+  blurb: example.md
+  chapters: null
+  consumables: []
+  id: wkamadcjfo
+  name: example
+  notes: []
+  order: 1
+  primaryid: null
+  prominence: null
+  shared: false
+  shared_name: null
+  status: 0
+  subtype: information
+  things: []
