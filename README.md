@@ -66,7 +66,7 @@ Below is a list of known problems that may/may not being worked on.
 
 ## Help
 
-If you have any questions regarding how to use the program or if you found a bug, you can contact me through the [Goblin Discord](https://discord.gg/8Z7Y4Z).
+If you have any questions regarding how to use the program or if you found a bug, you can contact me through the [Goblin Discord](https://discord.gg/C56sTY6fd4). I'm usually online there, and I'll be happy to help you out.
 
 ### Running the script
 
