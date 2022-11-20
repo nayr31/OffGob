@@ -1,0 +1,16 @@
+organisations:
+- access_roles: []
+  blurb: 
+  chapters: null
+  consumables: []
+  id: 
+  name: 
+  notes: []
+  order: 1
+  organisations: []
+  primaryid: null
+  prominence: null
+  shared: false
+  shared_name: null
+  status: 0
+  subtype: mercenary

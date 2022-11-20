@@ -1,0 +1,16 @@
+quests:
+- access_roles: []
+  blurb: 
+  chapters: null
+  consumables: []
+  id: 
+  name: 
+  notes: []
+  order: 1
+  primaryid: null
+  prominence: null
+  quests: []
+  shared: false
+  shared_name: null
+  status: 0
+  subtype: primaryquest
