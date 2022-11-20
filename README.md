@@ -54,7 +54,7 @@ Below is a list of features that are currently implemented in OffGob, or are pla
   - [ ] Choose an object and edit it's metadata. 
   - [ ] Choose and object to delete it.
 - [ ] Executable
-  - A single `.exe` file that can be run on any Windows machine without the need for Python.
+  - A single `.exe` file that can be run on any Windows machine without the need for Python. This is planned for a final release, as it increases release and testing time.
 
 ## Known Issues/Side effects
 
@@ -83,3 +83,5 @@ I'll include this here for people who are new to programming or may have trouble
 7. Click on `offgob.py` in the explorer tab on the left.
 8. Run the script using the arrow in the top right corner of the window.
 9. Follow the prompts in the terminal at the bottom of the window.
+
+The program may fail to start, as there may be some custom scripts that are not included in the repository. If this happens, you can contact me on the Goblin Discord and I'll update this guide on how to fix it.
