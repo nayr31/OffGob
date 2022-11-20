@@ -85,3 +85,12 @@ I'll include this here for people who are new to programming or may have trouble
 9. Follow the prompts in the terminal at the bottom of the window.
 
 The program may fail to start, as there may be some custom scripts that are not included in the repository. If this happens, you can contact me on the Goblin Discord and I'll update this guide on how to fix it.
+
+## Video Demonstration
+
+Below is a video showing how you can create and edit new items within your file structure (doesn't have to be through VSCode) and recompile them back into the Goblin Notebook.
+
+**Note**: The white squares after import go away after refreshing the page.
+
+[OffGob Demo.webm](https://user-images.githubusercontent.com/69859977/202892596-3318918e-77f4-4af5-8716-9d865e4bdc89.webm)
+
