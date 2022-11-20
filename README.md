@@ -34,8 +34,6 @@ Note: This only works with notebooks that were exported using OffGob.
 
 **Note**: The templates are located in the `_templates` folder. You can add your own templates there, but I wouldn't recommend it.
 
-**Note**: Currently there is only support for "things", as other objects such as creatures may require more prompts to gather the required information. 
-
 ## Features (extended)
 
 Below is a list of features that are currently implemented in OffGob, or are planned.
