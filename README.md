@@ -50,7 +50,8 @@ Below is a list of features that are currently implemented in OffGob, or are pla
   - [x] Record some specific metadata per object
 - [ ] Combining
   - [x] Select a notebook folder and recompile it back into a `.tgn` file, given there are the required metadata files.
-  - [ ] Given a single `.md` or `.tgn` file, import it into a notebook.
+  - [x] Recreate the notebook even without the metadata files.
+  - [ ] Given a single `.md` or `.tgn` file, import it into a chosen notebook.
 - [ ] Single object imports
   - [x] Choose a markdown or text file (`.md`/`.txt`) and an object type and it will create an importable file for you
   - [ ] Support for all column types

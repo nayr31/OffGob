@@ -5,8 +5,7 @@ things:
   name: 
   shared_name: 
   status: 0
-  blurb: >-
-    # $[objectname]
+  blurb: 
   order: 1
   notes: []
   chapters: []

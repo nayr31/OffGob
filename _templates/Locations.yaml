@@ -1,0 +1,16 @@
+locations:
+- access_roles: []
+  blurb: 
+  chapters: null
+  consumables: []
+  id: 
+  locations: []
+  name: 
+  notes: []
+  order: 1
+  primaryid: null
+  prominence: null
+  shared: false
+  shared_name: null
+  status: 1
+  subtype: location

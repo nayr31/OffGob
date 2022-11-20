@@ -1,8 +1,10 @@
-def get_nth_key(dictionary, n=0):
+def get_nth_key(dictionary, n=0, both=False):
     if n < 0:
         n += len(dictionary)
     for i, value in enumerate(dictionary.values()):
         if i == n:
+            if both:
+                return value
             return value
     raise IndexError("dictionary index out of range") 
 

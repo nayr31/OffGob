@@ -1,5 +1,5 @@
 import os, time, random, string, yaml
-import tgnloader, decomposer, combiner, omni, dic_tools
+import tgnloader, decomposer, combiner, omni, dic_tools, templater
 
 
 def decompose():
@@ -38,7 +38,7 @@ def graceful_exit():
     exit()
 
 # Creates an object file from a markdown file
-def create():
+def convert_md_to_tgn():
     print("I am about to look inside of the \"_markdown\" folder.")
     input("Press enter so I can find the markdown file you want to use...")
     
@@ -53,11 +53,9 @@ def create():
     print("Using markdown file: " + md_file)
     
     # Choose a template
-    print("Which template do you want to use?")
-    os.chdir("_templates")
-    chosen_template, template_name = omni.load_template()
-    os.chdir("..")
-    
+    chosen_template, template_name = templater.choose_template()
+    template_name = str.lower(template_name)
+
     # Using the template dictionary, create a new file with modified values based on the markdown file
     chosen_template[template_name][0]["blurb"] = open("_markdown/" + md_file, "r").read()
     chosen_template[template_name][0]["name"] = md_file[:-3]
@@ -73,7 +71,7 @@ def create():
     print("Done creating object! You'll find it in the \"tgn_special\" folder.\n")
 
 omni_options = {
-    "Convert markdown to tgn" : create,  
+    "Convert markdown to tgn" : convert_md_to_tgn,  
 }
 
 def omnitool():
@@ -83,7 +81,7 @@ options = {
     "Exit": graceful_exit,
     "Decompose Notebook": decompose,
     "Combine Notebook": combine,
-    "Omni-tool": omnitool,
+    "Convert markdown to tgn" : convert_md_to_tgn,
 } 
 
 # Select an option from the options dictionary
