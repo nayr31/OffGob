@@ -10,6 +10,8 @@ Note: Tested using the default Demo data from the Goblin website, there may be b
 
 Currently the project is limited to `.py` files. To use it, you need to have Python 3 installed on your machine and a little know-how in running their scripts.
 
+**Note**: This script was tested on a branch of Debian Linux, but should still work for Windows. MasOS is untested, and most likely will be unsupported for the time being.
+
 ### Export your notebook
 
 1. Export your notebook from The Goblin Notebook.
@@ -80,3 +82,4 @@ I'll include this here for people who are new to programming or may have trouble
 6. In VSCOde, open the folder where you extracted the repository using `File > Open Folder...`.
 7. Click on `offgob.py` in the explorer tab on the left.
 8. Run the script using the arrow in the top right corner of the window.
+9. Follow the prompts in the terminal at the bottom of the window.
