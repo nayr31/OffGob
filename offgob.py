@@ -40,7 +40,7 @@ def graceful_exit():
 # Creates an object file from a markdown file
 def convert_md_to_tgn():
     print("I am about to look inside of the \"_markdown\" folder.")
-    input("Press enter so I can find the markdown file you want to use...")
+    input("Press enter so I can find the markdown or text file you want to use...")
     
     # Get the markdown file
     os.chdir("_markdown")
@@ -70,13 +70,6 @@ def convert_md_to_tgn():
     
     print("Done creating object! You'll find it in the \"tgn_special\" folder.\n")
 
-omni_options = {
-    "Convert markdown to tgn" : convert_md_to_tgn,  
-}
-
-def omnitool():
-    dic_tools.dict_choose(omni_options)
-   
 options = {
     "Exit": graceful_exit,
     "Decompose Notebook": decompose,

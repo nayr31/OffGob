@@ -4,7 +4,7 @@ import dic_tools
 def find_markdown():
     md_files = []
     for file in os.listdir():
-        if file.split(".")[-1] == "md":
+        if file.split(".")[-1] == "md" or file.split(".")[-1] == "txt":
             md_files.append(file)
     
     if len(md_files) == 0:
@@ -12,7 +12,7 @@ def find_markdown():
     elif len(md_files) == 1:
         return md_files[0]
     else:
-        return dic_tools.list_choose(md_files, "markdown file")
+        return dic_tools.list_choose(md_files, "markdown or text file")
     
 
 #def load_template(templates):
