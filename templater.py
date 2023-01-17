@@ -34,6 +34,9 @@ def get_template_by_name(name: str) -> dict:
 def choose_template():
     name = None
     while True:
+        print("Available Templates:")
+        for index, template in enumerate(templates):
+            print("{0} - {1}".format(index, template))
         choice = input("Enter the number of the template you want to use: ")
         if choice.isdigit():
             if int(choice) in range(len(names)):

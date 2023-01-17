@@ -10,6 +10,8 @@ def get_nth_key(dictionary, n=0, both=False):
 
 def list_choose(list: list, noun: str):
     while True:
+        for index, innoun in enumerate(list):
+            print("{0} - {1}".format(index, innoun))
         choice = input("Enter the number of the " + noun + " you want to use: ")
         if choice.isdigit():
             if int(choice) in range(len(list)):

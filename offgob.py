@@ -1,4 +1,4 @@
-import os, time, random, string, yaml
+import os, time, random, string, yaml, copy
 import tgnloader, decomposer, combiner, omni, dic_tools, templater
 
 
@@ -39,9 +39,8 @@ def graceful_exit():
 
 # Creates an object file from a markdown file
 def convert_md_to_tgn():
-    print("I am about to look inside of the \"_markdown\" folder.")
-    input("Press enter so I can find the markdown or text file you want to use...")
-    
+    print("I am about to look inside of the \"_markdown\" folder for a [.md] or [.txt] file.")
+
     # Get the markdown file
     os.chdir("_markdown")
     md_file = omni.find_markdown()
@@ -69,12 +68,79 @@ def convert_md_to_tgn():
     os.chdir("..")
     
     print("Done creating object! You'll find it in the \"tgn_special\" folder.\n")
+    return
+
+def convert_bulk_md_to_tgn():
+    print("I am about to look inside of the \"_markdown\" folder for another folder.")
+
+    folders = []
+
+    os.chdir("_markdown")
+    for folder in  os.listdir():
+        if os.path.isdir(folder):
+            folders.append(folder)
+    os.chdir("..")
+
+    chosen_folder = None
+
+    if len(folders) == 0:
+        print("I couldn't find any folders!")
+    elif len(folders) == 1:
+        chosen_folder = folders[0]
+        print("Using " + chosen_folder + " as folder target.")
+    else:
+        chosen_folder = dic_tools.list_choose(folders, "folder")
+
+    print("Loading markdown files...")
+    os.chdir("_markdown")
+    os.chdir(chosen_folder)
+    working = os.getcwd()
+    md_files = omni.load_markdown()
+    os.chdir("..")
+    os.chdir("..")
+
+    print("Got {0} items!".format(len(md_files)))
+
+    # Choose a template
+    chosen_template, template_name = templater.choose_template()
+    template_name = str.lower(template_name)
+
+    os.chdir("_tgn_special")
+    #try:
+    #    os.mkdir(chosen_folder)
+    #except:
+    #    pass
+    #os.chdir(chosen_folder)
+
+    items = []]
+
+    for md_file in md_files:
+        # Using the template dictionary, create a new file with modified values based on the markdown file
+        chosen_template[template_name][0]["blurb"] = open(os.path.join(working, md_file), "r").read()
+        chosen_template[template_name][0]["name"] = md_file[:-3]
+        chosen_template[template_name][0]["id"] = ''.join(random.choices(string.ascii_lowercase, k=10))
+
+        items.append(copy.deepcopy(chosen_template[template_name][0]))
+
+        # Writes out each item one by one currently
+        #with open(md_file[:-3] + ".tgn", "w") as f:
+        #    f.write(yaml.dump(chosen_template))
+
+    with open(chosen_folder + ".tgn", "w") as f:
+        f.write(template_name + ":\n")
+        f.write(yaml.dump(items))
+
+    #os.chdir("..") # Break chosen folder
+    os.chdir("..") # Break _tgn_special
+    
+    print("Done bulk exporting! You'll find a bulk import file in the \"_tgn_special\" folder.\n")
 
 options = {
     "Exit": graceful_exit,
     "Decompose Notebook": decompose,
     "Combine Notebook": combine,
     "Convert markdown to tgn" : convert_md_to_tgn,
+    "Bulk convert markdown to tgn": convert_bulk_md_to_tgn,
 } 
 
 # Select an option from the options dictionary
