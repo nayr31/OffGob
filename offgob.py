@@ -112,7 +112,26 @@ def convert_bulk_md_to_tgn():
     #    pass
     #os.chdir(chosen_folder)
 
-    items = []]
+    #contained = None
+    #pick = input("Do you want the objects contained into their own object? (y/n)")
+    #while True:
+    #    if pick == "y":
+    #        contained = True
+    #        break
+    #    elif pick == "n":
+    #        contained = False
+    #        break
+    #    else:
+    #        print("Please type either \'y\' or \'n\' (Got " + input + ").")
+
+    items = []
+
+    #if contained:
+    #    items = copy.deepcopy(chosen_template)
+    #    items["name"] = chosen_folder
+    #    items["blurb"] = ""
+    #    items["id"] = ''.join(random.choices(string.ascii_lowercase, k=10))
+        
 
     for md_file in md_files:
         # Using the template dictionary, create a new file with modified values based on the markdown file
@@ -120,6 +139,10 @@ def convert_bulk_md_to_tgn():
         chosen_template[template_name][0]["name"] = md_file[:-3]
         chosen_template[template_name][0]["id"] = ''.join(random.choices(string.ascii_lowercase, k=10))
 
+        #if contained:
+        #    items[template_name][0][template_name].append(copy.deepcopy(chosen_template[template_name][0]))
+        #else:
+            
         items.append(copy.deepcopy(chosen_template[template_name][0]))
 
         # Writes out each item one by one currently
