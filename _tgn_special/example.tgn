@@ -1,0 +1,16 @@
+things:
+- access_roles: []
+  blurb: This is an example file!
+  chapters: []
+  consumables: []
+  id: xxitoyvsye
+  name: example
+  notes: []
+  order: 1
+  primaryid: null
+  prominence: null
+  shared: false
+  shared_name: null
+  status: 0
+  subtype: information
+  things: []
