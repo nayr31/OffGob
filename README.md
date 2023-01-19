@@ -13,7 +13,7 @@ OffGob is a third-party tool that has some features to interact with your notebo
 - Export your campaign file into a folder structure to be used elsewhere.
 - Recombine your saved changes to be imported back onto the site.
 - Create an object for convenient importing later.
-- Bulk create objects for mass importing. Check out the [DnD SRD](https://github.com/OldManUmby/DND.SRD.Wiki/) compendium for files.
+- Bulk create objects for mass importing.
 
 ## Known bugs
 
