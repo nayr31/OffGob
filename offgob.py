@@ -27,7 +27,7 @@ def combine():
     done_good = combiner.combine_notebook(existing_book_folder)
     
     if done_good:
-        print("Finished combining notebook!\n")
+        print("Finished combining notebook! You'll find it in the folder of the same name.\n")
     else:
         print("Failed to combine notebook!\n")
     

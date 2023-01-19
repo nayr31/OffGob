@@ -1,11 +1,11 @@
 things:
 - things: []
   subtype: information
-  id: 
-  name: 
+  id: null
+  name: null
   shared_name: 
   status: 0
-  blurb: 
+  blurb: null
   order: 1
   notes: []
   chapters: []

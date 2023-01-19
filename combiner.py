@@ -23,26 +23,11 @@ def combine_notebook(book: str):
             print("No blurb file found for " + name + " I'm sorry!")
             return None
         
-        # Get the data from the backup file
+       # Get the data from the backup file
         data = None
-        # It might not exist, so we need to check
-        if name + "_backup.yaml" in items_in_folder:
-            with open(name + "_backup.yaml", "r") as f:
-                data = yaml.load(f, Loader=yaml.FullLoader)
-            # There should now be a blurb and backup file loaded
-            # Set the blurb
-            data["blurb"] = blurb
-
-            # Check if there are any nested objects
-            for item in os.listdir():
-                if os.path.isdir(item):
-                    # If there are, do this function again
-                    os.chdir(item)
-                    gotten_data = get_yaml_data(item, nester)
-                    if gotten_data != None:
-                        data[nester].append(gotten_data)
-                    os.chdir("..")
-        else:
+        
+        # Manually created items should have their backups created
+        if name + "_backup.yaml" not in items_in_folder:
             print("No backup file found for " + name + " I'll try to make it!")
             # There is a markdown, meaning that we need to create the backup file
             template = templater.get_template_by_name(str.capitalize(nester))
@@ -53,32 +38,21 @@ def combine_notebook(book: str):
             data["id"] = "".join(random.choices(string.ascii_letters + string.digits, k=16))
             with open(name + "_backup.yaml", "w") as f:
                 f.write(yaml.dump(data))
+        else: # Otherwise we just load the data to update the blurb
+            with open(name + "_backup.yaml", "r") as f:
+                data = yaml.load(f, Loader=yaml.FullLoader)
+                data["blurb"] = blurb
         
-        
-        return data
-        
-        
-        ## Open the backup file
-        #with open(name + "_backup.yaml", "r") as f:
-        #    # Load the yaml data
-        #    data = yaml.load(f, Loader=yaml.FullLoader)
-        #        
-        #    # Open it's blurb file and update it
-        #    with open("blurb.md", "r") as f2:
-        #        data["blurb"] = f2.read()
-        #        
-        #    # Note: In our decompose we removed the nested objects
-        #    
-        #    # Check if there are any nested objects
-        #    for item in os.listdir():
-        #        if os.path.isdir(item):
-        #            # If there are, do this function again
-        #            os.chdir(item)
-        #            gotten_data = get_yaml_data(item, nester)
-        #            if gotten_data != None:
-        #                data[nester].append(gotten_data)
-        #            os.chdir("..")
-                
+        # Check if there are any nested objects
+        for item in os.listdir():
+            if os.path.isdir(item):
+                # If there are, do this function again
+                os.chdir(item)
+                gotten_data = get_yaml_data(item, nester)
+                if gotten_data != None:
+                    data[nester].append(gotten_data)
+                os.chdir("..")
+            
         return data
     
     #try:
