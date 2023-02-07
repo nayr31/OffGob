@@ -10,7 +10,7 @@ OffGob is a third-party tool that has some features to interact with your notebo
 
 ## Features
 
-- Export your campaign file into a folder structure to be used elsewhere.
+- Export your campaign file into a folder structure to be used elsewhere. [Obsidian](https://obsidian.md/) is one such alternative.
 - Recombine your saved changes to be imported back onto the site.
 - Create an object for convenient importing later.
 - Bulk create objects for mass importing.

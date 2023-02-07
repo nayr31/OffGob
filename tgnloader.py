@@ -50,9 +50,29 @@ def get_notebook_filename() -> str:
         return tgns[0]
     else:
         return ask_for_notebook(tgns)
+
+def remove_tabs(filename: str):
+    lines = []
+    with open(filename, "r") as f:
+        lines = f.readlines()
+    new_lines = []
+    for line in lines:
+        new_lines.append(line.replace("\t", ""))
+    with open ("safe_" + filename, "w") as f:
+        f.writelines(new_lines)
         
+
 # Given a filename, open a notebook and return the data
 def open_notebook(filename: str):
-    with open(filename, "r") as f:
-        data = yaml.load(f, Loader=yaml.FullLoader)
+    try:
+        with open(filename, "r") as f:
+            data = yaml.load(f, Loader=yaml.FullLoader)
+            return data
+    except:
+        print("Found a problem loading the notebook, attempting to fix and try again.")
+        remove_tabs(filename)
+        data = None
+        with open("safe_" + filename, "r") as f:
+            data = yaml.load(f, Loader=yaml.FullLoader)
+        os.remove("safe_" + filename)
         return data

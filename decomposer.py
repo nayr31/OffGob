@@ -4,13 +4,13 @@ def export(book):
     pages = ["locations", "creatures", "organisations", "quests", "things"]
     
     errors = []
-    try:
-        book_data = tgnloader.open_notebook(book)
-        print("Loaded notebook data successfully")
-    except:
-        input("Failed to load notebook data, I'm sorry!")
-        exit()
-    
+    #try:
+    #    book_data = tgnloader.open_notebook(book)
+    #    print("Loaded notebook data successfully")
+    #except:
+    #    input("Failed to load notebook data, I'm sorry!")
+    #    exit()
+    book_data = tgnloader.open_notebook(book)
     
     notebook_name = book[:-4]
     print("You can find the decomposed notebook in the folder: " + notebook_name)

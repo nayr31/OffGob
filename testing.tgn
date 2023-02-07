@@ -1,0 +1,3007 @@
+meta:
+  name: Testing
+  system: custom
+  markdown_templates:
+  - id: eselwqwqdx
+    name: Custom Statblock
+    blurb: >-
+      # $[objectname]
+
+
+      Hello!
+    meta: true
+    locations: true
+    orgs: true
+    creatures: true
+    quests: true
+    things: true
+    statblock: false
+  markdown_snippets: []
+  columns:
+  - enabled: true
+    name: Locations
+    base_type: LOCATION
+    order: 1
+  - enabled: true
+    name: Organisations
+    base_type: ORGANISATION
+    order: 2
+  - enabled: true
+    name: Creatures
+    base_type: CREATURE
+    order: 3
+  - enabled: true
+    name: Quests
+    base_type: QUEST
+    order: 4
+  - enabled: true
+    name: Things
+    base_type: THING
+    order: 5
+  custom_css: []
+  use_custom_css: false
+locations:
+- locations: []
+  subtype: water
+  id: jiweqnxbdg
+  name: The Whispering Sea
+  shared_name: 
+  status: 1
+  blurb: >-
+    # $[objectname]
+
+
+    A large freshwater lake with a number of settlements along the coastline. Fish are abundant in the waters and boats are constantly travelling between ports, transporting people and cargo.
+
+
+    ## Settlements
+
+
+    - @[](twwfzayehs)
+      - @[](mtugsijbql)
+      - @[](uqgfukuaht)
+      - @[](xxnjogoqxa)
+      - @[](kvsxvfmdfh)
+    - Cottington
+
+    - Golgafrincham
+
+    - Poghril
+
+    - @[](svflxcdrna)
+
+    - Brontitall
+
+
+    ## Map
+
+
+    ![](https://i.ibb.co/Kwvmfwr/Whispering-Sea2.jpg)
+  order: 1
+  notes: []
+  chapters: 
+  consumables: []
+  shared: false
+  access_roles: []
+  primaryid: 
+  prominence: 
+- locations:
+  - locations:
+    - locations: []
+      subtype: building
+      id: ruynchekbj
+      name: Paradise Estate
+      shared_name: 
+      status: 1
+      blurb: >-
+        # $[objectname]
+
+
+        Originally built by **Lowdan Kappla**. Since his time, the estate has been owned by a number of people and includes a small room which is still set up as a mini museum to Lowdan. It is open to the public.
+
+
+
+        ## In The Museum
+
+
+        There will be some information on the sawmill here...
+      order: 1
+      notes: []
+      chapters:
+      - drvczfrjcn
+      consumables: []
+      shared: false
+      access_roles: []
+      primaryid: 
+      prominence: 
+    subtype: town
+    id: xxnjogoqxa
+    name: Westown
+    shared_name: 
+    status: 1
+    blurb: >-
+      # $[objectname]
+
+
+      A @[](twwfzayehs) town on the coast of @[](jiweqnxbdg), at the west end of the @[](hjelnwbcjp). The town has a large port and and is a key trade and transport hub for ships to a number of towns and cities around the lake.
+
+
+      ## Points of Interest
+
+
+      - **The Broken Vase Tavern**
+
+      - **@[](ruynchekbj)**
+
+
+      The town has the usual array of goods and services that would be found in a smallish town, although there isn't much magical, there is no alchemy or herbalist shops and no magical-services available. The population is a little wary of magic user in general and may not be as welcoming to them.
+
+
+      ## Map
+
+      ![](https://i.imgur.com/XJuLZ2o.png)
+    order: 1
+    notes:
+    - id: whjyawymlc
+      blurb: is now 'Encountered'
+      created_at: 2023-01-19T22:41:35.8790000Z
+      campaign_note: true
+      shared: true
+    - id: dtilnwewxs
+      blurb: On arriving in @[](xxnjogoqxa), one of the merchants in the caravans mentions that this shipment is intended for someone named 'Keldan', with an address
+      created_at: 2023-01-19T22:41:37.8790000Z
+      campaign_note: true
+      shared: true
+    - id: lgkehecgwr
+      blurb: The party went to the address and found a woman named Inchel Keldan. She was expecting the shipment
+      created_at: 2023-01-19T22:54:39.8790000Z
+      campaign_note: true
+      shared: true
+    - id: asfloveyes
+      blurb: The party found the Broken Vase tavern and was able to get some food and have a short rest before heading back out to look for @[](omhfhzfhxc)
+      created_at: 2023-01-19T23:14:47.8790000Z
+      campaign_note: true
+      shared: true
+    chapters: []
+    consumables: []
+    shared: false
+    access_roles: []
+    primaryid: 
+    prominence: 
+  - locations:
+    - locations: []
+      subtype: town
+      id: mtugsijbql
+      name: Okforth
+      shared_name: 
+      status: 1
+      blurb: >-
+        # $[objectname]
+
+
+        The town on the western side of the river.
+
+
+        ## Points of Interest
+
+
+        - **Tavern** - The Owner is jealous of the tavern in Mekross and its owner's ability to super-chill drinks. People seem to prefer them and often head over the river instead of drinking here
+
+        - **Basic Inn** - An inn with basic facilities for travellers passing through
+
+        - **Luxury Inn** - A much more opulent inn for those wanting a more comfortable stay. Comes with a matching price tag
+
+        - **Town Council Building** - Where all offical town business is carried out
+
+        - **Church** (@[](kswascfari)) - The only church in either of the Twin Towns
+
+
+        A normal array of shops and services are also available in the town.
+      order: 1
+      notes:
+      - id: svhhhphkax
+        blurb: They ended up in the Okforth tavern where the owner was unimpressed they were staying in Mekross
+        created_at: 2023-01-05T23:47:52.8790000Z
+        campaign_note: true
+        shared: true
+      - id: gfxdxhwnij
+        blurb: is now 'Encountered'
+        created_at: 2023-01-05T23:47:54.8790000Z
+        campaign_note: true
+        shared: true
+      - id: ciwndmhaaw
+        blurb: The Okforth council office opened an hour earlier than the @[](uqgfukuaht) office today so the party headed there to seek information
+        created_at: 2023-01-12T22:24:29.8790000Z
+        campaign_note: true
+        shared: true
+      - id: agebagcdqk
+        blurb: The party spoke to someone in the office who mentioned @[](kpbnayahqk) as the town mayor, as luck had it, she was just entering the building at the time and heard her name and came over and greeted the party
+        created_at: 2023-01-12T22:24:31.8790000Z
+        campaign_note: true
+        shared: true
+      - id: xmnpbpnrkk
+        blurb: Party headed for the @[](tzznfrlpqn), en route noticed a couple of poeple, one covering up a purple band on his arm, when approached they both ran
+        created_at: 2023-01-12T22:38:45.8790000Z
+        campaign_note: true
+        shared: true
+      - id: frvwyksmfp
+        blurb: The two were caught and a fight started. One was casting spells, the other attacked with daggers
+        created_at: 2023-01-12T22:40:47.8790000Z
+        campaign_note: true
+        shared: true
+      - id: hshwfrwztv
+        blurb: The fight ended with the dagger wielder being killed, at which point the caster just disappeared
+        created_at: 2023-01-12T23:01:49.8790000Z
+        campaign_note: true
+        shared: true
+      - id: jgrefrbmrp
+        blurb: A purple bandanna was found on the body (through covered by a hood), also a small leather patch with a symbol on was found a pocket
+        created_at: 2023-01-12T23:01:50.8790000Z
+        campaign_note: true
+        shared: true
+      - id: nucsqixvqr
+        blurb: Party had short rest to recover a little after the fight and to discuss the next steps
+        created_at: 2023-01-12T23:07:01.8790000Z
+        campaign_note: true
+        shared: true
+      - id: uuzbyrqhix
+        blurb: They went to find the @[](tzznfrlpqn)
+        created_at: 2023-01-12T23:07:03.8790000Z
+        campaign_note: true
+        shared: true
+      chapters:
+      - drvczfrjcn
+      consumables: []
+      shared: false
+      access_roles: []
+      primaryid: 
+      prominence: circle,fill,1
+    - locations: []
+      subtype: town
+      id: uqgfukuaht
+      name: Mekross
+      shared_name: 
+      status: 1
+      blurb: >-
+        # $[objectname]
+
+
+        The town on the eastern side of the river.
+
+
+        ## Points of Interest
+
+
+        - **Tavern/Inn, The Stumble Inn**. Run by a kind white dragonborn named **Quess** who sells super-chilled drinks.
+
+        - **Town Hall** - Where the town business is conducted
+
+
+        A normal array of shops and services are also available in the town.
+      order: 2
+      notes:
+      - id: mggueknvfb
+        blurb: is now 'Encountered'
+        created_at: 2023-01-05T22:09:33.8790000Z
+        campaign_note: true
+        shared: true
+      - id: bkgzsgtwdj
+        blurb: The party arrive at the inn, get some food and drink and organise rooms for later that night
+        created_at: 2023-01-05T22:09:35.8790000Z
+        campaign_note: true
+        shared: true
+      - id: evpkxunkce
+        blurb: After a rest, they decide to ask around to start gathering information. Starting with the tavern owner Quess who claims not to know much more than the party already know. He has noticed a slight reduction in customers passing through in the last week or two
+        created_at: 2023-01-05T22:50:39.8790000Z
+        campaign_note: true
+        shared: true
+      - id: gubnyhxynj
+        blurb: Quess suggested the town council would be the best place to go for answers
+        created_at: 2023-01-05T22:50:41.8790000Z
+        campaign_note: true
+        shared: true
+      - id: mehqyiakrl
+        blurb: 'The party decided to go ask around before seeking out the council members, they all had the same story: yes, there are bandits and they are all worried about what that means, but no real information. The only thing that came out was that the attacks were mainly along the @[](hjelnwbcjp)'
+        created_at: 2023-01-05T23:20:43.8790000Z
+        campaign_note: true
+        shared: true
+      - id: enlmbxfvzy
+        blurb: The council offices were closed for the day so the party went to look round
+        created_at: 2023-01-05T23:22:45.8790000Z
+        campaign_note: true
+        shared: true
+      - id: rbqnkwctlm
+        blurb: Couple of the party had some drinks before bed. Session ends with a long rest overnight
+        created_at: 2023-01-06T00:05:56.8790000Z
+        campaign_note: true
+        shared: true
+      - id: ihfgcdgfos
+        blurb: The party stopped to gather all their things and joined Edmor at the gate after he gathered the caravans and drivers. They set out on the Devild Highway to @[](xxnjogoqxa)
+        created_at: 2023-01-12T23:32:21.8790000Z
+        campaign_note: true
+        shared: true
+      chapters:
+      - drvczfrjcn
+      consumables: []
+      shared: false
+      access_roles: []
+      primaryid: 
+      prominence: circle,fill,1
+    subtype: location
+    id: ikvcfberca
+    name: Twin Towns
+    shared_name: 
+    status: 1
+    blurb: >-
+      # $[objectname]
+
+
+      On the eastern edge of the @[](twwfzayehs) region, what is seemingly one large walled city spread across the meandering Rocky River is actually two separate towns. On the west side is **@[](mtugsijbql)**, on the east is **@[](uqgfukuaht)**. They are connected by a number of bridges.
+
+
+      The towns are run completely separately but they are an important river crossing and stopover for merchants and travelers which has gives the towns a strong desire to work together to ensure the smooth operation of the trade route.
+
+
+      The townsfolk are generally (but not exclusively) friendly and welcoming but there is a rivalry between Okforth and Mekross which becomes more obvious the more you dig for it. You wouldn't notice by looking but there is some real hatred between the towns.
+
+
+      ## Key Positioning
+
+
+      The towns are a key river crossing at the eastern end of the @[](hjelnwbcjp) and act as a gateway to the lands to the east.
+
+
+      The recent increase in bandit activity is threatening to route much of the passing traffic to other ports around @[](jiweqnxbdg) which would mean few would come through the Twin Towns, and would be financially devastating to the towns.
+
+
+      ## Map
+
+      ![](https://i.imgur.com/SxunkSP.png)
+    order: 2
+    notes: []
+    chapters:
+    - drvczfrjcn
+    consumables: []
+    shared: false
+    access_roles: []
+    primaryid: 
+    prominence: circle,border,1
+  - locations:
+    - locations: []
+      subtype: building
+      id: jjrzlmtvbm
+      name: The Sawmill
+      shared_name: 
+      status: 1
+      blurb: >
+        # $[objectname]
+
+
+        A derelict building of brick and slate, filled with complex dwarven machines. It is apparent that the building is a sawmill, but no-one has been able to work out how to operate it in many generations.
+
+
+        ## Known History
+
+
+        The sawmill was built around 200 years ago by **Lowdan Kappla**, a dwarven carpenter, who became a known as a master ship builder in @[](kvsxvfmdfh). He was famed for building 'indestructible' ships and lived a happy life in the village until his passing.
+
+
+        !!
+
+
+        ## Secret History
+
+
+        Lowdan had enchanted the sawmill so that when operating it with the @[](mxanfuwhdl) it would give magical properties to wood cut there. When the wood moves more than 1 mile from the sawmill, it hardens stronger than the strongest steel and cannot burn.
+
+
+        The magic wasn't permeant though. Over a period of years it gradually lost its magical strength, eventually returning back to normal wood.
+
+
+        Over time, the ships eventually broke down and the wood generally discarded where it returned to normal before decomposing naturally.
+
+
+        ## But it is Being Used
+
+
+        After following leads and rumours, @[](iokwfwzhvc) have recently been able to find the @[](mxanfuwhdl) and have started to operate the sawmill, creating wood with the same magical power as before.
+
+
+        @[](nzgcbdcnjn) was built here.
+
+
+        !!
+      order: 1
+      notes: []
+      chapters:
+      - drvczfrjcn
+      consumables: []
+      shared: false
+      access_roles: []
+      primaryid: 
+      prominence: 
+    subtype: town
+    id: kvsxvfmdfh
+    name: Erast
+    shared_name: 
+    status: 1
+    blurb: >-
+      # $[objectname]
+
+
+      A small town in the @[](twwfzayehs) region, on the shore where **The Rocky River** meets @[](jiweqnxbdg). The town has a small dock and does not have the capacity of the harbour in @[](xxnjogoqxa).
+
+
+      The town doesn't get many visitors, especially spring to autumn when the road is impassible. It is now mainly just made up of local fishing boat crews and their families. Over time, the population is falling as people move to more prosperous towns.
+
+
+      ## Points Of Interest
+
+
+      - **Tavern** - A modest tavern who can also scramble together some basic accommodation if needed
+
+      - **The Dock** - Mainly just local fishing boats. Some boats are willing to transport people and small cargo down to @[](xxnjogoqxa)
+
+      - **@[](jjrzlmtvbm)**
+
+      - **Woodworkers** - There are a few woodworkers in the town who make a living fixing up fishing boats and creating and fixing tools for use on the boats
+
+      - **Blacksmiths** - As the woodworkers, the local blacksmith makes a living making and fixing objects for the boats
+
+
+      ---
+
+
+      There are a few people who believe they have heard sounds from the sawmill recently but they are not being taken seriously by the rest of the village.
+    order: 3
+    notes: []
+    chapters:
+    - drvczfrjcn
+    consumables: []
+    shared: false
+    access_roles: []
+    primaryid: 
+    prominence: 
+  - locations:
+    - locations: []
+      subtype: scene
+      id: uaqvctcftv
+      name: Bandit encounter
+      shared_name: 
+      status: 1
+      blurb: >-
+        # $[objectname]
+
+
+        While travelling the road, the party will be attacked by bandits from $[iokwfwzhvc] (unless they take extreme measures to ensure this doesn't happen).
+
+
+        It could be daylight or overnight, depending on when they set out and may be scaled according to if the party have hired some additional protection.
+
+
+        ## Set Up
+
+
+        A very well orchestrated attack will have $[iokwfwzhvc] try and kidnap $[omhfhzfhxc]. They have no interest in anything apart from his capture. If successful, they will take him to $[bhmtyxlqlm] where he will be held hostage. The reason is simply to disrupt the $[tzznfrlpqn] with the intentions of ending its operation.
+
+
+        **Options**
+
+        - Have the bandits attack while the party is tavelling
+
+        - Have the bandits wait until the party stops and rests
+
+        - Have the bandits pose as merchants escaping from bandits to try and gain the trust of the party. They have some magic users in their ranks so can easily pull of an attack with seemingly no equipment on them
+
+
+        ---
+
+
+        The encounter should include enough bandits to be a a reasonable threat, but it should include $[ftwwvwecmn] who is able to use a **scroll of slow**, **nets** and the **hold person spell** on the party in order to help capture Edmor.
+
+
+        The main objective of the bandit attack is to capture Edmor and escape. They attackers will not be interested in fighting the party  unless they have to.
+      order: 1
+      notes:
+      - id: csfrlqgatq
+        blurb: is now 'Encountered'
+        created_at: 2023-01-12T23:41:18.8790000Z
+        campaign_note: true
+        shared: true
+      - id: bxpnmrashj
+        blurb: The bandits had followed the party down the road and chose to attack at night. They waited until there was only one person on watch and cast hold person on them
+        created_at: 2023-01-12T23:41:20.8790000Z
+        campaign_note: true
+        shared: true
+      - id: heuajmsstj
+        blurb: During the fight, Thola was able to hear one of the bandits call another one 'Zaneas'
+        created_at: 2023-01-12T23:58:22.8790000Z
+        campaign_note: true
+        shared: true
+      - id: udbymlmmsj
+        blurb: The attack went according to plan, it took the party too long to wake up and get their equipment that bandits were able to capture @[](omhfhzfhxc) and escpae. One bandit was killed but the rest escaped
+        created_at: 2023-01-13T00:13:35.8790000Z
+        campaign_note: true
+        shared: true
+      - id: btpwneyepm
+        blurb: is now 'Ended'
+        created_at: 2023-01-13T00:13:39.8790000Z
+        campaign_note: true
+        shared: true
+      chapters:
+      - drvczfrjcn
+      consumables: []
+      shared: false
+      access_roles: []
+      primaryid: 
+      prominence: 
+    - locations: []
+      subtype: scene
+      id: vnfayumnxv
+      name: Spider's Nest
+      shared_name: 
+      status: 1
+      blurb: >-
+        # $[objectname]
+
+
+        Giant spider nest in the forest, not far off the $[hjelnwbcjp] road. The spiders will attack any create who comes near the nest.
+
+
+        $[uqmasyyfck] and $[bmulwambsf] are here, wrapped in webs. Ryn will be alive if found within 1 day and Fastolm will be alive if found within 2 days.
+      order: 2
+      notes:
+      - id: lgzrtkhunt
+        blurb: is now 'Encountered'
+        created_at: 2023-01-20T00:03:57.8790000Z
+        campaign_note: true
+        shared: true
+      - id: juldbszyqn
+        blurb: The party were caught off-guard by the sudden spider attack but able to kill all that attacked
+        created_at: 2023-01-20T00:50:57.8790000Z
+        campaign_note: true
+        shared: true
+      - id: ydcdhemvlt
+        blurb: They looked through the nest to find some unidentified animal bones and some creatures wrapped up in webs, including a dwarf still alive
+        created_at: 2023-01-20T00:50:59.8790000Z
+        campaign_note: true
+        shared: true
+      - id: mzcewoygvy
+        blurb: They were able to cut the dwarf free, game him some food, water and provided some healing
+        created_at: 2023-01-20T00:51:01.8790000Z
+        campaign_note: true
+        shared: true
+      - id: mxwfjwnmdb
+        blurb: Dwarf identified himself as @[](uqmasyyfck), a protector for the DPC
+        created_at: 2023-01-20T00:51:03.8790000Z
+        campaign_note: true
+        shared: true
+      - id: rwnfntjqnm
+        blurb: '@[](uqmasyyfck) said he was with @[](bmulwambsf), a human. The party looked for him but found him dead in another web'
+        created_at: 2023-01-20T00:51:05.8790000Z
+        campaign_note: true
+        shared: true
+      - id: tmyjjngtgm
+        blurb: is now 'Ended'
+        created_at: 2023-01-20T00:51:07.8790000Z
+        campaign_note: true
+        shared: true
+      chapters:
+      - drvczfrjcn
+      consumables: []
+      shared: false
+      access_roles: []
+      primaryid: 
+      prominence: 
+    subtype: route
+    id: hjelnwbcjp
+    name: Devil's Highway
+    shared_name: 
+    status: 1
+    blurb: >-
+      # $[objectname]
+
+
+      The road connecting @[](xxnjogoqxa) and the twin towns of @[](mtugsijbql) and @[](uqgfukuaht).
+
+
+      ## Bandits
+
+      Bandits are frequently seen along the road and holds-ups are commonplace. Most merchants and travelers will hire protection for the journey along the road.
+
+
+      In the last few months, a man named @[](omhfhzfhxc) has set up a business organising safe passage along the road, directly employing protection and running frequent group trips at a more affordable cost to individuals than if they were to go alone.
+    order: 4
+    notes:
+    - id: dwxvfqhcws
+      blurb: is now 'Encountered'
+      created_at: 2023-01-12T23:35:23.8790000Z
+      campaign_note: true
+      shared: true
+    - id: cwgawjhjcr
+      blurb: Bad weather caused the journey to be slow, the party had to stop for the night so made camp and set watches
+      created_at: 2023-01-12T23:35:25.8790000Z
+      campaign_note: true
+      shared: true
+    - id: fenhssahto
+      blurb: After the bandits took @[](omhfhzfhxc), the party decided to continue to accompany the caravans to @[](xxnjogoqxa) and return to looks for Edmor
+      created_at: 2023-01-19T22:14:29.8790000Z
+      campaign_note: true
+      shared: true
+    - id: rammagvsii
+      blurb: They found what appears to be an attack site along the road, a caravan broken by the side of the road, signs of a fight but no-one around
+      created_at: 2023-01-19T22:24:31.8790000Z
+      campaign_note: true
+      shared: true
+    - id: lctpzblakg
+      blurb: The party continued their travel on to @[](xxnjogoqxa) which was happily uneventful
+      created_at: 2023-01-19T22:41:33.8790000Z
+      campaign_note: true
+      shared: true
+    - id: vbyyklsuab
+      blurb: Back along the road, they found the broken caravan again and investigated it a bit more
+      created_at: 2023-01-19T23:33:49.8790000Z
+      campaign_note: true
+      shared: true
+    - id: isxkferohv
+      blurb: The caravan was identified as the one from the missing shipment, there were signs that people left to the north. The party followed that lead
+      created_at: 2023-01-19T23:38:51.8790000Z
+      campaign_note: true
+      shared: true
+    - id: xdcthmbrau
+      blurb: After a short walk, the party entered a part of the forest that was covered in webs, before they had a chance to decide what to do, they were attacked by giant spiders
+      created_at: 2023-01-20T00:03:55.8790000Z
+      campaign_note: true
+      shared: true
+    - id: gaoiqetleh
+      blurb: The party decided to accompany @[](uqmasyyfck) back to @[](mtugsijbql) where he said he should be able to get treatment from the @[](kswascfari) before he goes home to rest and recover
+      created_at: 2023-01-20T01:02:15.8790000Z
+      campaign_note: true
+      shared: true
+    chapters:
+    - drvczfrjcn
+    consumables: []
+    shared: false
+    access_roles: []
+    primaryid: 
+    prominence: 
+  - locations: []
+    subtype: route
+    id: qesmbwnchf
+    name: Erast Road
+    shared_name: 
+    status: 1
+    blurb: >-
+      # $[objectname]
+
+
+      This is the road between $[kvsxvfmdfh] and $[mtugsijbql]. It is a much smaller road than $[hjelnwbcjp] and has to go through the wetlands which frequently make the road impassable.
+    order: 5
+    notes: []
+    chapters:
+    - drvczfrjcn
+    consumables: []
+    shared: false
+    access_roles: []
+    primaryid: 
+    prominence: 
+  - locations:
+    - locations:
+      - locations: []
+        subtype: scene
+        id: xoxdzruncz
+        name: Encounter at Duskwood Den
+        shared_name: 
+        status: 1
+        blurb: >
+          # $[objectname]
+
+
+          In the $[bhmtyxlqlm] $[cajumixska], the party's prescience may be noticed by the very observant lookouts. If this is the case, @[](mqphnewbpw) will flee through the western-tunnel exit then bolt an lock the hatch from the outside, leaving @[](ftwwvwecmn) and the rest of the bandits to fight. While fleeing, she will drop her @[](rplgaqbqtx).
+
+
+          Once outside, she will grab a horse from the front of the complex, ride to $[xxnjogoqxa] and board an $[iokwfwzhvc] boat headed for $[svflxcdrna].
+
+
+          The bandits in the den will serve to delay the party long enough for Scars to get a good head-start.
+
+
+          ## Fight
+
+
+          - @[](ftwwvwecmn)
+
+          - 4x Bandits
+
+
+          They will scattered around the basement.
+        order: 1
+        notes: []
+        chapters:
+        - drvczfrjcn
+        consumables: []
+        shared: false
+        access_roles: []
+        primaryid: 
+        prominence: 
+      subtype: location
+      id: cajumixska
+      name: Basement
+      shared_name: 
+      status: 1
+      blurb: >-
+        # $[objectname]
+
+
+        The basement is very large (much larger than the building above) and comprises of a number of rooms. In the north-west corner, there is a ladder leading to up to a hatch. The hatch open up inside the trunk of a large dead tree in the forest. It can be bolted and locked from top and bottom to be secured without someone opening it from both sides.
+
+
+        ## Layout
+
+
+        ![](https://i.imgur.com/2Mcqk0f.png)
+
+
+        ## Rooms
+
+
+        ### Top Left
+
+
+        This looks to be an operations room of some kind. There is some paperwork laying around, it all looks above board for a legitimate import/export business.
+
+
+        There is a hastily scribbled note saying  "*had to leave, normal route west*". It is signed with the initial **S**.
+
+
+        ### Bottom Left
+
+
+        General Store Room - Full of provisions, basic goods that have been stolen from merchants, etc.
+
+
+        ### Top Right
+
+
+        Has a number of bed rolls spread out on the floor, it is being used by the Fist for members to sleep when they need to hide or be in the area.
+      order: 1
+      notes: []
+      chapters: []
+      consumables: []
+      shared: false
+      access_roles: []
+      primaryid: 
+      prominence: 
+    subtype: building
+    id: bhmtyxlqlm
+    name: Duskwood Den
+    shared_name: 
+    status: 1
+    blurb: >-
+      # $[objectname]
+
+
+      Duskwood Den is a building complex in the Westown forest, south of the Devil's highway. Its existance isn't known by anyone outside $[iokwfwzhvc], who are using it as a headquarters for their raids on the nearby roads.
+
+
+      ## Layout
+
+
+      From the outside, it appears as a small complex surrounded by walls.
+
+
+      There is a small guardhouse before getting to the main building. This guardhouse is where is $[ftwwvwecmn] often found as he checks people and good in and out of the hideout.
+
+
+      Beyond that is the main building, a single storey building that looks like it would contain a few rooms.
+
+
+      ## Basement
+
+
+      One of the rooms contains a staircase down to a cellar. The cellar is very large and comprises of a number of rooms. There is another exit through a hatch directly outside the complex which is generally kept locked from both sides.
+    order: 6
+    notes: []
+    chapters: []
+    consumables: []
+    shared: false
+    access_roles: []
+    primaryid: 
+    prominence: 
+  subtype: region
+  id: twwfzayehs
+  name: Rivertowns
+  shared_name: 
+  status: 1
+  blurb: >-
+    # $[objectname]
+
+
+    This is an area that stretches from @[](xxnjogoqxa) in the west to the twin towns of @[](mtugsijbql) and @[](uqgfukuaht) in the east to @[](kvsxvfmdfh) in the North.
+
+
+    ## Wetlands
+
+
+    The northern half is mainly wetlands which spend most of the winter and underwater, is mostly dry in the summer, and spring and autumn depend on the recent weather. When the area floods, the only way to get to @[](kvsxvfmdfh) is by boat as the road becomes impassable. Boats are generally available from @[](xxnjogoqxa).
+
+
+    ## The Rocky River
+
+
+    To the north and east of the region is the Rocky River, which as the name suggests is a very rocky stretch of water. This combined with the generally shallow waters, make it unsuitable for shipping. Smaller craft can try and sail the waters but even they may find it too difficult. The chance of hitting rocks is high, especially when the river is flowing fast. The number of broken pieces of boats along the shoes is testament to challenging conditions sailors face when attempting to navigate the river.
+
+
+    Beyond the river are the **Quentulus Quazgar** mountains. There is just single road passing through the mountains form **Mekross** to lands east of the range.
+
+
+    ## Woodlands
+
+
+    At the south of the region is a mixture of forest, known as **The Duskwood**, and some open grassland areas.
+
+
+    ## Map
+
+
+    ![Rovertowns](https://i.imgur.com/U5lVTbL.png)
+  order: 2
+  notes: []
+  chapters: []
+  consumables: []
+  shared: false
+  access_roles: []
+  primaryid: 
+  prominence: 
+- locations: []
+  subtype: town
+  id: svflxcdrna
+  name: Traal
+  shared_name: 
+  status: 1
+  blurb: >
+    # $[objectname]
+
+
+    Traal is a town on the western shore of $[jiweqnxbdg], it is the most common destination for boats from $[xxnjogoqxa] as the road to the west is the main road towards other regions beyond.
+
+
+    !!
+
+
+    ## Unbroken Fist Presence
+
+
+    $[egnarcpsuf] also includes disrupting the trade routes in Traal similarly to $[ikvcfberca]. $[iokwfwzhvc] has a presence here where Scars can re-group and re-build.
+
+
+    !!
+  order: 3
+  notes: []
+  chapters:
+  - nctskdemkd
+  consumables: []
+  shared: false
+  access_roles: []
+  primaryid: 
+  prominence: 
+creatures:
+- creatures:
+  - creatures: []
+    statblock:
+      shared: true
+      custom_statblock: >-
+        |HP|AC|Speed|
+
+        |:---:|:---:|:---:|
+
+        |number(name=hp,label=Hit Points,value=10) / number(name=maxhp,label=Max Hit Points,value=10)|number(label=Armor Class,name=ac,value=10)|number(name=speed,label=Speed,value=10) ft.|
+
+
+        |Str|Dex|Con|Int|Wis|Cha|
+
+        |:---:|:---:|:---:|:---:|:---:|:---:|
+
+        |number(name=str,label=Strength,value=10)|number(name=dex,label=Dexterity,value=10)|number(name=con,label=Constitution,value=10)|number(name=int,label=Intelligence,value=10)|number(name=wis,label=Wisdom,value=10)|number(name=cha,label=Charisma,value=10)|
+
+        |(mod5e(show_symbol,value=str))|(mod5e(show_symbol,value=dex))|(mod5e(show_symbol,value=con))|(mod5e(show_symbol,value=int))|(mod5e(show_symbol,value=wis))|(mod5e(show_symbol,value=cha))|
+      type: custom
+    subtype: pc
+    id: yyfjkjquvr
+    name: Gralmir Thunderkeg
+    shared_name: 
+    status: 0
+    blurb: >-
+      # $[objectname]
+
+
+      Gralmir is a fierce dwarven warrior. Grew up heavily involved with criminal gangs, their past caught up with them recently and they fled to the towns and cities around @[](jiweqnxbdg) in the hope of starting over with a clean sheet, an attempt to atone for past indiscretions.
+
+
+      Was recently found by @[](yyfjkjquvr) after a hard night who vowed to help Gralmir turn a new leaf and rid themselves of the substance addictions, putting them on a path or riotousness.
+
+
+      ## Flaw
+
+
+      They have an issue with drink and drugs causing issues with judgement, physically and morally.
+    order: 1
+    notes: []
+    chapters: 
+    consumables:
+    - id: crgeptdqoe
+      name: Everfill Potion
+      blurb: >-
+        # A special Potion
+
+
+        Wow!
+      order: 1
+      current: 1
+      max: 1
+      reset_to: 0
+      display_type: numbers
+      shared: false
+    shared: false
+    access_roles: []
+    primaryid: 
+    prominence: 
+  - creatures: []
+    statblock: 
+    subtype: pc
+    id: jvqixtudyt
+    name: Thola Liadon
+    shared_name: 
+    status: 0
+    blurb: >-
+      # $[objectname]
+
+
+      A positive influence to those around them, Thola is an elven cleric who always sees the best in people and wants to help them see their personal potential.
+
+
+      Recently found @[](yyfjkjquvr) after a hard night and vowed to help them turn a new leaf and rid themselves of the substance addictions, putting them on a path or riotousness.
+
+
+      ## Ideal
+
+
+      They want to help everyone and will give everything to save anyone they see any form of potential for good.
+
+
+      ## Flaw
+
+
+      Anyone deemed unable to be saved must be destroyed.
+    order: 2
+    notes: []
+    chapters: 
+    consumables: []
+    shared: false
+    access_roles: []
+    primaryid: 
+    prominence: 
+  - creatures: []
+    statblock: 
+    subtype: pc
+    id: msudvzjbcu
+    name: Kamin Fapplebottom
+    shared_name: 
+    status: 0
+    blurb: >-
+      # $[objectname]
+
+
+      Gnomish bard. Long-standing relationship with @[](jvqixtudyt) who has often made use of their services after getting into scuffles and scrapes from rubbing people up the wrong way, usually after a few drinks.
+
+
+      Has been adventuring with @[](olbkcxwcxi) for some time. The two have developed a close bond.
+    order: 3
+    notes: []
+    chapters: 
+    consumables: []
+    shared: false
+    access_roles: []
+    primaryid: 
+    prominence: 
+  - creatures: []
+    statblock: 
+    subtype: pc
+    id: olbkcxwcxi
+    name: Hactar
+    shared_name: 
+    status: 0
+    blurb: >-
+      # $[objectname]
+
+
+      Human wizard who has been occasionally adventuring with @[](msudvzjbcu) for some time where the two have developed a close bond.
+    order: 4
+    notes:
+    - id: lhlzxymlgu
+      blurb: has @[](egnarcpsuf)
+      created_at: 2023-01-12T23:01:58.8790000Z
+      campaign_note: true
+      shared: true
+    chapters: 
+    consumables: []
+    shared: false
+    access_roles: []
+    primaryid: 
+    prominence: 
+  statblock: 
+  subtype: information
+  id: qaprpvajyy
+  name: Player Characters
+  shared_name: 
+  status: 0
+  blurb: >
+    # $[objectname]
+
+
+    {{yyfjkjquvr.summary}}
+
+
+    {{jvqixtudyt.summary}}
+
+
+    {{msudvzjbcu.summary}}
+
+
+    {{olbkcxwcxi.summary}}
+  order: 1
+  notes: []
+  chapters: 
+  consumables:
+  - id: sfllsanuhg
+    name: Reputation with Devil's Protection Co.
+    blurb: ''
+    order: 1
+    current: 0
+    max: 1
+    reset_to: 0
+    display_type: blocks
+    shared: false
+  shared: false
+  access_roles: []
+  primaryid: 
+  prominence: 
+- creatures: []
+  statblock:
+    shared: true
+    custom_statblock: >
+      |HP|AC|Speed|
+
+      |:---:|:---:|:---:|
+
+      |number(name=hp,label=Hit Points,value=67) / number(name=maxhp,label=Max Hit Points,value=67)|number(label=Armor Class,name=ac,value=13)|number(name=speed,label=Speed,value=30) ft.|
+
+
+      |str|dex|con|int|wis|cha|
+
+      |:---:|:---:|:---:|:---:|:---:|:---:|
+
+      |number(name=str,label=Strength,value=16)|number(name=dex,label=Dexterity,value=12)|number(name=con,label=Constitution,value=17)|number(name=int,label=Intelligence,value=9)|number(name=wis,label=Wisdom,value=11)|number(name=cha,label=Charisma,value=9)|
+
+      |(mod5e(show_symbol,value=str,dice=1d20+n,dicelabel=Strength Check))|(mod5e(show_symbol,value=dex,dice=1d20+n,dicelabel=Dexterity Check))|(mod5e(show_symbol,value=con,dice=1d20+n,dicelabel=Constitution Check))|(mod5e(show_symbol,value=int,dice=1d20+n,dicelabel=Intelligence Check))|(mod5e(show_symbol,value=wis,dice=1d20+n,dicelabel=Wisdom Check))|(mod5e(show_symbol,value=cha,dice=1d20+n,dicelabel=Charisma Check))|
+
+
+      ---
+
+
+      **Senses** Passive Perception number(name=passivep,label=Passive Perception,value=10)  
+
+
+      ---
+
+
+      **Reckless.** At the start of his turn, Edmor can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against him have advantage until the start of its next turn.
+
+
+      ## Actions
+
+
+      **Greataxe.** Melee Weapon Attack: rollable(dice=1d20+5,dicelabel=Greataxe: To Hit,label=+5) to hit, reach 5 ft., one target. Hit: 9 (rollable(dice=1d12 + 3,dicelabel=Greataxe: Damage)) slashing damage.
+    type: custom
+  subtype: friend
+  id: omhfhzfhxc
+  name: Edmor Greatmaul
+  shared_name: 
+  status: 0
+  blurb: >
+    # $[objectname]
+
+
+    A dwarven former mercenary who has opened a business protecting groups of travelers along the @[](hjelnwbcjp).
+
+
+    ## Personality
+
+
+    Edmor is a pleasant, approachable, and welcoming person, and enjoys to dink with old friends and new. But he has fierce side which often comes out when he is protecting merchants in his role with the @[](tzznfrlpqn). He Wields a greataxe as his primary weapon when working.
+
+
+    ## His Past
+
+
+    Edmor spent much of his life as a mercenary for hire and occasional adventurer, he earned a decent living and travelled much of the region.
+  order: 2
+  notes:
+  - id: tsuhozvyhu
+    blurb: is now 'Encountered'
+    created_at: 2023-01-12T23:07:09.8790000Z
+    campaign_note: true
+    shared: true
+  chapters:
+  - drvczfrjcn
+  consumables: []
+  shared: false
+  access_roles: []
+  primaryid: 
+  prominence: circle,fill,1
+- creatures: []
+  statblock: 
+  subtype: friend
+  id: uqmasyyfck
+  name: Fastolm Cottook
+  shared_name: 
+  status: 0
+  blurb: >-
+    # $[objectname]
+
+
+    Male Dwarf Fighter. Fastolm has thick golden hair and green eyes. He wears chain mail and wields a two handed hammer.
+
+
+    ## Devil's Protection
+
+
+    Fastolm is currently working as a protector for the @[](tzznfrlpqn) and has not yet returned from his latest commission with the company and is presumed dead.
+
+
+    !!
+
+
+    ## Location
+
+
+    Fastolm survived the bandit attack on the caravan heavily injured, but struggled a short distance away in search of food and water. He ended up in a @[](vnfayumnxv) where he was too weak to fight back. A giant spider wrapped him in a web, where he remains unable to escape. **If found within 2 days he will still be alive**.
+
+
+    !!
+  order: 3
+  notes:
+  - id: ycmarkbsfv
+    blurb: is now 'Encountered'
+    created_at: 2023-01-20T00:51:05.8790000Z
+    campaign_note: true
+    shared: true
+  - id: erwtvubykc
+    blurb: Told the party the details of the bandit attack and that his colleague was killed
+    created_at: 2023-01-20T00:55:09.8790000Z
+    campaign_note: true
+    shared: true
+  - id: yvgyrneedp
+    blurb: He mentioned that the bandits mentioned a placed they called 'The Den'
+    created_at: 2023-01-20T00:55:11.8790000Z
+    campaign_note: true
+    shared: true
+  chapters:
+  - drvczfrjcn
+  consumables: []
+  shared: false
+  access_roles: []
+  primaryid: 
+  prominence: 
+- creatures: []
+  statblock: 
+  subtype: npc
+  id: bmulwambsf
+  name: Ryn Ancin
+  shared_name: 
+  status: 0
+  blurb: >-
+    # $[objectname]
+
+
+    Male Human Fighter.
+
+
+    ## Devil's Protection
+
+
+    Ryn is currently working as a protector for the @[](tzznfrlpqn) and has not yet returned from his latest commission with the company and is presumed dead.
+
+
+    !!
+
+
+    ## Location
+
+
+    Ryn survived the bandit attack on the caravan heavily injured, but struggled a short distance away in search of food and water. He ended up in a @[](vnfayumnxv) where he was too weak to fight back. A giant spider wrapped him in a web, where he remains unable to escape. **If found within 1 day he will still be alive**.
+
+
+    !!
+  order: 4
+  notes:
+  - id: vswoegnuej
+    blurb: The party did not find @[](bmulwambsf) quick enough and he died
+    created_at: 2023-01-19T22:41:32.8790000Z
+    campaign_note: true
+    shared: true
+  - id: gdhqjejrbx
+    blurb: is now 'Dead'
+    created_at: 2023-01-19T22:41:34.8790000Z
+    campaign_note: true
+    shared: true
+  chapters:
+  - drvczfrjcn
+  consumables: []
+  shared: false
+  access_roles: []
+  primaryid: 
+  prominence: 
+- creatures:
+  - creatures: []
+    statblock:
+      shared: true
+      custom_statblock: >
+        |HP|AC|Speed|
+
+        |:---:|:---:|:---:|
+
+        |number(name=hp,label=Hit Points,value=65) / number(name=maxhp,label=Max Hit Points,value=65)|number(label=Armor Class,name=ac,value=15)|number(name=speed,label=Speed,value=30) ft.|
+
+
+        |str|dex|con|int|wis|cha|
+
+        |:---:|:---:|:---:|:---:|:---:|:---:|
+
+        |number(name=str,label=Strength,value=15)|number(name=dex,label=Dexterity,value=16)|number(name=con,label=Constitution,value=14)|number(name=int,label=Intelligence,value=14)|number(name=wis,label=Wisdom,value=11)|number(name=cha,label=Charisma,value=14)|
+
+        |(mod5e(show_symbol,value=str,dice=1d20+n,dicelabel=Strength Check))|(mod5e(show_symbol,value=dex,dice=1d20+n,dicelabel=Dexterity Check))|(mod5e(show_symbol,value=con,dice=1d20+n,dicelabel=Constitution Check))|(mod5e(show_symbol,value=int,dice=1d20+n,dicelabel=Intelligence Check))|(mod5e(show_symbol,value=wis,dice=1d20+n,dicelabel=Wisdom Check))|(mod5e(show_symbol,value=cha,dice=1d20+n,dicelabel=Charisma Check))|
+
+
+        ---
+
+
+        **Saving Throws** Str rollable(dice=1d20+4,dicelabel=Strength Saving Throw,label=+4), Dex rollable(dice=1d20+5,dicelabel=Dexterity Saving Throw,label=+5), Wis rollable(dice=1d20+2,dicelabel=Wisdom Saving Throw,label=+2)  
+
+        **Skills** Athletics rollable(dice=1d20+4,dicelabel=Athletics Check,label=+4), Deception rollable(dice=1d20+4,dicelabel=Deception Check,label=+4)  
+
+        **Senses** Passive Perception 10  
+
+
+        ## Actions
+
+
+        ***Multiattack.*** $[objectname] makes three melee attacks: two with its scimitar and one with its dagger. Or the captain makes two ranged attacks with its daggers.
+
+
+        ***Scimitar.*** Melee Weapon Attack: rollable(dice=1d20+5,dicelabel=Scimitar: To Hit,label=+5) to hit, reach 5 ft., one target. Hit: 6 (rollable(dice=1d6 + 3,dicelabel=Scimitar: Damage)) slashing damage.
+
+
+        ***Dagger.*** Melee or Ranged Weapon Attack: rollable(dice=1d20+5,dicelabel=Dagger: To Hit,label=+5) to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (rollable(dice=1d4 + 3,dicelabel=Dagger: Damage)) piercing damage.
+
+
+        ## Reactions
+
+
+        ***Parry.*** $[objectname] adds 2 to its AC against one melee attack that would hit it. To do so, the captain must see the attacker and be wielding a melee weapon.
+      type: custom
+    subtype: neutral
+    id: mqphnewbpw
+    name: Inchel Keldan
+    shared_name: Scars
+    status: 0
+    blurb: >-
+      # $[objectname]
+
+
+      Slender to the point of emaciation, her muted emerald eyes avoid your gaze. Though her milk-white skin is uncommonly pale, some effort has been made with makeup to add some color to her cheeks. The elf wears a worn and practical suit of studded leather, but a satchel bulges at her side, and her dark hair has been combed back in an equally businesslike fashion.
+
+
+      !!
+
+
+      ## Alter Ego
+
+
+
+      Keldan goes by the name **Scars** in her role as leader of @[](iokwfwzhvc) and is the one ordering the attacks on targets along the @[](hjelnwbcjp), @[](qesmbwnchf) and surrounding areas.
+
+
+      Scars is her bandit persona, she makes absolutely sure to not have her real name known by anyone who knows her as Scars and tries to limit the number of people she actually sees to avoid the possibility of anyone finding out.
+
+
+      !!
+    order: 1
+    notes:
+    - id: qygfjrwmbl
+      blurb: is now 'Encountered'
+      created_at: 2023-01-19T22:54:41.8790000Z
+      campaign_note: true
+      shared: true
+    - id: yjtdqmkeut
+      blurb: '@[](msudvzjbcu) felt something was up with her story, being unconcerned about the fact that Edmor was taken to make her delivery'
+      created_at: 2023-01-19T23:00:45.8790000Z
+      campaign_note: true
+      shared: true
+    chapters: 
+    consumables: []
+    shared: false
+    access_roles: []
+    primaryid: 
+    prominence: circle,fill,0
+  - creatures: []
+    statblock:
+      shared: true
+      custom_statblock: >
+        |HP|AC|Speed|
+
+        |:---:|:---:|:---:|
+
+        |number(name=hp,label=Hit Points,value=33) / number(name=maxhp,label=Max Hit Points,value=33)|number(label=Armor Class,name=ac,value=13)|number(name=speed,label=Speed,value=30) ft.|
+
+
+        |str|dex|con|int|wis|cha|
+
+        |:---:|:---:|:---:|:---:|:---:|:---:|
+
+        |number(name=str,label=Strength,value=11)|number(name=dex,label=Dexterity,value=14)|number(name=con,label=Constitution,value=12)|number(name=int,label=Intelligence,value=10)|number(name=wis,label=Wisdom,value=13)|number(name=cha,label=Charisma,value=14)|
+
+        |(mod5e(show_symbol,value=str,dice=1d20+n,dicelabel=Strength Check))|(mod5e(show_symbol,value=dex,dice=1d20+n,dicelabel=Dexterity Check))|(mod5e(show_symbol,value=con,dice=1d20+n,dicelabel=Constitution Check))|(mod5e(show_symbol,value=int,dice=1d20+n,dicelabel=Intelligence Check))|(mod5e(show_symbol,value=wis,dice=1d20+n,dicelabel=Wisdom Check))|(mod5e(show_symbol,value=cha,dice=1d20+n,dicelabel=Charisma Check))|
+
+
+        ---
+
+
+        **Skills** Deception rollable(dice=1d20+4,dicelabel=Deception Check,label=+4), Persuasion rollable(dice=1d20+4,dicelabel=Persuasion Check,label=+4), Religion rollable(dice=1d20+2,dicelabel=Religion Check,label=+2)  
+
+        **Senses** Passive Perception 11  
+
+        **Languages** Common  
+
+
+        ---
+
+
+        **Dark Devotion.** $[objectname] has advantage on saving throws against being charmed or frightened.
+
+
+        **Spellcasting.** $[objectname]  is a 4th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 11, +3 to hit with spell attacks). $[objectname] has the following spells prepared:
+
+
+        Cantrips (at will): 
+
+        *light*, 
+
+        *sacred flame*, 
+
+        *thaumaturgy*  
+
+        1st level (4 slots): 
+
+        *command*, 
+
+        *inflict wounds*, 
+
+        *shield of faith*  
+
+        2nd level (3 slots): 
+
+        *hold person*, 
+
+        *spiritual weapon*  
+
+
+        ## Actions
+
+
+        ***Multiattack.*** $[objectname] makes two melee attacks.
+
+
+        ***Dagger.*** Melee or Ranged Weapon Attack: rollable(dice=1d20+4,dicelabel=Dagger: To Hit,label=+4) to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (rollable(dice=1d4 + 2,dicelabel=Dagger: Damage)) piercing damage.
+      type: custom
+    subtype: hostile
+    id: ftwwvwecmn
+    name: Zaneas
+    shared_name: 
+    status: 0
+    blurb: >
+      # $[objectname]
+
+
+      The wizard’s long, unkempt hair and uncombed beard are both gray and matted, a perfect match for his worn and patched dress robes. Yet his hands are still delicate and dexterous regardless of the burn marks on his fingertips as he leafs carefully through the pages of ancient tomes in search of hidden knowledge.
+
+
+      !!
+
+
+      Zaneas is one of the leaders of @[](iokwfwzhvc), second in command to @[](mqphnewbpw). Zaneas only knows Inchel as **Scars**.
+
+
+      !!
+    order: 2
+    notes:
+    - id: cnxfpjgklr
+      blurb: is now 'Encountered'
+      created_at: 2023-01-12T23:58:24.8790000Z
+      campaign_note: true
+      shared: true
+    chapters: 
+    consumables:
+    - id: jeuadgepmt
+      name: 1st Level Spells
+      blurb: "Command  \nInflict Wounds  \nShield of Faith  "
+      order: 1
+      current: 4
+      max: 4
+      reset_to: 4
+      display_type: blocks
+      shared: false
+    - id: abkqolqmkj
+      name: 2nd Level Spells
+      blurb: "Hold Person  \nSpiritual Weapon  "
+      order: 2
+      current: 3
+      max: 3
+      reset_to: 3
+      display_type: blocks
+      shared: false
+    shared: false
+    access_roles: []
+    primaryid: 
+    prominence: circle,fill,0
+  statblock: 
+  subtype: information
+  id: qkvptwasat
+  name: Unbroken Fist Members
+  shared_name: 
+  status: 0
+  blurb: >+
+    # $[objectname]
+
+  order: 5
+  notes: []
+  chapters: 
+  consumables: []
+  shared: false
+  access_roles: []
+  primaryid: iokwfwzhvc
+  prominence: 
+- creatures:
+  - creatures: []
+    statblock: 
+    subtype: beast
+    id: lfrwheeaxp
+    name: Isabelle
+    shared_name: Isabelle the Cat
+    status: 0
+    blurb: >-
+      # $[objectname]
+
+
+      A black cat who often follows $[ukqnmaekls] around town and stays close to him.
+
+
+      !!
+
+
+      ## Secret
+
+
+      Isabelle is a human who polymorphed into a cat around 1 year ago. After she stayed close by for some time, $[ukqnmaekls] eventually was able to find someone to cast a spell allowing him to speak with animals when he found out the truth. Since then he has been seeking a cure.
+
+
+      Wilhye doesn't have much to pay for help in finding a cure and is concerned with revealing the truth, so is seeking to learn to cast spells himself in order to remove the effect.
+
+
+      *His magical path, being a cleric, won't see him able to cast the required spells even if he were able to learn quick enough before the natural life of the cat comes to an end. He will need help but doesn't know it yet.*
+
+
+      !!
+    order: 1
+    notes: []
+    chapters:
+    - drvczfrjcn
+    consumables: []
+    shared: false
+    access_roles: []
+    primaryid: 
+    prominence: 
+  statblock:
+    shared: true
+    custom_statblock: >
+      |HP|AC|Speed|
+
+      |:---:|:---:|:---:|
+
+      |number(name=hp,label=Hit Points,value=21) / number(name=maxhp,label=Max Hit Points,value=21)|number(label=Armor Class,name=ac,value=14)|number(name=speed,label=Speed,value=30) ft.|
+
+
+      |str|dex|con|int|wis|cha|
+
+      |:---:|:---:|:---:|:---:|:---:|:---:|
+
+      |number(name=str,label=Strength,value=11)|number(name=dex,label=Dexterity,value=7)|number(name=con,label=Constitution,value=10)|number(name=int,label=Intelligence,value=11)|number(name=wis,label=Wisdom,value=17)|number(name=cha,label=Charisma,value=13)|
+
+      |(mod5e(show_symbol,value=str,dice=1d20+n,dicelabel=Strength Check))|(mod5e(show_symbol,value=dex,dice=1d20+n,dicelabel=Dexterity Check))|(mod5e(show_symbol,value=con,dice=1d20+n,dicelabel=Constitution Check))|(mod5e(show_symbol,value=int,dice=1d20+n,dicelabel=Intelligence Check))|(mod5e(show_symbol,value=wis,dice=1d20+n,dicelabel=Wisdom Check))|(mod5e(show_symbol,value=cha,dice=1d20+n,dicelabel=Charisma Check))|
+
+
+      ---
+
+
+      **Skills** Medicine rollable(dice=1d20+4,dicelabel=Medicine Check,label=+4), Religion rollable(dice=1d20+2,dicelabel=Religion Check,label=+2)  
+
+      **Senses** Passive Perception 12  
+
+      **Languages** Common  
+
+
+      ---
+
+
+      ***Spellcasting***. Wilhye is a 1st-level spellcaster. His spellcasting ability is Wisdom (spell save DC 12, rollable(dice=1d20+4,dicelabel=Spell Attack: To Hit,label=+4) to hit with spell attacks). He has following spells prepared:
+
+
+      **Cantrips (at will)**: light, sacred flame, thaumaturgy  
+
+      **1st level (3 slots)**: bless, cure wounds, sanctuary  
+
+
+      ## Actions
+
+
+      ***Club.*** Melee Weapon Attack: rollable(dice=1d20+2,dicelabel=Club: To Hit,label=+2) to hit, reach 5 ft., one target. Hit: 2 (rollable(dice=1d4,dicelabel=Club: Damage)) bludgeoning damage.
+    type: custom
+  subtype: neutral
+  id: ukqnmaekls
+  name: Wilhye
+  shared_name: 
+  status: 0
+  blurb: >
+    # $[objectname]
+
+
+    Male Dwarf Cleric. Wilhye has silver hair and light brown eyes, and an unusual mark on his leg. He wears leather armor and wields a handaxe and sling. He believes his devotion to his god has given him some magical ability in recent times.
+
+
+    ## Wilhye's Cat
+
+
+    Wilhye has an animal companion who often follows him all over the town, **@[](lfrwheeaxp)**. The cat is named after his wife who went missing around a year ago.
+  order: 6
+  notes: []
+  chapters:
+  - drvczfrjcn
+  consumables:
+  - id: fnnhwjdaxg
+    name: 1st Level Spells
+    blurb: "Bless  \nCure Wounds  \nSanctuary  "
+    order: 1
+    current: 3
+    max: 3
+    reset_to: 3
+    display_type: blocks
+    shared: false
+  shared: false
+  access_roles: []
+  primaryid: 
+  prominence: 
+- creatures: []
+  statblock: 
+  subtype: neutral
+  id: kpbnayahqk
+  name: Harley Resby
+  shared_name: 
+  status: 0
+  blurb: >-
+    # $[objectname]
+
+
+    Harley has been the mayor of @[](mtugsijbql) for as long as most in the town can remember. She has seen the town prosper over her time in office, along with its alliance with @[](uqgfukuaht), and will be leaving a great legacy when she retires, probably within the next year.
+  order: 7
+  notes:
+  - id: jrrjgneprc
+    blurb: is now 'Encountered'
+    created_at: 2023-01-12T22:29:33.8790000Z
+    campaign_note: true
+    shared: true
+  - id: gqxtasmyet
+    blurb: '@[](msudvzjbcu) convinced a slightly wary Harley that the party is genuine and interested in helping'
+    created_at: 2023-01-12T22:31:35.8790000Z
+    campaign_note: true
+    shared: true
+  - id: qkjfgdjurq
+    blurb: After a discussion, she is keen for the party to investigate the bandits and gave some more information about what she knows
+    created_at: 2023-01-12T22:37:37.8790000Z
+    campaign_note: true
+    shared: true
+  - id: dmukayzwdr
+    blurb: Told the party to go and find @[](omhfhzfhxc)/@[](tzznfrlpqn) as he is on the front line and may have some work that can be of mutual help
+    created_at: 2023-01-12T22:37:43.8790000Z
+    campaign_note: true
+    shared: true
+  chapters:
+  - drvczfrjcn
+  consumables: []
+  shared: false
+  access_roles: []
+  primaryid: 
+  prominence: 
+- creatures: []
+  statblock: 
+  subtype: neutral
+  id: bkzzzegnhx
+  name: Kothil Balley
+  shared_name: 
+  status: 0
+  blurb: >-
+    # $[objectname]
+
+
+    Kothil is a male gnome and the current mayor of @[](uqgfukuaht). He has golden hair and brown eyes. He wears fine clothing and a mink fur cape.
+
+
+    ## Political Career
+
+
+    Kothil has been mayor of Mekross for around 6 months and, at 26 years old, is the youngest mayor ever elected.
+
+
+    ## Secret
+
+
+    Kothil is being blackmailed by @[](iokwfwzhvc) who have put him forward as a mayoral candidate due to the hold they have over him and the ease they can manipulate him. He is allowing the bandit activity in exchange for personal money. He plans to take as much money as he can before fleeing somewhere far away from all of this with his money.
+  order: 8
+  notes: []
+  chapters:
+  - drvczfrjcn
+  consumables: []
+  shared: false
+  access_roles: []
+  primaryid: 
+  prominence: 
+organisations:
+- organisations: []
+  subtype: mercenary
+  id: tzznfrlpqn
+  name: Devil's Protection Company
+  shared_name: 
+  status: 0
+  blurb: >
+    # $[objectname]
+
+
+    Run by @[](omhfhzfhxc) who set up the company to provide protection for merchants and travellers along the @[](hjelnwbcjp) to ensure their safe passage between @[](ikvcfberca) and @[](xxnjogoqxa).
+
+
+    ## Protectors
+
+
+    {{omhfhzfhxc.status}}
+
+    {{uqmasyyfck.status}}
+
+    {{bmulwambsf.status}}
+  order: 1
+  notes:
+  - id: nemtqygagd
+    blurb: the party found @[](omhfhzfhxc) at the @[](tzznfrlpqn)
+    created_at: 2023-01-12T23:07:05.8790000Z
+    campaign_note: true
+    shared: true
+  - id: babgtwevpb
+    blurb: is now 'Known'
+    created_at: 2023-01-12T23:07:07.8790000Z
+    campaign_note: true
+    shared: true
+  - id: plbycaghyg
+    blurb: '@[](omhfhzfhxc) was happy to tell the party what he knows and has asked them for some help with 1) tracking down some missing protectors and 2) accompanying a shipment that urgently needs to get to Westown'
+    created_at: 2023-01-12T23:18:11.8790000Z
+    campaign_note: true
+    shared: true
+  chapters:
+  - drvczfrjcn
+  consumables:
+  - id: rzehgguydp
+    name: Party Reputation
+    blurb: >-
+      The party's reputation with the Devil's Protection Company
+
+
+      {{pstlojybvn}}
+    order: 1
+    current: 4
+    max: 6
+    reset_to: 3
+    display_type: blocks
+    shared: false
+  shared: false
+  access_roles: []
+  primaryid: 
+  prominence: 
+- organisations: []
+  subtype: criminal
+  id: iokwfwzhvc
+  name: The Unbroken Fist
+  shared_name: 
+  status: 0
+  blurb: >-
+    # $[objectname]
+
+
+    Led by @[](mqphnewbpw), with a number of people working for her, notably second in command @[](ftwwvwecmn). The criminal organisation has a presence in a couple of towns around @[](jiweqnxbdg) and is looking to expand into @[](twwfzayehs).
+
+
+    !!
+
+
+    Inchel Keldan is known as **Scars** by anyone connected to the Fist. She keeps her private and Fist "personas" very seperate.
+
+
+    !!
+
+
+    They are making decent money at the moment and paying staff very well. Morale is currently extremely high.
+
+
+    ## Identification
+
+
+    The bandits always wear something coloured deep purple and carry an insignia drawn on a piece on leather. The purple item can be anything, it is not like a uniform, as long as it can be noticed easily by others who are looking for it. It could be a wrap of cloth round an arm, a bandana, some gloves, anything can work. The insignia is used as identification for instance for gaining access to bandit heels buildings.
+
+
+    ## Primary Members
+
+
+    {{mqphnewbpw.status}}
+
+    {{ftwwvwecmn.status}}
+
+
+    ## Other Members
+
+
+    - Mad Nathen
+
+    - Five Fingered Rubert
+
+    - Nightmare Denver
+
+    - Dingbat Kayden
+
+    - Smirking Clayton
+
+    - Plus some unnamed NPCs
+  order: 2
+  notes:
+  - id: epoqxittrj
+    blurb: is now 'Known', but not by name
+    created_at: 2023-01-12T23:01:52.8790000Z
+    campaign_note: true
+    shared: true
+  - id: xjnyhvvhjg
+    blurb: The party has seen the symbol that the organisation use but don't yet know what it is
+    created_at: 2023-01-12T23:01:54.8790000Z
+    campaign_note: false
+    shared: true
+  chapters: 
+  consumables:
+  - id: hxeswinysv
+    name: Party Reputation
+    blurb: >-
+      The party's reputation with the Unbroken Fist
+
+
+      {{pstlojybvn}}
+    order: 1
+    current: 3
+    max: 6
+    reset_to: 3
+    display_type: blocks
+    shared: false
+  shared: false
+  access_roles: []
+  primaryid: 
+  prominence: 
+- organisations: []
+  subtype: faith
+  id: kswascfari
+  name: Church of the Long Storm
+  shared_name: 
+  status: 0
+  blurb: >-
+    # $[objectname]
+
+
+    The Church is based on the belief that storms and other natural disasters are their God's way of punishing people, and have made it their responsibility as followers to guide the population to the path of good in order to avoid this.
+
+
+    They are ruthless in their belief that any time a natural disaster strikes, those affected are completely deserving of the act.
+
+
+    There will always be *rollable(1d4)* members in the church at any one time.
+
+
+    !!
+
+
+    ## The Church
+
+
+    The church will be hospitable and welcoming to the party and will offer them restorative services at a competitive cost.
+
+
+    !!
+
+
+    ## Members
+
+
+    {{ukqnmaekls.status}}
+  order: 3
+  notes: []
+  chapters: 
+  consumables:
+  - id: rvtgjgotfq
+    name: Party Reputation
+    blurb: >-
+      The party's reputation with the Church of the Long Storm
+
+
+      {{pstlojybvn}}
+    order: 1
+    current: 3
+    max: 6
+    reset_to: 3
+    display_type: blocks
+    shared: false
+  shared: false
+  access_roles: []
+  primaryid: 
+  prominence: square,border,3
+quests:
+- quests: []
+  subtype: primaryquest
+  id: wgdankbrjb
+  name: Initial Investigations
+  shared_name: 
+  status: 0
+  blurb: >-
+    # $[objectname]
+
+
+    The party will need to find some information on what is going in the area. So far you only have rumours to go on and need to see if there is something more definitive to go on.
+
+
+    !!
+
+
+    They may decide, for example, to
+
+    - Seek out town officials
+
+    - Ask some merchants who made trade with other towns
+
+    - Ask around in the local tavern
+
+    - Whatever else they think of!
+
+    - Find a lead towards @[](tzznfrlpqn)
+
+
+    !!
+
+
+    !!
+
+
+    ## Progress
+
+
+    Anyone in town who is willing to talk to the party will likely point them towards @[](omhfhzfhxc) and the @[](tzznfrlpqn), being the ones dealing directly with the problem.
+
+
+    Edmor will be looking for help with @[](wghdsmpvjm) and @[](gphxkgmexf) and will see the potential of the party, offering them a reward for help.
+
+
+    If the party make no progress in finding information, have Edmor come and find them, having noticed them and their potential.
+
+
+    !!
+  order: 1
+  notes:
+  - id: jebwzvqgrw
+    blurb: is now 'Active'
+    created_at: 2023-01-05T22:09:37.8790000Z
+    campaign_note: true
+    shared: true
+  - id: tqnammxtwu
+    blurb: The party have been told the basics from @[](kpbnayahqk) - The recent dates and the attacks, the fall in traffic travelling through
+    created_at: 2023-01-12T22:37:39.8790000Z
+    campaign_note: true
+    shared: true
+  - id: awvecrfviv
+    blurb: They were told that all eye-witness accounts mentioned the bandits wearing a piece of purple clothing
+    created_at: 2023-01-12T22:37:41.8790000Z
+    campaign_note: true
+    shared: true
+  - id: qxdaelecfz
+    blurb: is now 'Completed'
+    created_at: 2023-01-12T23:18:13.8790000Z
+    campaign_note: true
+    shared: true
+  chapters:
+  - drvczfrjcn
+  consumables: []
+  shared: false
+  access_roles: []
+  primaryid: 
+  prominence: ''
+- quests:
+  - quests: []
+    subtype: task
+    id: yhhfnzbmbl
+    name: Find out about the bandit activity
+    shared_name: 
+    status: 0
+    blurb: >-
+      # $[objectname]
+
+
+      You quickly learned that there is an increase of bandit activity around @[](jiweqnxbdg). You need to try and learn some more about the activity and who it behind it.
+
+
+      !!
+
+
+      ## Progression
+
+
+      Once the party has
+
+
+      - Learned about the existence of @[](iokwfwzhvc)
+        - People in the towns will likely know of their existence, especially those that have had direct run-ins with them
+        - Some people may offer red herrings based on their own ideas of who is behind the attacks
+      - Found out they are led by Scars
+
+      - Had enough pointers that the Fist are behind the attacks
+
+
+      They can move to step @[](vhyytjfazu).
+
+
+      !!
+    order: 1
+    notes: []
+    chapters:
+    - drvczfrjcn
+    consumables: []
+    shared: false
+    access_roles: []
+    primaryid: 
+    prominence: 
+  - quests: []
+    subtype: task
+    id: vhyytjfazu
+    name: Learn about the bandits
+    shared_name: 
+    status: 0
+    blurb: >-
+      # $[objectname]
+
+
+      You have learned that the bandit attacks are being organised by members of @[](iokwfwzhvc), and organisation said to be led by someone named "@[Scars](mqphnewbpw)". You need to see if you can find some information about them.
+
+
+      !!
+
+
+      ## Progression
+
+
+      Once the party has
+
+
+      - Found out the Fist have an HQ somewhere nearby
+        - General rumours may reveal this
+        - Maybe some town officials will have this info
+      - Learned of @[](bhmtyxlqlm)
+        - Find some bandits and interrogate or tail them
+        - A lot of questions
+        - Look for clues in a recent attack site - maybe something was left - a note, even a map!
+
+      They can move on to @[](gfqfxcabiy)
+
+
+      !!
+    order: 2
+    notes: []
+    chapters:
+    - drvczfrjcn
+    consumables: []
+    shared: false
+    access_roles: []
+    primaryid: 
+    prominence: 
+  - quests: []
+    subtype: task
+    id: gfqfxcabiy
+    name: Find Duskwood Den
+    shared_name: 
+    status: 0
+    blurb: >
+      # $[objectname]
+
+
+      You have learned that the @[](iokwfwzhvc) are based in a hideout named @[](bhmtyxlqlm). Maybe the bandit leaders, namely Scars will be there.
+
+
+      !!
+
+
+      ## Progression
+
+
+      Once the party has found @[](bhmtyxlqlm), they can move on to @[](vlpfjaddpg).
+
+
+      !!
+    order: 3
+    notes: []
+    chapters:
+    - drvczfrjcn
+    consumables: []
+    shared: false
+    access_roles: []
+    primaryid: 
+    prominence: 
+  - quests: []
+    subtype: task
+    id: vlpfjaddpg
+    name: Stop the bandits
+    shared_name: 
+    status: 0
+    blurb: >-
+      # $[objectname]
+
+
+      You have found @[](bhmtyxlqlm) and are planning on getting inside and putting a stop to the bandit activity one way or another!
+
+
+      !!
+
+
+      ## Progression
+
+
+      It is likely that @[](mqphnewbpw) has fled at this point. If so, the party can move on to @[](lywxbjpnjf).
+
+
+      The may find the peper note implying that she has gone to Westown (or at least west).
+
+
+      !!
+    order: 4
+    notes: []
+    chapters: 
+    consumables: []
+    shared: false
+    access_roles: []
+    primaryid: 
+    prominence: 
+  subtype: primaryquest
+  id: rqzdnedlhk
+  name: Stop the Bandits
+  shared_name: 
+  status: 0
+  blurb: >-
+    # $[objectname]
+
+
+    The unrest around the Whispering Sea is getting problematic for the normally relatively peaceful towns. You have been asked to get to the bottom of this situation and "resolve it" any way you see fit.
+
+
+    !!
+
+
+    ***Note:*** The expected course of action is to simply go in and kill @[](iokwfwzhvc) leaders. But maybe the party want to go about it another way... Reason with them? Take control of the organisation themselves and steer it in another direction? Something else?
+
+
+    !!
+
+
+    ## Steps
+
+
+    {{yhhfnzbmbl.status}}
+
+    {{vhyytjfazu.status?summary}}
+
+
+    !!
+
+
+    {{gfqfxcabiy.status}}
+
+    {{vlpfjaddpg.status}}
+
+
+    !!
+  order: 2
+  notes:
+  - id: dcugtqnwsm
+    blurb: is now 'Active'
+    created_at: 2023-01-12T23:18:15.8790000Z
+    campaign_note: true
+    shared: true
+  chapters: 
+  consumables: []
+  shared: false
+  access_roles: []
+  primaryid: 
+  prominence: circle,border,2
+- quests: []
+  subtype: sidequest
+  id: wghdsmpvjm
+  name: Find the Missing Protectors
+  shared_name: 
+  status: 0
+  blurb: >-
+    # $[objectname]
+
+
+    Some of the @[](tzznfrlpqn) have not come back from their latest commission. **@[](uqmasyyfck)** and **@[](bmulwambsf)** were accompanying a convoy of five caravans to @[](xxnjogoqxa) but there has been no sign of either the protectors or the caravans since they left.
+
+
+    !!
+
+
+    ## Secret
+
+
+    They were attacked along @[](hjelnwbcjp) by a larger and more organised group of bandits than has been making other recent attacks. Both protectors survived the attack but were left effectively for dead. They were able to gather themselves enough to go looking for food and water but ended up being caught be spiders who entwined them in webs to die.
+
+
+    !!
+  order: 3
+  notes:
+  - id: clsylatkqw
+    blurb: is now 'Active'
+    created_at: 2023-01-12T23:18:17.8790000Z
+    campaign_note: true
+    shared: true
+  - id: bjwuuuzfvb
+    blurb: The missing caravan was found and identified
+    created_at: 2023-01-19T23:38:53.8790000Z
+    campaign_note: true
+    shared: true
+  - id: yeffhlyftd
+    blurb: is now 'Completed'
+    created_at: 2023-01-20T00:55:13.8790000Z
+    campaign_note: true
+    shared: true
+  chapters:
+  - drvczfrjcn
+  consumables:
+  - id: hqkkvjnufd
+    name: Days Passed
+    blurb: >-
+      The number of days passed since the protectors went missing.
+
+
+      !!
+
+
+      If found within 1 day, @[](bmulwambsf) and @[](uqmasyyfck) will still be alive. If found within 2 days, just Fastolm will be alive.
+
+
+      !!
+    order: 1
+    current: 1
+    max: 2
+    reset_to: 0
+    display_type: blocks
+    shared: false
+  shared: false
+  access_roles: []
+  primaryid: 
+  prominence: circle,fill,1
+- quests: []
+  subtype: sidequest
+  id: gphxkgmexf
+  name: Accompany the Urgent Shipment
+  shared_name: 
+  status: 0
+  blurb: >-
+    # $[objectname]
+
+
+    There is a shipment in @[](mtugsijbql) waiting protection on the route to @[](xxnjogoqxa). The missing protectors were supposed to have been back to accompany this shipment but haven't returned yet. The shipment must get to its destination as soon as possible.
+
+
+    There are 3 caravans that need protecting along the road and @[](omhfhzfhxc) will be joining as protection and also to start investigating @[](wghdsmpvjm).
+  order: 4
+  notes:
+  - id: trwefaupxh
+    blurb: is now 'Active'
+    created_at: 2023-01-12T23:18:19.8790000Z
+    campaign_note: true
+    shared: true
+  - id: kmxynvlbdk
+    blurb: is now 'Completed'
+    created_at: 2023-01-19T22:54:43.8790000Z
+    campaign_note: true
+    shared: true
+  chapters:
+  - drvczfrjcn
+  consumables: []
+  shared: false
+  access_roles: []
+  primaryid: 
+  prominence: ''
+- quests:
+  - quests: []
+    subtype: task
+    id: lltdknblvn
+    name: Track down Edmor
+    shared_name: 
+    status: 0
+    blurb: >-
+      # $[objectname]
+
+
+      Find out what @[](iokwfwzhvc) have done with @[](omhfhzfhxc). They seemed focussed on taking him and not anything or anyone he was travelling with and didn't kill him there and then. They seem to want him alive so you may be able to rescue him, if you can find him.
+    order: 1
+    notes: []
+    chapters:
+    - drvczfrjcn
+    consumables: []
+    shared: false
+    access_roles: []
+    primaryid: 
+    prominence: 
+  - quests: []
+    subtype: task
+    id: txesxpawrq
+    name: Free the Caged Prisoner
+    shared_name: 
+    status: 0
+    blurb: >-
+      # $[objectname]
+
+
+      The party have come across a prisoner in a @[wooden cage](nzgcbdcnjn). It seems impossibly strong after attempts to cut through the wood have all failed, the party need to find out how to open it.
+
+
+      !!
+
+
+      ## Possible Solution
+
+
+      One way would be to take the cage to @[](jjrzlmtvbm) where it's magic dispels and they can cut or break into it easily.
+
+
+      There are likely other solutions that the party can come up with.
+
+
+      !!
+    order: 2
+    notes: []
+    chapters:
+    - drvczfrjcn
+    consumables: []
+    shared: false
+    access_roles: []
+    primaryid: 
+    prominence: 
+  subtype: sidequest
+  id: wesxvyvwdk
+  name: Find Edmor
+  shared_name: 
+  status: 0
+  blurb: >-
+    # $[objectname]
+
+
+    @[](omhfhzfhxc) has been taken prisoner by a group of bandits along @[](hjelnwbcjp). They seemed to want him alive and had no interest in the other people or the contents of the caravans they were travelling with.
+
+
+    ## Steps
+
+
+    {{lltdknblvn.status?summary}}
+
+
+    !!
+
+
+    {{txesxpawrq.status}}
+
+
+    !!
+
+
+    !!
+
+
+    ## Secret
+
+
+    @[](iokwfwzhvc) have taken Edmor with the intention of putting him in @[](nzgcbdcnjn).
+
+
+    !!
+  order: 5
+  notes:
+  - id: osmjdjjpet
+    blurb: is now 'Active'
+    created_at: 2023-01-13T00:13:37.8790000Z
+    campaign_note: true
+    shared: true
+  chapters:
+  - drvczfrjcn
+  consumables: []
+  shared: false
+  access_roles: []
+  primaryid: 
+  prominence: circle,border,2
+- quests: []
+  subtype: sidequest
+  id: jdsvjjcdgg
+  name: Restore Isabelle
+  shared_name: 
+  status: 0
+  blurb: >-
+    # $[objectname]
+
+
+    @[](ukqnmaekls) has let slip that @[](lfrwheeaxp) is his wife, he has asked the party for help in restoring her.
+
+
+    Wilhye doesn't have much money or many possessions but has offered offered much of what he has as a reward.
+  order: 6
+  notes: []
+  chapters:
+  - drvczfrjcn
+  consumables: []
+  shared: false
+  access_roles: []
+  primaryid: 
+  prominence: 
+- quests: []
+  subtype: primaryquest
+  id: lywxbjpnjf
+  name: Track Down Scars
+  shared_name: 
+  status: 0
+  blurb: >
+    # $[objectname]
+
+
+    @[](mqphnewbpw) has fled from @[](bhmtyxlqlm) after realising that the party had broken in. The Party believe she has gone to @[](xxnjogoqxa) but have no more leads.
+
+
+    !!
+
+
+    Scars fled to Westown where she got a boat to @[](svflxcdrna).
+
+
+    !!
+  order: 7
+  notes: []
+  chapters:
+  - nctskdemkd
+  consumables: []
+  shared: false
+  access_roles: []
+  primaryid: 
+  prominence: 
+things:
+- things:
+  - things: []
+    subtype: game
+    id: pstlojybvn
+    name: Faction Reputation
+    shared_name: 
+    status: 0
+    blurb: >
+      # $[objectname]
+
+
+      ***6: Allies.*** This faction will help you even if it’s not in their best interest to do so. They expect you to do the same for them.  
+
+      ***5: Friendly.*** This faction will help you if it doesn’t create serious problems for them. They expect you to do the same.  
+
+      ***4: Helpful.*** This faction will help you if it causes no problems or significant cost for them. They expect the same from you.
+
+
+      ***3: Neutral***
+
+
+      ***2: Interfering.*** This faction will look for opportunities to cause trouble for you (or profit from your misfortune) as long as it causes no problems or significant cost for them. They expect the same from you.  
+
+      ***1: Hostile.*** This faction will look for opportunities to hurt you as long as it doesn’t create serious problems for them. They expect you to do the same, and take precautions against you.  
+
+      ***0: War.*** This faction will go out of its way to hurt you even if it’s not in their best interest to do so. They expect you to do the same, and take precautions against you.
+    order: 1
+    notes: []
+    chapters: 
+    consumables: []
+    shared: false
+    access_roles: []
+    primaryid: 
+    prominence: 
+  subtype: information
+  id: dvpspybndj
+  name: Mechanics
+  shared_name: 
+  status: 0
+  blurb: >
+    # $[objectname]
+
+
+    Custom game mechanics.
+  order: 1
+  notes: []
+  chapters: 
+  consumables: []
+  shared: false
+  access_roles: []
+  primaryid: 
+  prominence: 
+- things:
+  - things: []
+    subtype: objective
+    id: egnarcpsuf
+    name: Unbroken Fist Motives
+    shared_name: 
+    status: 0
+    blurb: >-
+      # $[objectname]
+
+
+      The bandits have a few plays...
+
+
+      ## Disrupt The Trade Routes
+
+
+      Disrupting the trade routes will cause uncertainty in the area and force trade around the whispering sea, including to other towns that they already have a stronger foothold in.
+
+
+      ## Infiltrate Twin Towns Councils
+
+
+      Meanwhile, they are using the compromised @[](bkzzzegnhx) to gain influence in @[](uqgfukuaht) with the intention of exploiting the clause in the @[](sxfvfucbjd) to take control of @[](mtugsijbql).
+
+
+      ## Use The Sawmill
+
+
+      With the knowledge of how to work @[](jjrzlmtvbm) and what it can do, they plan to use items made there to to help their cause as well as providing an additional legitimate income stream.
+    order: 1
+    notes: []
+    chapters: 
+    consumables: []
+    shared: false
+    access_roles: []
+    primaryid: 
+    prominence: 
+  - things: []
+    subtype: document
+    id: sxfvfucbjd
+    name: Twin Towns Alliance Charter
+    shared_name: 
+    status: 0
+    blurb: >-
+      # $[objectname]
+
+
+      This document details the agreement between the twin towns to work together to allow travel between and through the towns.
+
+
+      No-one knows exactly what it says (despite it being publicly available information) as it is too complicated for the average commoner, but there is a general understanding of it's contents.
+
+
+      # Document Wording
+
+
+      It is written in legal terms but there is a clause that could be interpreted to mean that the current Mayor of **Mekross** could assume control of both towns in the event of a 'crisis', but there is no mention of a return of power to Okforth at any point after. This could mean someone could effectively seize control of both towns permanently.
+    order: 2
+    notes: []
+    chapters:
+    - drvczfrjcn
+    consumables: []
+    shared: false
+    access_roles: []
+    primaryid: 
+    prominence: 
+  subtype: information
+  id: wahtemhhfu
+  name: Lore
+  shared_name: 
+  status: 0
+  blurb: >-
+    # $[objectname]
+
+
+    Lore, background, general world related information.
+  order: 2
+  notes: []
+  chapters: 
+  consumables: []
+  shared: false
+  access_roles: []
+  primaryid: 
+  prominence: 
+- things:
+  - things: []
+    subtype: item
+    id: dmffnwfkow
+    name: Unbroken Fist Insignia
+    shared_name: 
+    status: 0
+    blurb: >-
+      # $[objectname]
+
+
+      All members of @[](iokwfwzhvc) carry this insignia, inscribed into a piece of leather. It can be worn or carried.
+
+
+      ![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/The_Order_of_Shadows_Insignia.svg/600px-The_Order_of_Shadows_Insignia.svg.png)
+    order: 1
+    notes:
+    - id: ksqivgdwyy
+      blurb: is now 'Encountered'
+      created_at: 2023-01-12T23:01:54.8790000Z
+      campaign_note: true
+      shared: true
+    - id: yfjljteryl
+      blurb: The party know of this symbol but not what it is used for
+      created_at: 2023-01-12T23:01:56.8790000Z
+      campaign_note: true
+      shared: true
+    - id: kwoahlfwdi
+      blurb: '[Hactar] has [Unbroken Fist Insignia]'
+      created_at: 2023-01-12T23:01:58.8790000Z
+      campaign_note: false
+      shared: true
+    chapters: 
+    consumables: []
+    shared: false
+    access_roles: []
+    primaryid: 
+    prominence: 
+  - things: []
+    subtype: item
+    id: nzgcbdcnjn
+    name: The Cage
+    shared_name: 
+    status: 0
+    blurb: >-
+      # $[objectname]
+
+
+      Is a carved wooden cage, comfortably big enough for a human but with gaps between the 'bars' that are too small for a medium humanoid to fit through. It is made from a single piece of the trunk of a large tree so there are no joins or seams.
+
+
+      Although made from wood, it is far stronger than it seemingly should be, attempts to cut or break the structure have all failed so far.
+
+
+      !!
+
+
+      ## Secret
+
+
+      It was built in @[](jjrzlmtvbm) and while it remains more than 1 mile from there, it will be as hard as the strongest steel and almost unbreakable. It is, however much lighter than steel and will float.
+
+
+      ## Inhabitent
+
+
+      If the bandits successfully kidnap @[](omhfhzfhxc), he will be put in the box. Otherwise another member of @[](tzznfrlpqn) or just a random NPC. If the camping doesn't go according to plan, it could even end up with a PC in there!
+
+
+      The creature will be put into the cage via a (homebrew) teleport spell and an anti-magic field is then cast on the inside of the cage via a scroll. This should mean that there is no easy way out - no teleports, no bag of holding, etc.
+
+
+      ## Why Are they Doing This?
+
+
+      As a scare tactic to the @[](tzznfrlpqn). @[](iokwfwzhvc) are planning on sneaking this into @[](mtugsijbql) after a few nights (enough time for people to notice @[](omhfhzfhxc) is missing), attach it to the floor in the market square, and leave it with a message to warn the Devil's Protection to halt operations and for travelers find alternative routes.
+
+
+      !!
+    order: 2
+    notes: []
+    chapters: []
+    consumables: []
+    shared: false
+    access_roles: []
+    primaryid: 
+    prominence: 
+  - things: []
+    subtype: treasure
+    id: mxanfuwhdl
+    name: Amulet of Fortification
+    shared_name: 
+    status: 0
+    blurb: >-
+      # $[objectname]
+
+
+      This is a small hexagonal amulet on a silver chain. It is made from wood and has a carving of an anvil on the front. The chain is looking a little worse for wares but the pendant is in pristine condition.
+
+
+      ## Secret
+
+
+      The amulet is the key to @[](jjrzlmtvbm) and had been lost for generations. It was recently found by @[](mqphnewbpw) who has found the secret of the sawmill. The pendant itself is virtually indestructible.
+    order: 3
+    notes: []
+    chapters: []
+    consumables: []
+    shared: false
+    access_roles: []
+    primaryid: 
+    prominence: 
+  - things: []
+    subtype: weapon
+    id: rplgaqbqtx
+    name: Ruby-Encrusted Dagger
+    shared_name: 
+    status: 0
+    blurb: >-
+      # $[objectname]
+
+
+      This locket was found in @[](cajumixska) of @[](bhmtyxlqlm), on the floor by the ladder leading to the secret entrance/exit.
+
+
+      The very distinctive hilt has a number of rubies embedded into it in the shape of a crescent moon. It is also a little larger than a normal dagger hilt.
+
+
+      Maybe it belongs to @[](mqphnewbpw)?
+
+
+      !!
+
+
+      This is Inchen's dagger that she dropped while leaving when the party arrived. They could use it to look for clues of her true identity.
+
+
+      The hilt came from a longsword originally and was embedded with diamonds. The previous owner was killed and Inchen took the blade, getting a blacksmith in Mekross to cut it off and graft it onto a dagger for her. While doing so, they replaced the diamonds with rubies.
+
+
+      If the party can find the blacksmith, they may be able to recall who they made it for. Maybe with a little persuasion!
+
+
+      *Maybe add a makers logo on the dagger to give another hint that it could be useful.*
+
+
+      !!
+
+
+      ## Properties
+
+
+      The dagger is a **+1** dagger and does **rollable(1d4+1)** piercing damage.
+    order: 4
+    notes: []
+    chapters: 
+    consumables: []
+    shared: false
+    access_roles: []
+    primaryid: 
+    prominence: 
+  subtype: information
+  id: hlsaksxmqi
+  name: Items
+  shared_name: 
+  status: 0
+  blurb: >-
+    # $[objectname]
+
+
+    General items found around the world.
+  order: 3
+  notes: []
+  chapters: 
+  consumables: []
+  shared: false
+  access_roles: []
+  primaryid: 
+  prominence: 
+connections:
+- id1: omhfhzfhxc
+  id2: xxnjogoqxa
+  note: lives in
+  status: 
+  shared: true
+- id1: omhfhzfhxc
+  id2: hjelnwbcjp
+  note: frequently travels
+  status: 
+  shared: true
+- id1: omhfhzfhxc
+  id2: ikvcfberca
+  note: frequently visits
+  status: 
+  shared: true
+- id1: omhfhzfhxc
+  id2: tzznfrlpqn
+  note: owns and runs
+  status: 
+  shared: true
+- id1: uaqvctcftv
+  id2: hjelnwbcjp
+  note: happens along
+  status: 
+  shared: true
+- id1: iokwfwzhvc
+  id2: bhmtyxlqlm
+  note: are based in
+  status: 
+  shared: true
+- id1: iokwfwzhvc
+  id2: hjelnwbcjp
+  note: are attacking travellers along
+  status: 
+  shared: true
+- id1: iokwfwzhvc
+  id2: qesmbwnchf
+  note: are attacking travellers along
+  status: 
+  shared: true
+- id1: uqmasyyfck
+  id2: tzznfrlpqn
+  note: is employed by
+  status: 
+  shared: true
+- id1: kpbnayahqk
+  id2: mtugsijbql
+  note: is the mayor of
+  status: 
+  shared: true
+- id1: ukqnmaekls
+  id2: kswascfari
+  note: is a cleric of the
+  status: 
+  shared: true
+- id1: iokwfwzhvc
+  id2: dmffnwfkow
+  note: all carry the
+  status: 
+  shared: true
+- id1: ftwwvwecmn
+  id2: iokwfwzhvc
+  note: is in
+  status: 
+  shared: true
+- id1: txesxpawrq
+  id2: nzgcbdcnjn
+  note: starts when finding
+  status: 
+  shared: true
+- id1: omhfhzfhxc
+  id2: nzgcbdcnjn
+  note: might be imprisoned in
+  status: 
+  shared: true
+- id1: nzgcbdcnjn
+  id2: bhmtyxlqlm
+  note: is in
+  status: 
+  shared: true
+- id1: nzgcbdcnjn
+  id2: jjrzlmtvbm
+  note: was built at
+  status: 
+  shared: true
+- id1: uqmasyyfck
+  id2: wghdsmpvjm
+  note: is the subject of
+  status: 
+  shared: true
+- id1: jdsvjjcdgg
+  id2: ukqnmaekls
+  note: will be given by
+  status: 
+  shared: true
+- id1: lfrwheeaxp
+  id2: jdsvjjcdgg
+  note: is the subject of
+  status: 
+  shared: true
+- id1: lfrwheeaxp
+  id2: ukqnmaekls
+  note: is the polymorphed wife of
+  status: 
+  shared: true
+- id1: bkzzzegnhx
+  id2: uqgfukuaht
+  note: is the mayor of
+  status: 
+  shared: true
+- id1: wgdankbrjb
+  id2: omhfhzfhxc
+  note: leads to
+  status: 
+  shared: true
+- id1: wgdankbrjb
+  id2: tzznfrlpqn
+  note: reveals
+  status: 
+  shared: true
+- id1: kswascfari
+  id2: mtugsijbql
+  note: is based in
+  status: 
+  shared: true
+- id1: sxfvfucbjd
+  id2: ikvcfberca
+  note: binds the two towns of
+  status: 
+  shared: true
+- id1: egnarcpsuf
+  id2: iokwfwzhvc
+  note: if the goal of
+  status: 
+  shared: true
+- id1: mxanfuwhdl
+  id2: jjrzlmtvbm
+  note: is the key for
+  status: 
+  shared: true
+- id1: mxanfuwhdl
+  id2: mqphnewbpw
+  note: is owned by
+  status: 
+  shared: true
+- id1: xoxdzruncz
+  id2: cajumixska
+  note: happens in
+  status: 
+  shared: true
+- id1: iokwfwzhvc
+  id2: svflxcdrna
+  note: have presence in
+  status: 
+  shared: true
+- id1: olbkcxwcxi
+  id2: dmffnwfkow
+  note: has
+  status: 
+  shared: true
+- id1: vnfayumnxv
+  id2: hjelnwbcjp
+  note: is not far off
+  status: 
+  shared: true
+- id1: uqmasyyfck
+  id2: vnfayumnxv
+  note: is found during
+  status: 
+  shared: true
+- id1: wesxvyvwdk
+  id2: uaqvctcftv
+  note: starts during
+  status: 
+  shared: true
+- id1: bmulwambsf
+  id2: tzznfrlpqn
+  note: is employed by
+  status: 
+  shared: true
+- id1: bmulwambsf
+  id2: wghdsmpvjm
+  note: is the subject of
+  status: 
+  shared: true
+- id1: bmulwambsf
+  id2: vnfayumnxv
+  note: is found during
+  status: 
+  shared: true
+- id1: omhfhzfhxc
+  id2: txesxpawrq
+  note: is the subject of
+  status: 
+  shared: true
+- id1: lltdknblvn
+  id2: txesxpawrq
+  note: leads on to
+  status: 
+  shared: true
+- id1: yhhfnzbmbl
+  id2: vhyytjfazu
+  note: leads on to
+  status: 
+  shared: true
+- id1: vhyytjfazu
+  id2: gfqfxcabiy
+  note: leads on to
+  status: 
+  shared: true
+- id1: gfqfxcabiy
+  id2: vlpfjaddpg
+  note: leads on to
+  status: 
+  shared: true
+notes:
+- id: lpnccrqbjt
+  blurb: SESSION 1!
+  created_at: 2023-01-05T22:09:27.8790000Z
+  campaign_note: false
+  shared: true
+- id: cerkjdrqsl
+  blurb: The adventure starts in the tavern in @[](uqgfukuaht) where the party of 4 have arrived after hearing news of the bandit activity in the area
+  created_at: 2023-01-05T22:09:29.8790000Z
+  campaign_note: false
+  shared: true
+- id: mkyvxylxmm
+  blurb: SESSION 2!
+  created_at: 2023-01-12T22:24:27.8790000Z
+  campaign_note: false
+  shared: true
+- id: ecgnxamesp
+  blurb: SESSION 3!
+  created_at: 2023-01-19T22:09:27.8790000Z
+  campaign_note: false
+  shared: true
+timeline:
+- id: drvczfrjcn
+  name: Act 1
+  blurb: >
+    # Act 1
+
+
+    Act 1 covers the party arriving in @[](uqgfukuaht) up to the time @[](mqphnewbpw) escapes and heads across @[](jiweqnxbdg).
+  order: 1
+  notes:
+  - id: tdtqmmwuoi
+    blurb: Begin Act 1!
+    created_at: 2023-01-05T22:09:31.8790000Z
+    campaign_note: true
+    shared: true
+  start_date: 0001-01-01T00:00:00.0000000
+  end_date: 0001-01-01T00:00:00.0000000
+- id: nctskdemkd
+  name: Act 2
+  blurb: >-
+    # Act 2
+
+
+    Act 2 starts with @[](mqphnewbpw) having run from the @[](bhmtyxlqlm) @[](cajumixska) and made her way to @[](svflxcdrna). The party won't know of her whereabouts but should want to track her down.
+
+
+    > *This is as far as the demo is going!*
+  order: 2
+  notes: []
+  start_date: 0001-01-01T00:00:00.0000000
+  end_date: 0001-01-01T00:00:00.0000000
+blurb: >-
+  # Demo Campaign
+
+
+  This is a simple, small campaign to show the functionality of The Goblin's Notebook.
+
+
+  ## The Setting
+
+
+  This story starts in the $[twwfzayehs] region, on the eastern shore of $[jiweqnxbdg]. It is spring time, the ground is drying up, but the $[qesmbwnchf] is still partly impassable. There has been an increase in bandit activity along the $[hjelnwbcjp] which is threatening the trade route through the $[ikvcfberca] of $[mtugsijbql] and $[uqgfukuaht]. the party, being an adventuring group looking for their next adventure, have come to investigate.
+
+
+  ## Beginning the Adventure
+
+
+  The party have arrived in Mekross and begin with no information, they will need to go and speak to people to start investigating the problem.
