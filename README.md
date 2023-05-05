@@ -1,6 +1,6 @@
 # OffGob
 
-[The Goblin Notebook](the-goblin.net) is an online-only website for notebook creation, and is a really good tool for it. However, sometimes one wants to have a local copy of their notebooks, and this is where OffGob comes in.
+[The Goblin Notebook](https://www.the-goblin.net/) is an online-only website for notebook creation, and is a really good tool for it. However, sometimes one wants to have a local copy of their notebooks, and this is where OffGob comes in.
 
 OffGob is a third-party tool that has some features to interact with your notebook without needing an internet connection.
 
