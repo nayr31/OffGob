@@ -1,3 +1,7 @@
+# Archival Notice
+
+This project will be discontinuing support as of 2023-05-19, as I have started to use another tool, [Obsidian](https://obsidian.md/).
+
 # OffGob
 
 [The Goblin Notebook](https://www.the-goblin.net/) is an online-only website for notebook creation, and is a really good tool for it. However, sometimes one wants to have a local copy of their notebooks, and this is where OffGob comes in.
